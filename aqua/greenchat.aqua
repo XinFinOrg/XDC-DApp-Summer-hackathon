@@ -1,0 +1,22 @@
+import "@fluencelabs/aqua-lib/builtin.aqua"
+
+-- The service runs inside browser
+service GreenChat("GreenChat"):
+    ping(from: PeerId) -> string
+    reply(from: PeerId) -> string
+    send(from: PeerId, address: string, msg: string, timestamp: string) -> []string
+
+func reply(targetPeerId: PeerId, targetRelayPeerId: PeerId) -> string:
+    on targetPeerId via targetRelayPeerId:
+        res <- GreenChat.ping(%init_peer_id%)
+    <- res
+
+func ping(targetPeerId: PeerId, targetRelayPeerId: PeerId) -> string:
+    on targetPeerId via targetRelayPeerId:
+        res <- GreenChat.ping(%init_peer_id%)
+    <- res
+
+func send(targetPeerId: PeerId, targetRelayPeerId: PeerId, address: string , msg: string, timestamp: string) -> []string:
+    on targetPeerId via targetRelayPeerId:
+        res <- GreenChat.send(%init_peer_id%, address, msg, timestamp)
+    <- res
