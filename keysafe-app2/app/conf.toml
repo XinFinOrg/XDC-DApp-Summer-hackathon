@@ -1,0 +1,9 @@
+env = ""
+email_account = "verify@keysafe.network"
+email_password = ""
+email_server = ""
+db_user = ""
+db_password = ""
+node_api_port = 30000
+secret = "keysafe_password_for_test"
+cru_api_server = ""
