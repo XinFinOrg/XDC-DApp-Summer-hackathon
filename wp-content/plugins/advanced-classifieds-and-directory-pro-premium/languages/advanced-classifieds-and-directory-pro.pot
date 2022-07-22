@@ -1,0 +1,5426 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Classifieds and Directory Pro\n"
+"POT-Creation-Date: 2021-07-23 15:53+0530\n"
+"PO-Revision-Date: 2021-07-23 15:53+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;_n\n"
+"X-Poedit-SearchPath-0: .\n"
+
+msgid "Category Tooltip"
+msgstr ""
+
+msgid "Wrong Wallet"
+msgstr ""
+
+msgid "Please use the same wallet you used to create the contract."
+msgstr ""
+
+msgid "You already have a smart contract. Currently, you can only have one contract."
+msgstr ""
+
+msgid "Please upload at least one file."
+msgstr ""
+
+msgid "No File Uploaded"
+msgstr ""
+
+msgid "View on IPFS"
+msgstr ""
+
+msgid "Create Another Token"
+msgstr ""
+
+msgid "Contract Address"
+msgid ""
+
+msgid "Mint ID"
+msgstr ""
+
+msgid "Gas Used"
+msgstr ""
+
+msgid "View File"
+msgstr ""
+
+msgid "File Hash :"
+msgstr ""
+
+msgid "File :"
+msgstr ""
+
+msgid "File URL :"
+msgstr ""
+
+msgid "You need to upload a file to proceed."
+msgstr ""
+
+msgid "You need a smart contract to proceed."
+msgstr ""
+
+msgid "Wallet Address"
+msgstr ""
+
+msgid "Create First NFT"
+msgstr ""
+
+msgid "View on Block Explorer"
+msgstr ""
+
+msgid "Smart Contract Transaction Hash"
+msgstr ""
+
+msgid "Your Smart Contract Address"
+msgstr ""
+
+msgid "Your smart contract is created"
+msgstr ""
+
+msgid "Create Contract"
+msgstr ""
+
+msgid "Contract Symbol Tooltip"
+msgstr ""
+
+msgid "Contract Name Tooltip"
+msgstr ""
+
+msgid "Smart Contract Details"
+msgstr   ""
+
+msgid "Begin Minting"
+msgstr   ""
+
+msgid "Contract Symbol"
+msgstr  ""
+
+msgid "Contract Name"
+msgstr ""
+
+msgid "Select country"
+msgstr ""
+
+msgid "Please access your wallet for instruction and then wait for confirmation"
+msgstr ""
+
+msgid "Enter user wallet address"
+msgstr ""
+
+msgid "Biography of a Departed"
+msgstr ""
+
+msgid "Ensure Metamask is already connected to this site via the main network and using the correct owner wallet of the contract."
+msgstr ""
+
+msgid "Step 1: Upload Image and Metadata to IPFS"
+msgstr ""
+
+msgid "Step 2: Mint NFT Token"
+msgstr ""
+
+msgid "Step 3: Send NFT To Wallet"
+msgstr ""
+
+msgid "If the address field below is empty, visit %s to generate a new wallet for user. Then, save the address, private key and seed phrase in order to email to user later. You may then enter the new wallet address below."
+msgstr ""
+
+msgid "Error. Please read console log."
+msgstr ""
+
+msgid "Upload Image and Metadata to IPFS"
+msgstr ""
+
+msgid "Upload Metadata to IPFS"
+msgstr ""
+
+msgid "Mint NFT"
+msgstr ""
+
+msgid "Send NFT"
+msgstr ""
+
+msgid "Send NFT to User"
+msgstr ""
+
+msgid "Please upload files to IPFS before minting token."
+msgstr ""
+
+msgid "Error. Please try to switch your wallet from main network to test network and back."
+msgstr ""
+
+msgid "Transaction completed."
+msgstr ""
+
+msgid "Please mint token before sending."
+msgstr ""
+
+msgid "Ensure you entered a recipient wallet address."
+msgstr ""
+
+msgid "Send NFT"
+msgstr ""
+
+msgid "User Wallet Address"
+msgstr ""
+
+msgid "Transaction Hash"
+msgstr ""
+
+msgid "Paste the hash here"
+msgstr ""
+
+msgid "Your Wallet Address (optional)"
+msgstr ""
+
+msgid "Ethereum/Avalanche address to receive the NFT"
+msgstr ""
+
+msgid "$"
+msgstr ""
+
+msgid "Copy Address"
+msgstr ""
+
+msgid "Check Explorer"
+msgstr ""
+
+msgid "Complete Process"
+msgstr ""
+
+msgid "Please send BTC %s to the wallet address below."
+msgstr ""
+
+msgid "Bitcoin Address"
+msgstr ""
+
+msgid "Enter your Bitcoin wallet address."
+msgstr ""
+
+msgid "Payable amount"
+msgstr ""
+
+msgid "PayPal"
+msgstr ""
+
+msgid "Donate with PayPal"
+msgstr ""
+
+msgid "Bitcoin"
+msgstr ""
+
+msgid "Donate with BTC"
+msgstr ""
+
+msgid "Ethereum"
+msgstr ""
+
+msgid "Donate with ETH"
+msgstr ""
+
+msgid "Litcoin"
+msgstr ""
+
+msgid "Donate with LTC"
+msgstr ""
+
+msgid "Ripple"
+msgstr ""
+
+msgid "Donate with XRP"
+msgstr ""
+
+msgid "Tether"
+msgstr ""
+
+msgid "Donate with USDT"
+msgstr ""
+
+msgid "Binance Coin"
+msgstr ""
+
+msgid "Donate with BNB"
+msgstr ""
+
+#: admin/backward-compatibility.php:55 premium/admin/fee-plans.php:141
+msgid "Advanced Classifieds and Directory Pro - Fee Plans"
+msgstr ""
+
+#: admin/backward-compatibility.php:56 premium/admin/admin.php:45
+#: premium/admin/fee-plans.php:34 premium/admin/fee-plans.php:93
+#: premium/admin/fee-plans.php:95 premium/admin/fee-plans.php:142
+#: premium/admin/fee-plans.php:398
+msgid "Fee Plans"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:33
+#: admin/class-acadp-admin-categories.php:81
+#: admin/class-acadp-admin-fields.php:269
+#: admin/class-acadp-admin-fields.php:346
+#: admin/class-acadp-admin-fields.php:372
+#: admin/partials/fields/acadp-admin-field-options-display.php:32
+#: includes/functions-acadp-general.php:1872
+#: premium/admin/import-export.php:211
+#: widgets/categories/class-acadp-widget-categories.php:141
+msgid "Categories"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:34
+#: admin/class-acadp-admin-fields.php:251
+#: admin/class-acadp-admin-listings.php:598
+#: admin/partials/fields/acadp-admin-field-options-display.php:26
+#: premium/admin/fee-plans.php:304
+msgid "All Categories"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:35
+msgid "Parent Category"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:36
+msgid "Parent Category:"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:37
+msgid "New Category Name"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:38
+msgid "Add New Category"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:39
+msgid "Edit Category"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:40
+msgid "Update Category"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:41
+msgid "View Category"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:42
+msgid "Separate Categories with commas"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:43
+msgid "Add or remove Categories"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:44
+#: admin/class-acadp-admin-locations.php:47
+msgid "Choose from the most used"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:46
+msgid "Search Categories"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:47
+#: admin/class-acadp-admin-locations.php:50
+msgid "Not Found"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:80
+msgid "Advanced Classifieds and Directory Pro - Categories"
+msgstr ""
+
+#: admin/class-acadp-admin-categories.php:164
+#: admin/class-acadp-admin-fields.php:352
+#: admin/class-acadp-admin-locations.php:121
+#: admin/class-acadp-admin-settings.php:808
+#: admin/class-acadp-admin-settings.php:873
+#: includes/functions-acadp-general.php:1835
+#: includes/functions-acadp-general.php:1922
+msgid "ID"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:33 admin/class-acadp-admin-fields.php:35
+#: admin/class-acadp-admin-fields.php:80
+#: admin/class-acadp-admin-settings.php:700
+msgid "Custom Fields"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:34
+msgid "Custom Field"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:36
+msgid "Add New Field"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:37
+#: admin/class-acadp-admin-listings.php:40
+#: admin/class-acadp-admin-payments.php:37 premium/admin/fee-plans.php:97
+msgid "Add New"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:38
+msgid "New Field"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:39
+msgid "Edit Field"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:40
+msgid "Update Field"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:41
+msgid "View Field"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:42
+msgid "Search Field"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:43
+#: admin/class-acadp-admin-listings.php:46 premium/admin/fee-plans.php:103
+msgid "Not found"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:44
+#: admin/class-acadp-admin-listings.php:47 premium/admin/fee-plans.php:104
+msgid "Not found in Trash"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:48
+msgid "acadp_fields"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:49
+#: admin/class-acadp-admin-listings.php:58
+#: admin/class-acadp-admin-payments.php:49 premium/admin/fee-plans.php:109
+msgid "Post Type Description"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:79
+msgid "Advanced Classifieds and Directory Pro - Custom Fields"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:112
+msgid "Field Details"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:113
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:112
+msgid "Display Options"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:267
+msgid "All fields"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:268
+#: admin/class-acadp-admin-fields.php:372
+#: admin/partials/fields/acadp-admin-field-options-display.php:25
+msgid "Form"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:345
+#: admin/partials/fields/acadp-admin-field-options-display.php:17
+msgid "Assigned to"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:347
+#: admin/class-acadp-admin-payments.php:184
+#: public/partials/payments/acadp-public-payment-history-display.php:21
+msgid "Type"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:348
+#: admin/partials/fields/acadp-admin-field-details-display.php:51
+msgid "Required?"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:349
+msgid "Searchable?"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:350
+msgid "Listings Archive?"
+msgstr ""
+
+#: admin/class-acadp-admin-fields.php:351
+#: includes/functions-acadp-general.php:1741
+#: includes/functions-acadp-general.php:1844
+#: includes/functions-acadp-general.php:1931 premium/admin/slider.php:108
+#: premium/admin/slider.php:346 premium/widgets/forms/banner-rotator.php:96
+#: premium/widgets/forms/carousel-slider.php:96
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:86
+msgid "Order"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:36 admin/class-acadp-admin.php:258
+msgid "Classifieds & Directory"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:37
+msgid "Listing"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:38
+#: admin/class-acadp-admin-listings.php:94
+msgid "All Listings"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:39 includes/functions-acadp-html.php:30
+#: public/partials/user/acadp-public-manage-listings-display.php:33
+msgid "Add New Listing"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:41
+msgid "New Listing"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:42
+msgid "Edit Listing"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:43
+msgid "Update Listing"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:44
+msgid "View Listing"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:45
+msgid "Search Listing"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:57
+msgid "acadp_listings"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:93
+msgid "Advanced Classifieds and Directory Pro - All Listings"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:160
+msgid "Listing Details"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:163
+msgid "Contact Details"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:167 premium/admin/import-export.php:221
+#: public/partials/user/acadp-public-edit-listing-display.php:190
+msgid "Images"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:171 premium/admin/import-export.php:222
+msgid "Video"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:582
+#: admin/class-acadp-admin-locations.php:37
+msgid "All Locations"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:616
+msgid "All listings"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:617
+msgid "Featured only"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:665 premium/admin/import-export.php:224
+msgid "Views"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:670
+#: includes/class-acadp-activator.php:148
+#: includes/functions-acadp-general.php:1721
+#: premium/admin/import-export.php:225
+#: premium/admin/partials/woocommerce-fields.php:84 premium/admin/slider.php:78
+#: premium/admin/slider.php:316
+msgid "Featured"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:673
+msgid "Posted Date"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:674
+#: public/partials/user/acadp-public-manage-listings-display.php:102
+#: public/partials/user/acadp-public-manage-listings-display.php:107
+msgid "Expires on"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:675
+#: admin/class-acadp-admin-payments.php:188
+#: public/partials/payments/acadp-public-payment-history-display.php:24
+#: public/partials/user/acadp-public-manage-listings-display.php:96
+msgid "Status"
+msgstr ""
+
+#: admin/class-acadp-admin-listings.php:707
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:70
+#: includes/functions-acadp-email.php:346
+#: includes/functions-acadp-email.php:390
+#: includes/functions-acadp-email.php:438
+#: includes/functions-acadp-email.php:491 premium/admin/import-export.php:229
+#: public/partials/user/acadp-public-manage-listings-display.php:103
+msgid "Never Expires"
+msgstr ""
+
+#: admin/class-acadp-admin-locations.php:36
+#: admin/class-acadp-admin-locations.php:88
+#: includes/functions-acadp-general.php:1796
+#: premium/admin/import-export.php:212
+#: widgets/locations/class-acadp-widget-locations.php:148
+msgid "Locations"
+msgstr ""
+
+#: admin/class-acadp-admin-locations.php:38
+msgid "Parent Location"
+msgstr ""
+
+#: admin/class-acadp-admin-locations.php:39
+msgid "Parent Location:"
+msgstr ""
+
+#: admin/class-acadp-admin-locations.php:40
+msgid "New Location Name"
+msgstr ""
+
+#: admin/class-acadp-admin-locations.php:41
+msgid "Add New Location"
+msgstr ""
+
+#: admin/class-acadp-admin-locations.php:42
+msgid "Edit Location"
+msgstr ""
+
+#: admin/class-acadp-admin-locations.php:43
+msgid "Update Location"
+msgstr ""
+
+#: admin/class-acadp-admin-locations.php:44
+msgid "View Location"
+msgstr ""
+
+#: admin/class-acadp-admin-locations.php:45
+msgid "Separate Locations with commas"
+msgstr ""
+
+#: admin/class-acadp-admin-locations.php:46
+msgid "Add or remove Locations"
+msgstr ""
+
+#: admin/class-acadp-admin-locations.php:49
+msgid "Search Locations"
+msgstr ""
+
+#: admin/class-acadp-admin-locations.php:87
+msgid "Advanced Classifieds and Directory Pro - Locations"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:33
+#: admin/class-acadp-admin-payments.php:35
+#: admin/class-acadp-admin-payments.php:79
+#: includes/functions-acadp-general.php:148
+msgid "Payment History"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:34
+msgid "Payment"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:36
+msgid "Add New Payment"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:38
+msgid "New Payment"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:39
+msgid "Edit Payment"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:40
+msgid "Update Payment"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:41
+msgid "View Payment"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:42
+msgid "Search Payment"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:43
+msgid "No payments found"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:44
+msgid "No payments found in Trash"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:48
+msgid "acadp_payments"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:78
+msgid "Advanced Classifieds and Directory Pro - Payment History"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:146
+msgid "All payments"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:181
+#: public/partials/payments/acadp-public-payment-history-display.php:18
+msgid "Order ID"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:182
+#: premium/public/woocommerce-plans.php:365
+#: public/partials/payments/acadp-public-payment-history-display.php:19
+msgid "Details"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:183 premium/admin/fee-plans.php:361
+#: public/partials/payments/acadp-public-payment-history-display.php:20
+msgid "Amount"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:185
+#: public/partials/payments/acadp-public-payment-history-display.php:22
+msgid "Transaction ID"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:186
+msgid "Customer"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:187
+#: public/partials/payments/acadp-public-payment-history-display.php:23
+#: public/partials/payments/acadp-public-payment-receipt-display.php:45
+msgid "Date"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:241
+#: public/partials/payments/acadp-public-payment-history-display.php:72
+#: public/partials/payments/acadp-public-payment-receipt-display.php:64
+msgid "Free Submission"
+msgstr ""
+
+#: admin/class-acadp-admin-payments.php:329
+msgid "Error updating post."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:73
+#: admin/class-acadp-admin-settings.php:94
+#: admin/class-acadp-admin-settings.php:183
+#: admin/class-acadp-admin-settings.php:209
+#: includes/functions-acadp-general.php:1684
+#: includes/functions-acadp-general.php:1799
+#: includes/functions-acadp-general.php:1875
+#: includes/functions-acadp-general.php:1962 premium/admin/slider.php:39
+#: premium/admin/slider.php:277
+msgid "General"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:74
+msgid "Display"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:75
+msgid "Monetize"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:76
+msgid "Payment Gateways"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:77
+#: admin/partials/listings/acadp-admin-contact-details-display.php:68
+#: premium/admin/import-export.php:216
+#: public/partials/listing/acadp-public-listing-display.php:247
+#: public/partials/user/acadp-public-edit-listing-display.php:149
+#: widgets/listing-contact/views/acadp-widget-public-listing-contact-display.php:35
+msgid "Email"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:78
+msgid "Advanced"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:101
+msgid "Listing Badges"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:108
+msgid "Login / Registration"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:115
+#: admin/class-acadp-admin-settings.php:536
+#: admin/class-acadp-admin-settings.php:1012
+msgid "Currency"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:118
+msgid ""
+"Currency settings under this section are used to format the display of "
+"listing Price. You can have separate currency to accept payments from your "
+"users."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:120
+msgid "Configure payment currency"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:127
+#: includes/functions-acadp-general.php:810
+#: includes/functions-acadp-general.php:1694
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:121
+msgid "Map"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:134
+msgid "Listings Page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:141
+msgid "Single Listing Page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:148
+msgid "Locations Page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:155
+msgid "Categories Page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:162
+msgid "Social Sharing"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:169
+msgid "reCAPTCHA"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:176
+msgid "TOS"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:186
+msgid ""
+"Currency settings under this section are used only to accept payments from "
+"your users."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:188
+msgid "Configure listing currency"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:195
+msgid "Offline (Bank Transfer)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:196
+msgid ""
+"There's nothing automatic in this offline payment system, you should use "
+"this when you don't want to collect money automatically. So once money is in "
+"your bank account you change the status of the order manually under "
+"\"Payment History\" menu."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:202
+msgid "Featured Listings"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:203
+msgid "Featured listings will always appear on top of regular listings."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:216
+msgid "Listing submitted"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:223
+msgid "Listing published"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:230
+msgid "Listing renewal"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:237
+#: admin/class-acadp-admin-settings.php:1149
+msgid "Listing expired"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:244
+msgid "Renewal reminder"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:251
+#: admin/class-acadp-admin-settings.php:1134
+#: admin/class-acadp-admin-settings.php:1151
+msgid "Order created"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:258
+msgid "Order created (offline)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:265
+#: admin/class-acadp-admin-settings.php:1152
+msgid "Order completed"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:272
+msgid "Contact listing owner"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:279
+msgid "Miscellaneous"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:286
+msgid "Permalink"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:287
+msgid ""
+"Just make sure that, after updating the fields in this section, you flush "
+"the rewrite rules by visiting Settings > Permalinks. Otherwise you'll still "
+"see the old links."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:293
+msgid "Pages"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:294
+msgid ""
+"We ourselves have generated all the required pages and configured them right "
+"for you here. So, don't change these settings unless necessary. Mis-"
+"configuration of these settings may break the plugin from working correctly. "
+"So, care should be taken while editing these page settings."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:314
+msgid "Bootstrap options"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:315
+msgid ""
+"This plugin uses bootstrap 3. Disable these options if your theme already "
+"include them."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:318
+msgid "Include bootstrap CSS"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:319
+msgid "Include bootstrap javascript libraries"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:325
+msgid "Listing duration (in days)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:326
+msgid "Use a value of \"0\" to keep a listing alive indefinitely."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:332
+msgid "Enable locations"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:333
+msgid "Allow users to enter listing \"Contact Details\""
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:339
+msgid "Base location"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:340
+msgid ""
+"Where does your directory operate from? (This list is populated using the "
+"data from \"Locations\" menu)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:346
+msgid "Default location"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:347
+msgid ""
+"This is the location selected by default when adding a new listing. (This "
+"list is populated using the data from \"Locations\" menu)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:353
+msgid "Prevent listings from being posted to top level categories?"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:360
+msgid "Text Editor"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:361
+msgid ""
+"Select the Text Editor you like to have in the front-end listing submission "
+"form."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:364
+msgid "WP Editor"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:365
+msgid "TextArea"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:371
+msgid "Enable price"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:372
+msgid "Allow users to enter price amount for their listings"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:378
+msgid "Enable images"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:379
+msgid "Allow users to upload images for their listings"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:385
+msgid "Maximum images allowed per listing"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:392
+msgid "Enable videos"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:393
+msgid ""
+"Allow users to add videos for their listings. Only YouTube &  Vimeo URLs."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:399
+msgid "Enable map"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:400
+msgid "Allow users to add map for their listings"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:406
+msgid "Default new listing status"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:410
+#: admin/class-acadp-admin-settings.php:421
+msgid "Publish"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:411
+#: admin/class-acadp-admin-settings.php:422
+#: includes/functions-acadp-general.php:420
+msgid "Pending"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:417
+msgid "Edit listing status"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:428
+msgid "Turn on listing renewal option?"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:435
+msgid "Delete expired Listings (in days)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:436
+msgid ""
+"If you have the renewal option enabled, this will be the number of days "
+"after the \"Renewal Reminder\" email was sent."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:444
+msgid "Show \"New\" badge"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:445
+msgid "Check this option to show \"New\" badge on the listings"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:451
+msgid "Custom text for \"New\" badge"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:452
+msgid "Enter the text you want to use inside the \"New\" badge."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:458
+msgid "New listing threshold (in days)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:459
+msgid ""
+"Enter the number of days the listing will be tagged as \"New\" from the day "
+"it is published."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:465
+msgid "Show \"Popular\" badge"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:466
+msgid "Check this option to show \"Popular\" badge on the listings"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:472
+msgid "Custom text for \"Popular\" badge"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:473
+msgid "Enter the text you want to use inside the \"Popular\" badge."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:479
+msgid "Popular listing threshold (in views count)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:480
+msgid ""
+"Enter the minimum number of views required for a listing to be tagged as "
+"\"Popular\"."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:486
+msgid "Mark as \"Sold\""
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:487
+msgid "Check this option to allow users to mark their listings as \"Sold\""
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:493
+msgid "Custom text for \"Sold\" badge"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:494
+msgid "Enter the text you want to use inside the \"Sold\" badge."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:502
+#: admin/class-acadp-admin-settings.php:990
+#: admin/class-acadp-admin-settings.php:1069 premium/admin/fee-plans.php:53
+#: premium/admin/multi-categories.php:53 premium/admin/woocommerce-plans.php:53
+msgid "Enable / Disable"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:506
+msgid ""
+"Check this to allow the plugin to take care of user Login / Registration."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:507
+msgid ""
+"Check this if you already have a registration system. You will need to add "
+"the Login / Registration / Forgot Password Page URLs of your registration "
+"system in the fields below to get this work. Checking this option and "
+"leaving the following fields empty will simply enable the standard WordPress "
+"Login / Registration mechanism."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:513
+msgid "Custom Login URL"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:514
+msgid ""
+"Optional. Add your custom Login Page URL or a [shortcode] that renders the "
+"Login form. Leave this field empty to add the standard WordPress Login form."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:520
+msgid "Custom Registration URL"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:521
+msgid ""
+"Optional. Add your custom Registration Page URL. Leave this field empty to "
+"use the standard WordPress Registration URL."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:527
+msgid "Custom Forgot Password URL"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:528
+msgid ""
+"Optional. Add your custom Forgot Password Page URL. Leave this field empty "
+"to use the standard WordPress Forgot Password URL."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:537
+msgid "Enter your currency."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:543
+#: admin/class-acadp-admin-settings.php:1019
+msgid "Currency position"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:544
+#: admin/class-acadp-admin-settings.php:1020
+msgid "Choose the location of the currency sign."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:547
+#: admin/class-acadp-admin-settings.php:1023
+msgid "Before - $10"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:548
+#: admin/class-acadp-admin-settings.php:1024
+msgid "After - 10$"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:554
+#: admin/class-acadp-admin-settings.php:1030
+msgid "Thousands separator"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:555
+#: admin/class-acadp-admin-settings.php:1031
+msgid "The symbol (usually , or .) to separate thousands."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:561
+#: admin/class-acadp-admin-settings.php:1037
+msgid "Decimal separator"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:562
+#: admin/class-acadp-admin-settings.php:1038
+msgid "The symbol (usually , or .) to separate decimal points."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:570
+msgid "Map service"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:574
+msgid "OpenStreetMap (OSM)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:575
+msgid "Google Maps"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:581
+msgid "API key"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:582
+msgid "Your Google Maps API Key."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:588
+msgid "Snap to user location"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:589
+msgid ""
+"Check this option to pan the map to the current user location on the "
+"listings map view"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:595
+msgid "Zoom level"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:596
+msgid "0 = zoomed out; 21 = zoomed in"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:604 premium/admin/slider.php:120
+#: premium/admin/slider.php:358
+msgid "Display options"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:605
+msgid "You must select at least one view."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:608
+#: admin/class-acadp-admin-settings.php:620
+msgid "List view"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:609
+#: admin/class-acadp-admin-settings.php:621
+msgid "Grid view"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:610
+#: admin/class-acadp-admin-settings.php:622
+msgid "Map view"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:616
+msgid "Default view"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:628
+msgid "Include results from"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:632
+msgid "Child categories"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:633
+msgid "Child locations"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:639
+msgid "Order listings by"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:643
+#: admin/class-acadp-admin-settings.php:1046
+#: admin/class-acadp-admin-settings.php:1076
+#: includes/functions-acadp-general.php:1731 premium/admin/fee-plans.php:60
+#: premium/admin/paypal.php:63 premium/admin/slider.php:98
+#: premium/admin/slider.php:336 premium/admin/stripe.php:63
+#: premium/widgets/forms/banner-rotator.php:14
+#: premium/widgets/forms/banner-rotator.php:82
+#: premium/widgets/forms/carousel-slider.php:14
+#: premium/widgets/forms/carousel-slider.php:82
+#: public/partials/user/acadp-public-edit-listing-display.php:70
+#: widgets/categories/views/acadp-widget-admin-categories-display.php:14
+#: widgets/listing-address/views/acadp-widget-admin-listing-address-display.php:14
+#: widgets/listing-contact/views/acadp-widget-admin-listing-contact-display.php:14
+#: widgets/listing-video/views/acadp-widget-admin-listing-video-display.php:14
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:14
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:71
+#: widgets/locations/views/acadp-widget-admin-locations-display.php:14
+#: widgets/search/views/acadp-widget-admin-search-display.php:14
+msgid "Title"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:644
+#: includes/functions-acadp-general.php:1732 premium/admin/slider.php:99
+#: premium/admin/slider.php:337 premium/widgets/forms/banner-rotator.php:83
+#: premium/widgets/forms/carousel-slider.php:83
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:72
+msgid "Date posted"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:645
+#: admin/partials/listings/acadp-admin-listing-details-display.php:53
+#: includes/functions-acadp-general.php:1733
+#: premium/admin/import-export.php:223 premium/admin/slider.php:100
+#: premium/admin/slider.php:338 premium/widgets/forms/banner-rotator.php:84
+#: premium/widgets/forms/carousel-slider.php:84
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:73
+msgid "Price"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:646
+#: admin/class-acadp-admin-settings.php:699
+#: admin/class-acadp-admin-settings.php:781
+#: admin/partials/listings/acadp-admin-listing-details-display.php:73
+#: includes/functions-acadp-general.php:1734 premium/admin/slider.php:101
+#: premium/admin/slider.php:339 premium/widgets/forms/banner-rotator.php:85
+#: premium/widgets/forms/carousel-slider.php:85
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:74
+msgid "Views count"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:647
+#: includes/functions-acadp-general.php:1735 premium/admin/slider.php:102
+#: premium/admin/slider.php:340
+msgid "Random sort"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:653
+msgid "Sort listings by"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:657
+#: admin/class-acadp-admin-settings.php:821
+#: admin/class-acadp-admin-settings.php:886
+#: includes/functions-acadp-general.php:1745
+#: includes/functions-acadp-general.php:1848
+#: includes/functions-acadp-general.php:1935 premium/admin/slider.php:112
+#: premium/admin/slider.php:350
+msgid "Ascending"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:658
+#: admin/class-acadp-admin-settings.php:822
+#: admin/class-acadp-admin-settings.php:887
+#: includes/functions-acadp-general.php:1746
+#: includes/functions-acadp-general.php:1849
+#: includes/functions-acadp-general.php:1936 premium/admin/slider.php:113
+#: premium/admin/slider.php:351
+msgid "Descending"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:664
+#: admin/class-acadp-admin-settings.php:790
+#: admin/class-acadp-admin-settings.php:855
+#: includes/functions-acadp-general.php:1752
+#: includes/functions-acadp-general.php:1811
+#: includes/functions-acadp-general.php:1898
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:132
+msgid "Number of columns"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:665
+msgid "Enter the number of columns you like to have in the \"Grid\" view."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:671
+#: includes/functions-acadp-general.php:1762
+msgid "Listings per page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:672
+msgid ""
+"Number of listings to show per page. Use a value of \"0\" to show all "
+"listings."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:678
+msgid "Show / Hide (in header)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:682
+msgid "Listings count"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:683
+msgid "Views selector"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:684
+msgid "\"Sort by\" dropdown"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:690
+msgid "Show / Hide (in each listing)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:694
+#: admin/class-acadp-admin-settings.php:778
+msgid "Category name"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:695
+msgid "Location name"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:696
+msgid "Item price (only if applicable)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:697
+#: admin/class-acadp-admin-settings.php:779
+msgid "Date added"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:698
+#: admin/class-acadp-admin-settings.php:780
+msgid "Listing owner name"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:706
+msgid "Description length"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:707
+msgid "Number of characters."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:715
+msgid "Show phone number"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:716
+msgid ""
+"When you select the \"Closed\" option, the phone number will be masked with "
+"a text like \"Show Phone Number\" and shown to the users only when he/she "
+"clicks on the text."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:719
+#: admin/class-acadp-admin-settings.php:731
+msgid "Never"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:720
+msgid "Open"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:721
+msgid "Closed"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:727
+msgid "Show email address"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:728
+msgid ""
+"When you select the \"Registered\" option, the email address will be shown "
+"only to the logged in users."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:732
+msgid "Public"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:733
+msgid "Registered"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:739
+#: admin/class-acadp-admin-settings.php:944
+msgid "Contact form"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:740
+msgid ""
+"Allows visitors to contact listing authors privately. Authors will receive "
+"the messages via email."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:746
+msgid "Require login for using the contact form?"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:753
+msgid "Comment form"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:754
+msgid ""
+"Allow visitors to discuss listings using the standard WordPress comment "
+"form. Comments are public."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:760
+#: public/partials/listing/acadp-public-listing-display.php:154
+#: public/partials/listing/acadp-public-listing-display.php:182
+msgid "Report abuse"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:761
+msgid "Check this to enable Report abuse"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:767
+#: includes/functions-acadp-permalinks.php:301
+#: includes/functions-acadp-permalinks.php:304
+msgid "Add to favourites"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:768
+msgid "Check this to enable favourite Listings"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:774
+msgid "Show / Hide"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:782
+msgid "Category description"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:791
+msgid "Enter the number of columns you like to have in your locations page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:797
+#: admin/class-acadp-admin-settings.php:862
+#: includes/functions-acadp-general.php:1821
+#: includes/functions-acadp-general.php:1908
+msgid "Depth"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:798
+#: includes/functions-acadp-general.php:1822
+msgid "Enter the maximum number of location sub-levels to show."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:804
+msgid "Order locations by"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:809
+#: admin/class-acadp-admin-settings.php:874
+#: includes/functions-acadp-general.php:1836
+#: includes/functions-acadp-general.php:1923
+msgid "Count"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:810
+#: admin/class-acadp-admin-settings.php:875
+#: includes/functions-acadp-general.php:1837
+#: includes/functions-acadp-general.php:1924
+#: public/partials/listing/acadp-public-listing-display.php:242
+#: widgets/listing-contact/views/acadp-widget-public-listing-contact-display.php:30
+msgid "Name"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:811
+#: admin/class-acadp-admin-settings.php:876
+#: includes/functions-acadp-general.php:1838
+#: includes/functions-acadp-general.php:1925
+msgid "Slug"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:817
+msgid "Sort locations by"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:828
+#: admin/class-acadp-admin-settings.php:893
+#: includes/functions-acadp-general.php:1855
+msgid "Show listings count?"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:829
+msgid "Check this to show the listings count next to the location name"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:835
+#: includes/functions-acadp-general.php:1862
+msgid "Hide empty locations?"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:836
+msgid "Check this to hide locations with no listings"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:844
+msgid "Display as"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:848
+#: includes/functions-acadp-general.php:1891
+msgid "Thumbnail grid"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:849
+#: includes/functions-acadp-general.php:1892
+msgid "Text-only menu items"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:856
+msgid "Enter the number of columns you like to have in your categories page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:863
+#: includes/functions-acadp-general.php:1909
+msgid ""
+"Enter the maximum number of category sub-levels to show in the \"Text-only "
+"Menu Items\" view."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:869
+msgid "Order categories by"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:882
+msgid "Sort categories by"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:894
+msgid "Check this to show the listings count next to the category name"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:900
+#: includes/functions-acadp-general.php:1949
+msgid "Hide empty categories?"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:901
+msgid "Check this to hide categories with no listings"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:909
+msgid "Share buttons"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:913
+#: includes/functions-acadp-html.php:154
+msgid "Facebook"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:914
+#: includes/functions-acadp-html.php:159
+msgid "Twitter"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:915
+#: includes/functions-acadp-html.php:164
+msgid "Linkedin"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:916
+msgid "Pinterest"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:917
+#: includes/functions-acadp-html.php:174
+msgid "WhatsApp"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:923
+msgid "Show buttons in"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:927
+#: admin/class-acadp-admin-settings.php:1446
+msgid "Listing detail page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:928
+#: admin/class-acadp-admin-settings.php:1455
+msgid "Listings page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:929
+#: admin/class-acadp-admin-settings.php:1476
+msgid "Categories page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:930
+#: admin/class-acadp-admin-settings.php:1462
+msgid "Locations page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:938
+msgid "Enable reCAPTCHA in"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:942
+msgid "User Registration form"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:943
+msgid "New Listing form"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:945
+msgid "Report abuse form"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:951
+msgid "Site key"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:958
+msgid "Secret key"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:967
+msgid "Agree to terms"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:968
+msgid ""
+"Check this to show an agree to terms on the listing form that users must "
+"agree to before submitting their listing"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:974
+msgid "Agree to terms label"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:975
+msgid "Label shown next to the agree to terms check box."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:981
+msgid "Agreement text"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:982
+msgid ""
+"If \"Agree to terms\" is checked, enter the agreement terms or an URL "
+"starting with http. If you use an URL, the \"Agree to terms label\" will be "
+"linked to this given URL."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:998
+msgid "Test mode"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:999
+msgid ""
+"While in test mode no live transactions are processed. To fully use test "
+"mode, you must have a sandbox (test) account for the payment gateway you are "
+"testing."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1005
+msgid "Enforce SSL on checkout"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1006
+msgid ""
+"Check this to force users to be redirected to the secure checkout page. You "
+"must have an SSL certificate installed to use this option."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1013
+msgid ""
+"Enter your currency. Note that some payment gateways have currency "
+"restrictions."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1053
+#: admin/class-acadp-admin-settings.php:1083
+#: admin/partials/dashboard/issues.php:55 premium/admin/fee-plans.php:67
+#: premium/admin/paypal.php:70 premium/admin/stripe.php:70
+#: public/partials/user/acadp-public-edit-listing-display.php:79
+msgid "Description"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1060
+msgid "Instructions"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1070
+msgid "Check this to enable featured listings"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1077 premium/admin/fee-plans.php:61
+msgid "You can give your own name for this feature using this field."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1090
+#: includes/functions-acadp-email.php:937
+#, php-format
+msgid "Price [%s]"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1097
+msgid "Show \"Featured\" badge"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1098
+msgid "Check this option to show \"Featured\" badge on the featured listings"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1106
+msgid "From name"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1107
+msgid ""
+"The name system generated emails are sent from. This should probably be your "
+"site or directory name."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1113
+msgid "From email"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1114
+msgid ""
+"The email id system generated emails are sent from. This will act as the "
+"\"from\" and \"reply-to\" address."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1120
+msgid "Admin notification emails"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1121
+msgid ""
+"Enter the email address(es) that should receive admin notification emails, "
+"one per line."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1127
+msgid "Notify admin via email when"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1131
+msgid "A new listing is submitted"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1132
+msgid "A listing is edited"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1133
+msgid "A listing expired"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1135
+msgid "Payment received"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1136
+msgid "A contact message is sent to a listing owner"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1142
+msgid "Notify users via email when their"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1146
+msgid "Listing is submitted"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1147
+msgid "Listing is approved/published"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1148
+msgid "Listing is about to expire (reached renewal email threshold)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1150
+msgid "Listing expired and reached renewal reminder email threshold"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1160
+#: admin/class-acadp-admin-settings.php:1186
+#: admin/class-acadp-admin-settings.php:1219
+#: admin/class-acadp-admin-settings.php:1248
+#: admin/class-acadp-admin-settings.php:1284
+#: admin/class-acadp-admin-settings.php:1313
+#: admin/class-acadp-admin-settings.php:1342
+#: admin/class-acadp-admin-settings.php:1371
+#: admin/class-acadp-admin-settings.php:1400
+msgid "Subject"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1167
+#: admin/class-acadp-admin-settings.php:1193
+#: admin/class-acadp-admin-settings.php:1226
+#: admin/class-acadp-admin-settings.php:1255
+#: admin/class-acadp-admin-settings.php:1291
+#: admin/class-acadp-admin-settings.php:1320
+#: admin/class-acadp-admin-settings.php:1349
+#: admin/class-acadp-admin-settings.php:1378
+#: admin/class-acadp-admin-settings.php:1407
+msgid "Body"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1168
+#: admin/class-acadp-admin-settings.php:1194
+#: admin/class-acadp-admin-settings.php:1227
+#: admin/class-acadp-admin-settings.php:1256
+#: admin/class-acadp-admin-settings.php:1292
+#: admin/class-acadp-admin-settings.php:1321
+#: admin/class-acadp-admin-settings.php:1350
+#: admin/class-acadp-admin-settings.php:1379
+#: admin/class-acadp-admin-settings.php:1408
+msgid "HTML is accepted. You can use the following placeholders:"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1169
+#: admin/class-acadp-admin-settings.php:1195
+#: admin/class-acadp-admin-settings.php:1228
+#: admin/class-acadp-admin-settings.php:1257
+#: admin/class-acadp-admin-settings.php:1293
+#: admin/class-acadp-admin-settings.php:1322
+#: admin/class-acadp-admin-settings.php:1351
+#: admin/class-acadp-admin-settings.php:1380
+#: admin/class-acadp-admin-settings.php:1409
+msgid "The listing owner's display name on the site"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1170
+#: admin/class-acadp-admin-settings.php:1196
+#: admin/class-acadp-admin-settings.php:1229
+#: admin/class-acadp-admin-settings.php:1258
+#: admin/class-acadp-admin-settings.php:1294
+#: admin/class-acadp-admin-settings.php:1323
+#: admin/class-acadp-admin-settings.php:1352
+#: admin/class-acadp-admin-settings.php:1381
+#: admin/class-acadp-admin-settings.php:1410
+msgid "The listing owner's user name on the site"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1171
+#: admin/class-acadp-admin-settings.php:1197
+#: admin/class-acadp-admin-settings.php:1230
+#: admin/class-acadp-admin-settings.php:1259
+#: admin/class-acadp-admin-settings.php:1295
+#: admin/class-acadp-admin-settings.php:1324
+#: admin/class-acadp-admin-settings.php:1353
+#: admin/class-acadp-admin-settings.php:1382
+#: admin/class-acadp-admin-settings.php:1411
+msgid "Your site name"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1172
+#: admin/class-acadp-admin-settings.php:1198
+#: admin/class-acadp-admin-settings.php:1231
+#: admin/class-acadp-admin-settings.php:1260
+#: admin/class-acadp-admin-settings.php:1296
+#: admin/class-acadp-admin-settings.php:1325
+#: admin/class-acadp-admin-settings.php:1354
+#: admin/class-acadp-admin-settings.php:1383
+#: admin/class-acadp-admin-settings.php:1412
+msgid "Your site name with link"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1173
+#: admin/class-acadp-admin-settings.php:1199
+#: admin/class-acadp-admin-settings.php:1232
+#: admin/class-acadp-admin-settings.php:1261
+#: admin/class-acadp-admin-settings.php:1297
+#: admin/class-acadp-admin-settings.php:1326
+#: admin/class-acadp-admin-settings.php:1355
+#: admin/class-acadp-admin-settings.php:1384
+#: admin/class-acadp-admin-settings.php:1413
+msgid "Your site url with link"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1174
+#: admin/class-acadp-admin-settings.php:1200
+#: admin/class-acadp-admin-settings.php:1236
+#: admin/class-acadp-admin-settings.php:1265
+#: admin/class-acadp-admin-settings.php:1301
+#: admin/class-acadp-admin-settings.php:1327
+#: admin/class-acadp-admin-settings.php:1356
+#: admin/class-acadp-admin-settings.php:1385
+#: admin/class-acadp-admin-settings.php:1414
+msgid "Listing's title"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1175
+#: admin/class-acadp-admin-settings.php:1201
+#: admin/class-acadp-admin-settings.php:1237
+#: admin/class-acadp-admin-settings.php:1266
+#: admin/class-acadp-admin-settings.php:1302
+#: admin/class-acadp-admin-settings.php:1328
+#: admin/class-acadp-admin-settings.php:1357
+#: admin/class-acadp-admin-settings.php:1386
+#: admin/class-acadp-admin-settings.php:1415
+msgid "Listing's title with link"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1176
+#: admin/class-acadp-admin-settings.php:1202
+#: admin/class-acadp-admin-settings.php:1238
+#: admin/class-acadp-admin-settings.php:1267
+#: admin/class-acadp-admin-settings.php:1303
+#: admin/class-acadp-admin-settings.php:1329
+#: admin/class-acadp-admin-settings.php:1358
+#: admin/class-acadp-admin-settings.php:1387
+#: admin/class-acadp-admin-settings.php:1416
+msgid "Listing's url with link"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1177
+#: admin/class-acadp-admin-settings.php:1203
+#: admin/class-acadp-admin-settings.php:1239
+#: admin/class-acadp-admin-settings.php:1268
+#: admin/class-acadp-admin-settings.php:1304
+#: admin/class-acadp-admin-settings.php:1333
+#: admin/class-acadp-admin-settings.php:1362
+#: admin/class-acadp-admin-settings.php:1391
+#: admin/class-acadp-admin-settings.php:1421
+msgid "Current date"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1178
+#: admin/class-acadp-admin-settings.php:1204
+#: admin/class-acadp-admin-settings.php:1240
+#: admin/class-acadp-admin-settings.php:1269
+#: admin/class-acadp-admin-settings.php:1305
+#: admin/class-acadp-admin-settings.php:1334
+#: admin/class-acadp-admin-settings.php:1363
+#: admin/class-acadp-admin-settings.php:1392
+#: admin/class-acadp-admin-settings.php:1422
+msgid "Current time"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1212
+msgid "Listing renewal email threshold (in days)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1213
+msgid ""
+"Configure how many days before listing expiration is the renewal email sent."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1233
+#: admin/class-acadp-admin-settings.php:1262
+#: admin/class-acadp-admin-settings.php:1298
+msgid "Expiration date"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1234
+#: admin/class-acadp-admin-settings.php:1263
+#: admin/class-acadp-admin-settings.php:1299
+msgid "Category name that is going to expire"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1235
+#: admin/class-acadp-admin-settings.php:1264
+#: admin/class-acadp-admin-settings.php:1300
+msgid "Link to renewal page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1277
+msgid "Listing renewal reminder email threshold (in days)"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1278
+msgid ""
+"Configure how many days after the expiration of a listing an email reminder "
+"should be sent to the owner."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1330
+#: admin/class-acadp-admin-settings.php:1359
+#: admin/class-acadp-admin-settings.php:1388
+msgid "Payment Order ID"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1331
+#: admin/class-acadp-admin-settings.php:1360
+#: admin/class-acadp-admin-settings.php:1389
+msgid "Adds a link so users can view their order directly on your website"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1332
+#: admin/class-acadp-admin-settings.php:1361
+#: admin/class-acadp-admin-settings.php:1390
+msgid "Payment Order details"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1417
+msgid "Sender's name"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1418
+msgid "Sender's email address"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1419
+msgid "Sender's phone number"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1420
+msgid "Contact message"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1430
+msgid "Remove data on uninstall?"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1431
+msgid ""
+"Check this box to delete all of the plugin data (database stored content) "
+"when uninstalled"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1437
+msgid "Delete media files?"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1438
+msgid ""
+"Check this box to also delete the associated media files when a listing or "
+"category is deleted"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1447
+msgid "Replaces the SLUG value used by custom post type \"acadp_listings\"."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1456
+msgid ""
+"This is the page where all the active listings are displayed. The "
+"[acadp_listings] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1463
+msgid ""
+"This is the page where all the locations are displayed. The "
+"[acadp_locations] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1469
+msgid "Single location page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1470
+msgid ""
+"This is the page where the listings from a particular location is displayed. "
+"The [acadp_location] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1477
+msgid ""
+"This is the page where all the categories are displayed. The "
+"[acadp_categories] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1483
+msgid "Single category page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1484
+msgid ""
+"This is the page where the listings from a particular category is displayed. "
+"The [acadp_category] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1490
+msgid "Search page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1491
+msgid ""
+"This is the page where the search results are displayed. The [acadp_search] "
+"short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1497
+msgid "User listings page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1498
+msgid ""
+"This is the page where the listings from a particular user is displayed. The "
+"[acadp_user_listings] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1504
+msgid "User dashboard page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1505
+msgid ""
+"This is the user home page where the current user can add, edit listings, "
+"manage favourite listings, view payment history, etc... The "
+"[acadp_user_dashboard] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1511
+msgid "Listing form page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1512
+msgid ""
+"This is the listing form page used to add or edit listing details. The "
+"[acadp_listing_form] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1518
+msgid "Manage listings page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1519
+msgid ""
+"This is the page where the current user can add a new listing or modify, "
+"delete their existing listings. The [acadp_manage_listings] short code must "
+"be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1525
+msgid "Favourite listings page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1526
+msgid ""
+"This is the page where the current user's favourite listings are displayed. "
+"The [acadp_favourite_listings] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1532
+msgid "Checkout page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1533
+msgid ""
+"This is the checkout page where users will complete their purchases. The "
+"[acadp_checkout] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1539
+msgid "Payment receipt page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1540
+msgid ""
+"This is the page users are sent to after completing their payments. The "
+"[acadp_payment_receipt] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1546
+msgid "Failed Transaction Page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1547
+msgid ""
+"This is the page users are sent to if their transaction is cancelled or "
+"fails. The [acadp_payment_errors]...[/acadp_payment_errors] short code must "
+"be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1553
+msgid "Payment history page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1554
+msgid ""
+"This is the page where the users can view their payment history. The "
+"[acadp_payment_history] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1560
+msgid "Login form"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1561
+msgid ""
+"This is the page where the users can login to the site. The [acadp_login] "
+"short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1567
+msgid "Registration form"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1568
+msgid ""
+"This is the page where the users can register an account in the site. The "
+"[acadp_register] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1574
+msgid "User account"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1575
+msgid ""
+"This is the page where the users can view/edit their account info. The "
+"[acadp_user_account] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1581
+#: includes/functions-acadp-general.php:164
+msgid "Forgot Password"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1582
+msgid ""
+"This is the page users are sent to when clicking the forgot password link. "
+"The [acadp_forgot_password] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1588
+#: includes/functions-acadp-general.php:168
+msgid "Password Reset"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1589
+msgid ""
+"This is the page users are sent to when clicking the password reset link. "
+"The [acadp_password_reset] short code must be on this page."
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1874
+msgid "Choose File"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1923
+msgid "Select a page"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:1945
+#: admin/partials/listings/acadp-admin-contact-details-display.php:30
+#: includes/functions-acadp-general.php:1700 premium/admin/slider.php:43
+#: premium/admin/slider.php:281 premium/widgets/forms/banner-rotator.php:22
+#: premium/widgets/forms/carousel-slider.php:22
+#: public/partials/search/acadp-public-search-form-inline-display.php:33
+#: public/partials/search/acadp-public-search-form-vertical-display.php:30
+#: public/partials/search/acadp-public-search-form-vertical-display.php:33
+#: public/partials/user/acadp-public-edit-listing-display.php:122
+#: widgets/locations/views/acadp-widget-public-locations-display.php:17
+msgid "Select location"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:2059
+msgid "Advanced Classifieds and Directory Pro - Settings"
+msgstr ""
+
+#: admin/class-acadp-admin-settings.php:2060
+msgid "Settings"
+msgstr ""
+
+#: admin/class-acadp-admin.php:44 includes/class-acadp-activator.php:59
+#: premium/admin/import-export.php:226
+msgid "Sold"
+msgstr ""
+
+#: admin/class-acadp-admin.php:195
+#: admin/partials/listings/acadp-admin-listing-images-display.php:32
+#: public/partials/user/acadp-public-manage-listings-display.php:140
+msgid "Edit"
+msgstr ""
+
+#: admin/class-acadp-admin.php:196
+#: admin/partials/listings/acadp-admin-listing-images-display.php:34
+#: blocks/class-acadp-blocks.php:185 public/class-acadp-public.php:405
+#: public/partials/user/acadp-public-edit-listing-display.php:219
+msgid "Delete Permanently"
+msgstr ""
+
+#: admin/class-acadp-admin.php:200
+msgid "Please select at least one issue."
+msgstr ""
+
+#: admin/class-acadp-admin.php:218 admin/partials/dashboard/issues.php:77
+msgid "Apply Fix"
+msgstr ""
+
+#: admin/class-acadp-admin.php:231 admin/partials/dashboard/issues.php:74
+msgid "Ignore"
+msgstr ""
+
+#: admin/class-acadp-admin.php:257 blocks/class-acadp-blocks.php:37
+msgid "Advanced Classifieds and Directory Pro"
+msgstr ""
+
+#: admin/class-acadp-admin.php:268
+msgid "Advanced Classifieds and Directory Pro - Dashboard"
+msgstr ""
+
+#: admin/class-acadp-admin.php:269
+msgid "Dashboard"
+msgstr ""
+
+#: admin/class-acadp-admin.php:286
+msgid "Getting Started"
+msgstr ""
+
+#: admin/class-acadp-admin.php:287
+msgid "Shortcode Builder"
+msgstr ""
+
+#: admin/class-acadp-admin.php:288
+msgid "FAQ"
+msgstr ""
+
+#: admin/class-acadp-admin.php:297
+msgid "Issues Detected"
+msgstr ""
+
+#: admin/class-acadp-admin.php:524
+msgid "User Account Registration Disabled"
+msgstr ""
+
+#: admin/class-acadp-admin.php:525
+msgid ""
+"User account registration is disabled on your website. You must enable this "
+"option to allow new users to register on your website and submit their "
+"listings through your site front-end."
+msgstr ""
+
+#: admin/class-acadp-admin.php:528
+msgid "Pages Misconfigured"
+msgstr ""
+
+#: admin/class-acadp-admin.php:530
+#, php-format
+msgid ""
+"During activation, our plugin adds few <a href=\"%s\" target=\"_blank"
+"\">pages</a> dynamically on your website that are required for the internal "
+"logic of the plugin. We found some of those pages are missing, misconfigured "
+"or having a wrong shortcode."
+msgstr ""
+
+#: admin/partials/categories/acadp-admin-image-field-display.php:15
+#: admin/partials/categories/acadp-admin-image-field-display.php:26
+msgid "Image"
+msgstr ""
+
+#: admin/partials/categories/acadp-admin-image-field-display.php:19
+#: admin/partials/categories/acadp-admin-image-field-display.php:36
+msgid "Add Image"
+msgstr ""
+
+#: admin/partials/categories/acadp-admin-image-field-display.php:20
+#: admin/partials/categories/acadp-admin-image-field-display.php:37
+msgid "Remove Image"
+msgstr ""
+
+#: admin/partials/dashboard/dashboard.php:14
+msgid "Advanced Classifieds & Directory Pro"
+msgstr ""
+
+#: admin/partials/dashboard/dashboard.php:17
+msgid ""
+"Build any kind of directory site: classifieds, cars, bikes & other vehicles "
+"dealers site, pets, real estate portal, yellow pages, etc..."
+msgstr ""
+
+#: admin/partials/dashboard/dashboard.php:22
+msgid "Documentation (Premium Version)"
+msgstr ""
+
+#: admin/partials/dashboard/dashboard.php:26
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: admin/partials/dashboard/faq.php:15
+msgid "Will the plugin work with my theme?"
+msgstr ""
+
+#: admin/partials/dashboard/faq.php:20
+#, php-format
+msgid ""
+"\"Advanced Classifieds and Directory Pro\" has been designed to work with "
+"any theme. In case you find any conflict issues, kindly write to us <a href="
+"\"%s\">here</a> explaining the issue. You should receive a reply within 24 "
+"hours (except Sunday)."
+msgstr ""
+
+#: admin/partials/dashboard/faq.php:27
+msgid ""
+"Does the plugin support third-party page builder like \"Elementor\", "
+"\"WPBakery\", \"Divi\", etc.?"
+msgstr ""
+
+#: admin/partials/dashboard/faq.php:32
+#, php-format
+msgid ""
+"Yes, this is the main reason we developed the shortcode builder. Simply "
+"generate your shortcode using the <a href=\"%s\">Shortcode Builder</a> and "
+"add it to your page builder."
+msgstr ""
+
+#: admin/partials/dashboard/faq.php:39
+msgid "Can the plugin be translated into my language?"
+msgstr ""
+
+#: admin/partials/dashboard/faq.php:44
+#, php-format
+msgid ""
+"Yes, the plugin is translation-ready and you can translate it to your own "
+"language easy. Kindly follow the instructions <a href=\"%s\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+
+#: admin/partials/dashboard/faq.php:51
+msgid "Is the plugin compatible with WordPress Multisite?"
+msgstr ""
+
+#: admin/partials/dashboard/faq.php:54
+msgid ""
+"Yes, it is. However, do not \"network-activate\" the plugin. Activate it on "
+"only the subsites on which you need a directory. This can be done under "
+"\"Plugins -> Add New\" as the Administrator user."
+msgstr ""
+
+#: admin/partials/dashboard/faq.php:58
+msgid "The plugin is not working for me. What should I do now?"
+msgstr ""
+
+#: admin/partials/dashboard/faq.php:63
+#, php-format
+msgid ""
+"Kindly write to us <a href=\"%s\">here</a> explaining the issue along with "
+"your site link. You should receive a reply within 24 hours (except Sunday)."
+msgstr ""
+
+#: admin/partials/dashboard/getting-started.php:15
+#: admin/partials/dashboard/getting-started.php:21
+#: admin/partials/dashboard/getting-started.php:30
+#: admin/partials/dashboard/getting-started.php:38
+#: admin/partials/dashboard/getting-started.php:47
+#: admin/partials/dashboard/getting-started.php:55
+#, php-format
+msgid "Step #%d:"
+msgstr ""
+
+#: admin/partials/dashboard/getting-started.php:17
+msgid ""
+"Install and Activate <strong>Advanced Classifieds & Directory Pro</strong>"
+msgstr ""
+
+#: admin/partials/dashboard/getting-started.php:23
+#: admin/partials/dashboard/getting-started.php:40
+msgid "Optional"
+msgstr ""
+
+#: admin/partials/dashboard/getting-started.php:25
+msgid "Add Locations"
+msgstr ""
+
+#: admin/partials/dashboard/getting-started.php:33
+msgid "Add Categories"
+msgstr ""
+
+#: admin/partials/dashboard/getting-started.php:42
+msgid "Add Custom Fields"
+msgstr ""
+
+#: admin/partials/dashboard/getting-started.php:50
+msgid "Add Listings"
+msgstr ""
+
+#: admin/partials/dashboard/getting-started.php:57
+msgid "Setup Pages"
+msgstr ""
+
+#: admin/partials/dashboard/getting-started.php:60
+#, php-format
+msgid ""
+"During activation, the plugin has added several pages dynamically on your "
+"website those display locations, categories, listings, listing submission "
+"form, etc. in your site front-end. You can find these pages under the <a "
+"href=\"%s\">Pages</a> menu. Simply find and add them as menu items under <a "
+"href=\"%s\">Appearance &rarr; menus</a>. That's it."
+msgstr ""
+
+#: admin/partials/dashboard/getting-started.php:70
+#, php-format
+msgid ""
+"These are just the basic steps to getting started with the plugin. The "
+"plugin has a lot more features, 100+ settings, widget options, etc. Please "
+"<a href=\"%s\" target=\"_blank\">refer</a> for more advanced tutorials."
+msgstr ""
+
+#: admin/partials/dashboard/issues.php:13
+msgid "Issues"
+msgstr ""
+
+#: admin/partials/dashboard/issues.php:14
+msgid "Ignored"
+msgstr ""
+
+#: admin/partials/dashboard/issues.php:26
+msgid "Congrats! Issues solved."
+msgstr ""
+
+#: admin/partials/dashboard/issues.php:26
+msgid "Issues ignored."
+msgstr ""
+
+#: admin/partials/dashboard/issues.php:54
+msgid "Issue"
+msgstr ""
+
+#: admin/partials/dashboard/issues.php:86
+msgid "You have no ignored issues."
+msgstr ""
+
+#: admin/partials/dashboard/issues.php:88
+msgid "You have no issues."
+msgstr ""
+
+#: admin/partials/dashboard/shortcode-builder.php:18
+msgid "Select a shortcode type"
+msgstr ""
+
+#: admin/partials/dashboard/shortcode-builder.php:122
+msgid "Generate Shortcode"
+msgstr ""
+
+#: admin/partials/dashboard/shortcode-builder.php:130
+msgid ""
+"\"Advanced Classifieds and Directory Pro\" provides several methods to add "
+"the plugin content (listings, categories, locations, search form, etc.) in "
+"your site front-end. Choose one of the following methods best suited for you,"
+msgstr ""
+
+#: admin/partials/dashboard/shortcode-builder.php:134
+msgid ""
+"Use the shortcode builder in this page to build your shortcode, then add it "
+"in your POST/PAGE."
+msgstr ""
+
+#: admin/partials/dashboard/shortcode-builder.php:137
+#, php-format
+msgid ""
+"Use our \"Advanced Classifieds and Directory Pro\" <a href=\"%s\" target="
+"\"_blank\">Gutenberg blocks</a>."
+msgstr ""
+
+#: admin/partials/dashboard/shortcode-builder.php:140
+#, php-format
+msgid ""
+"Use our <a href=\"%s\" target=\"_blank\">widgets</a> in your website "
+"sidebars."
+msgstr ""
+
+#: admin/partials/dashboard/shortcode-builder.php:153
+msgid ""
+"Congrats! copy the shortcode below and paste it in your POST/PAGE where you "
+"need the gallery,"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:17
+msgid "Field ID"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:25
+msgid "Field Type"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:42
+msgid "Field Instructions"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:43
+msgid "Instructions for users. Shown when submitting data"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:57
+#: admin/partials/fields/acadp-admin-field-details-display.php:118
+#: admin/partials/fields/acadp-admin-field-details-display.php:156
+#: admin/partials/fields/acadp-admin-field-details-display.php:172
+#: admin/partials/fields/acadp-admin-field-options-display.php:48
+#: admin/partials/fields/acadp-admin-field-options-display.php:68
+msgid "Yes"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:60
+#: admin/partials/fields/acadp-admin-field-details-display.php:121
+#: admin/partials/fields/acadp-admin-field-details-display.php:159
+#: admin/partials/fields/acadp-admin-field-details-display.php:175
+#: admin/partials/fields/acadp-admin-field-options-display.php:53
+#: admin/partials/fields/acadp-admin-field-options-display.php:73
+msgid "No"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:67
+msgid "Choices"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:69
+msgid "Enter each choice on a new line."
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:70
+msgid "Red"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:71
+msgid "Blue"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:72
+msgid "red : Red"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:73
+msgid "blue : Blue"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:82
+#: admin/partials/fields/acadp-admin-field-details-display.php:93
+#: admin/partials/fields/acadp-admin-field-details-display.php:102
+msgid "Default Value"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:83
+#: admin/partials/fields/acadp-admin-field-details-display.php:94
+msgid "Appears when creating a new post"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:103
+msgid "Enter each default value on a new line"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:111
+msgid "Allow Null?"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:112
+msgid ""
+"If selected, the select list will begin with a null value titled \"- Select "
+"an Option -\""
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:128
+msgid "Placeholder Text"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:129
+msgid "Appears within the input"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:139
+msgid "Rows"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:140
+msgid "Sets the textarea height"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:150
+msgid "Open link in a new window?"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-details-display.php:166
+msgid "Use rel=\"nofollow\" when displaying the link?"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-options-display.php:33
+msgid "Selective"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-options-display.php:41
+msgid "Include this field in the search form?"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-options-display.php:61
+msgid "Show this field data in the listings archive pages?"
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-options-display.php:81
+msgid "Order No."
+msgstr ""
+
+#: admin/partials/fields/acadp-admin-field-options-display.php:82
+msgid "Fields are created in order from lowest to highest"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-contact-details-display.php:17
+#: premium/admin/import-export.php:213
+#: public/partials/user/acadp-public-edit-listing-display.php:114
+msgid "Address"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-contact-details-display.php:25
+#: public/partials/user/acadp-public-edit-listing-display.php:119
+msgid "Location"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-contact-details-display.php:48
+#: public/partials/user/acadp-public-edit-listing-display.php:137
+msgid "Zip Code"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-contact-details-display.php:58
+#: premium/admin/import-export.php:215
+#: public/partials/listing/acadp-public-listing-display.php:252
+#: public/partials/user/acadp-public-edit-listing-display.php:144
+#: widgets/listing-contact/views/acadp-widget-public-listing-contact-display.php:40
+msgid "Phone"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-contact-details-display.php:78
+#: premium/admin/import-export.php:217
+#: public/partials/user/acadp-public-edit-listing-display.php:154
+msgid "Website"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-contact-details-display.php:98
+#: public/partials/user/acadp-public-edit-listing-display.php:180
+msgid "Don't show the Map"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-custom-fields-display.php:50
+#: public/partials/search/acadp-public-custom-fields-inline-display.php:52
+#: public/partials/search/acadp-public-custom-fields-vertical-display.php:45
+#: public/partials/user/acadp-public-custom-fields-display.php:59
+msgid "Select an Option"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-details-display.php:17
+#: public/partials/user/acadp-public-edit-listing-display.php:38
+msgid "Category"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-details-display.php:27
+#: includes/functions-acadp-general.php:1708
+#: includes/functions-acadp-html.php:502 premium/admin/slider.php:58
+#: premium/admin/slider.php:296 premium/widgets/forms/banner-rotator.php:42
+#: premium/widgets/forms/carousel-slider.php:42
+#: public/partials/search/acadp-public-search-form-inline-display.php:57
+#: public/partials/search/acadp-public-search-form-vertical-display.php:51
+#: public/partials/search/acadp-public-search-form-vertical-display.php:54
+#: public/partials/user/acadp-public-edit-listing-display.php:42
+#: widgets/categories/views/acadp-widget-public-categories-display.php:17
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:41
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:44
+msgid "Select category"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-details-display.php:57
+#: public/partials/user/acadp-public-edit-listing-display.php:258
+msgid "How much do you want it to be listed for?"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-images-display.php:46
+#: public/partials/user/acadp-public-edit-listing-display.php:233
+msgid "Upload Image"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:16
+msgid "Expiration"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:17
+msgid "Date & Time"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:24
+msgid "Jan"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:25
+msgid "Feb"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:26
+msgid "Mar"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:27
+msgid "Apr"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:28
+msgid "May"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:29
+msgid "Jun"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:30
+msgid "Jul"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:31
+msgid "Aug"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:32
+msgid "Sep"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:33
+msgid "Oct"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:34
+msgid "Nov"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:35
+msgid "Dec"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:78
+#: admin/partials/listings/acadp-admin-listing-submitbox-display.php:88
+#: public/partials/user/acadp-public-edit-listing-display.php:283
+msgid "Mark as"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-video-display.php:17
+msgid "Your Video URL"
+msgstr ""
+
+#: admin/partials/listings/acadp-admin-listing-video-display.php:18
+msgid "Only YouTube &  Vimeo URLs"
+msgstr ""
+
+#: admin/partials/settings/acadp-admin-settings-display.php:31
+msgid "Plugin Settings"
+msgstr ""
+
+#: blocks/class-acadp-blocks.php:182 public/class-acadp-public.php:402
+msgid "You can't leave Captcha Code empty"
+msgstr ""
+
+#: blocks/class-acadp-blocks.php:183 public/class-acadp-public.php:403
+msgid "Sorry, you need to login first."
+msgstr ""
+
+#: blocks/class-acadp-blocks.php:184 public/class-acadp-public.php:404
+#, php-format
+msgid "Sorry, you have only %d images pending."
+msgstr ""
+
+#: blocks/class-acadp-blocks.php:186
+#: premium/public/templates/checkout-woocommerce-featured.php:49
+#: premium/public/templates/checkout-woocommerce.php:71
+#: public/class-acadp-public.php:406
+#: public/partials/payments/acadp-public-checkout-display.php:76
+msgid "Proceed to payment"
+msgstr ""
+
+#: blocks/class-acadp-blocks.php:187 public/class-acadp-public.php:407
+msgid "Finish submission"
+msgstr ""
+
+#: blocks/dist/blocks.build.js:1
+msgid "/wp/v2/block-renderer/"
+msgstr ""
+
+#: includes/class-acadp-activator.php:53
+msgid "New"
+msgstr ""
+
+#: includes/class-acadp-activator.php:56
+msgid "Popular"
+msgstr ""
+
+#: includes/class-acadp-activator.php:129 includes/functions-acadp-html.php:63
+msgid "I agree to the terms and conditions"
+msgstr ""
+
+#: includes/class-acadp-activator.php:142
+msgid "Direct Bank Transfer"
+msgstr ""
+
+#: includes/class-acadp-activator.php:143
+msgid ""
+"Make your payment directly in our bank account. Please use your Order ID as "
+"payment reference. Your order won't get approved until the funds have "
+"cleared in our account."
+msgstr ""
+
+#: includes/class-acadp-activator.php:144
+msgid ""
+"Make your payment directly in our bank account. Please use your Order ID as "
+"payment reference. Your order won't get approved until the funds have "
+"cleared in our account.\n"
+"\n"
+"Account details :\n"
+"\n"
+"Account Name : YOUR ACCOUNT NAME\n"
+"Account Number : YOUR ACCOUNT NUMBER\n"
+"Bank Name : YOUR BANK NAME\n"
+"\n"
+"If we don't receive your payment within 48 hrs, we will cancel the order."
+msgstr ""
+
+#: includes/class-acadp-activator.php:149
+msgid ""
+"Upgrade your listing to featured status. Featured listings will always "
+"appear on top of regular listings."
+msgstr ""
+
+#: includes/class-acadp-activator.php:161
+msgid "[{site_name}] Listing \"{listing_title}\" received"
+msgstr ""
+
+#: includes/class-acadp-activator.php:162
+msgid ""
+"Dear {name},\n"
+"\n"
+"Your submission \"{listing_title}\" has been received and it's pending "
+"review. This review process could take up to 48 hours.\n"
+"\n"
+"Thanks,\n"
+"The Administrator of {site_name}"
+msgstr ""
+
+#: includes/class-acadp-activator.php:165
+msgid "[{site_name}] Listing \"{listing_title}\" published"
+msgstr ""
+
+#: includes/class-acadp-activator.php:166
+msgid ""
+"Dear {name},\n"
+"\n"
+"Your listing \"{listing_title}\" is now available at {listing_url} and can "
+"be viewed by the public.\n"
+"\n"
+"Thanks,\n"
+"The Administrator of {site_name}"
+msgstr ""
+
+#: includes/class-acadp-activator.php:170
+#: includes/class-acadp-activator.php:174
+msgid "[{site_name}] {listing_title} - Expiration notice"
+msgstr ""
+
+#: includes/class-acadp-activator.php:171
+msgid ""
+"Dear {name},\n"
+"\n"
+"Your listing \"{listing_title}\" is about to expire at {site_link}. You can "
+"renew it here: {renewal_link}.\n"
+"\n"
+"Thanks,\n"
+"The Administrator of {site_name}"
+msgstr ""
+
+#: includes/class-acadp-activator.php:175
+msgid ""
+"Dear {name},\n"
+"\n"
+"Your listing \"{listing_title}\" in category \"{category_name}\" expired on "
+"{expiration_date}. To renew your listing click the link below.\n"
+"{renewal_link}\n"
+"\n"
+"Thanks,\n"
+"The Administrator of {site_name}"
+msgstr ""
+
+#: includes/class-acadp-activator.php:179
+msgid "[{site_name}] {listing_title} - Expiration reminder"
+msgstr ""
+
+#: includes/class-acadp-activator.php:180
+msgid ""
+"Dear {name},\n"
+"\n"
+"We've noticed that you haven't renewed your listing \"{listing_title}\" for "
+"category \"{category_name}\" at {site_link} and just wanted to remind you "
+"that it expired on {expiration_date}. Please remember you can still renew it "
+"here: {renewal_link}.\n"
+"\n"
+"Thanks,\n"
+"The Administrator of {site_name}"
+msgstr ""
+
+#: includes/class-acadp-activator.php:183
+#: includes/class-acadp-activator.php:187
+msgid "[{site_name}] Thank you for your order"
+msgstr ""
+
+#: includes/class-acadp-activator.php:184
+msgid ""
+"Dear {name},\n"
+"\n"
+"The order is now created.\n"
+"\n"
+"This notification was for the order #{order_id} on the website {site_name}.\n"
+"You can access the order details directly by clicking on the link below "
+"after logging in your account:\n"
+"{order_page}\n"
+"\n"
+"{order_details}\n"
+"\n"
+"Thanks,\n"
+"The Administrator of {site_name}"
+msgstr ""
+
+#: includes/class-acadp-activator.php:188
+msgid ""
+"Dear {name},\n"
+"\n"
+"The order is now created.\n"
+"\n"
+"This notification was for the order #{order_id} on the website {site_name}.\n"
+"\n"
+"Make your payment directly in our bank account. Please use your Order ID as "
+"payment reference. Your order won't get approved until the funds have "
+"cleared in our account.\n"
+"\n"
+"Account details :\n"
+"\n"
+"Account Name : YOUR ACCOUNT NAME\n"
+"Account Number : YOUR ACCOUNT NUMBER\n"
+"Bank Name : YOUR BANK NAME\n"
+"\n"
+"If we don't receive your payment within 48 hrs, we will cancel the order.\n"
+"You can access the order details directly by clicking on the link below "
+"after logging in your account:\n"
+"{order_page}\n"
+"\n"
+"{order_details}\n"
+"\n"
+"Thanks,\n"
+"The Administrator of {site_name}"
+msgstr ""
+
+#: includes/class-acadp-activator.php:191
+msgid "[{site_name}] Order completed"
+msgstr ""
+
+#: includes/class-acadp-activator.php:192
+msgid ""
+"Dear {name},\n"
+"\n"
+"Your recent order #{order_id} on {site_name} has been completed.\n"
+"\n"
+"You can access the order details directly by clicking on the link below "
+"after logging in your account:\n"
+"{order_page}\n"
+"\n"
+"{order_details}\n"
+"\n"
+"Thanks,\n"
+"The Administrator of {site_name}"
+msgstr ""
+
+#: includes/class-acadp-activator.php:195
+#: includes/functions-acadp-email.php:787
+msgid "[{site_name}] Contact via \"{listing_title}\""
+msgstr ""
+
+#: includes/class-acadp-activator.php:196
+msgid ""
+"Dear {name},\n"
+"\n"
+"You have received a reply from your listing at {listing_url}.\n"
+"\n"
+"Name: {sender_name}\n"
+"Email: {sender_email}\n"
+"Phone: {sender_phone}\n"
+"Message: {message}\n"
+"Time: {now}\n"
+"\n"
+"Thanks,\n"
+"The Administrator of {site_name}"
+msgstr ""
+
+#: includes/functions-acadp-email.php:123
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: includes/functions-acadp-email.php:125
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr ""
+
+#: includes/functions-acadp-email.php:126
+#: includes/functions-acadp-email.php:139
+#: public/class-acadp-public-registration.php:744
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: includes/functions-acadp-email.php:127
+#, php-format
+msgid "Email: %s"
+msgstr ""
+
+#: includes/functions-acadp-email.php:134
+#, php-format
+msgid "[%s] Your username and password info"
+msgstr ""
+
+#: includes/functions-acadp-email.php:136
+#: public/class-acadp-public-registration.php:741
+msgid "Hi there,"
+msgstr ""
+
+#: includes/functions-acadp-email.php:137
+#, php-format
+msgid "Welcome to %s! Here's how to log in:"
+msgstr ""
+
+#: includes/functions-acadp-email.php:140
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: includes/functions-acadp-email.php:141
+#: public/class-acadp-public-registration.php:748
+msgid "Thanks!"
+msgstr ""
+
+#: includes/functions-acadp-email.php:167
+#: includes/functions-acadp-email.php:298
+msgid "Active"
+msgstr ""
+
+#: includes/functions-acadp-email.php:167
+#: includes/functions-acadp-email.php:298
+msgid "Pending review"
+msgstr ""
+
+#: includes/functions-acadp-email.php:172
+msgid "[{site_name}] New Listing received"
+msgstr ""
+
+#: includes/functions-acadp-email.php:175
+msgid ""
+"Dear Administrator,<br /><br />You have received a new listing on the "
+"website {site_name}.<br />This e-mail contains the listing details:<br /"
+"><br />Listing ID:{listing_id}<br />Listing Title:{listing_title}<br /"
+">Listing Status:{listing_status}<br /><br />Please do not respond to this "
+"message. It is automatically generated and is for information purposes only."
+msgstr ""
+
+#: includes/functions-acadp-email.php:303
+msgid "[{site_name}] Listing \"{listing_title}\" edited"
+msgstr ""
+
+#: includes/functions-acadp-email.php:306
+msgid ""
+"Dear Administrator,<br /><br />This notification was for the listing on the "
+"website {site_name} \"{listing_title}\" and is edited.<br />This e-mail "
+"contains the listing details:<br /><br />Listing ID:{listing_id}<br /"
+">Listing Title:{listing_title}<br />Listing Status:{listing_status}<br /"
+"><br />Please do not respond to this message. It is automatically generated "
+"and is for information purposes only."
+msgstr ""
+
+#: includes/functions-acadp-email.php:395
+msgid "[{site_name}] Listing \"{listing_title}\" expired"
+msgstr ""
+
+#: includes/functions-acadp-email.php:398
+msgid ""
+"Dear Administrator,<br /><br />This notification was for the listing on the "
+"website {site_name} \"{listing_title}\" and is expired.<br />This e-mail "
+"contains the listing details:<br /><br />Listing ID:{listing_id}<br /"
+">Listing Title:{listing_title}<br />Expired on:{expiration_date}<br /><br /"
+">Please do not respond to this message. It is automatically generated and is "
+"for information purposes only."
+msgstr ""
+
+#: includes/functions-acadp-email.php:540
+msgid "[{site_name}] A new order has been created on your website"
+msgstr ""
+
+#: includes/functions-acadp-email.php:543
+msgid ""
+"Dear Administrator,<br /><br />The order is now created.<br /><br />This "
+"notification was for the order #{order_id} on the website {site_name}.<br /"
+">You can access the order details directly by clicking on the link below "
+"after logging in your back end:<br />{order_page}<br /><br />{order_details}"
+"<br /><br />Please do not respond to this message. It is automatically "
+"generated and is for information purposes only."
+msgstr ""
+
+#: includes/functions-acadp-email.php:681
+msgid ""
+"[{site_name}] Payment notification : payment Completed for order no."
+"{order_id}"
+msgstr ""
+
+#: includes/functions-acadp-email.php:684
+msgid ""
+"Dear Administrator,<br /><br />A Payment notification was received with the "
+"status Completed. The order is now confirmed.<br /><br />This notification "
+"was for the order #{order_id} on the website {site_name}.<br />You can "
+"access the order details directly by clicking on the link below after "
+"logging in your back end:<br />{order_page}<br /><br />{order_details}<br /"
+"><br />Please do not respond to this message. It is automatically generated "
+"and is for information purposes only."
+msgstr ""
+
+#: includes/functions-acadp-email.php:790
+msgid ""
+"Dear Administrator,<br /><br />A listing on your website {site_name} "
+"received a message.<br /><br />Listing URL: {listing_url}<br /><br />Name: "
+"{sender_name}<br />Email: {sender_email}<br />Message: {message}<br />Time: "
+"{now}<br /><br />This is just a copy of the original email and was already "
+"sent to the listing owner. You don't have to reply this unless necessary."
+msgstr ""
+
+#: includes/functions-acadp-email.php:901
+msgid "[{site_name}] Report Abuse via \"{listing_title}\""
+msgstr ""
+
+#: includes/functions-acadp-email.php:904
+msgid ""
+"Dear Administrator,<br /><br />This is an email abuse report for a listing "
+"at {listing_url}.<br /><br />Name: {sender_name}<br />Email: {sender_email}"
+"<br />Message: {message}<br />Time: {now}"
+msgstr ""
+
+#: includes/functions-acadp-email.php:936
+msgid "Item(s)"
+msgstr ""
+
+#: includes/functions-acadp-email.php:952
+#: public/partials/payments/acadp-public-payment-receipt-display.php:109
+#, php-format
+msgid "Total amount [%s]"
+msgstr ""
+
+#: includes/functions-acadp-general.php:92
+#: includes/functions-acadp-general.php:1681
+#: widgets/listings/class-acadp-widget-listings.php:80
+msgid "Listings"
+msgstr ""
+
+#: includes/functions-acadp-general.php:96
+msgid "Listing Locations"
+msgstr ""
+
+#: includes/functions-acadp-general.php:100
+msgid "Listing Location"
+msgstr ""
+
+#: includes/functions-acadp-general.php:104
+msgid "Listing Categories"
+msgstr ""
+
+#: includes/functions-acadp-general.php:108
+msgid "Listing Category"
+msgstr ""
+
+#: includes/functions-acadp-general.php:112
+#: public/partials/search/acadp-public-search-form-inline-display.php:104
+#: public/partials/search/acadp-public-search-form-vertical-display.php:90
+#: widgets/search/class-acadp-widget-search.php:129
+msgid "Search Listings"
+msgstr ""
+
+#: includes/functions-acadp-general.php:116
+msgid "User Listings"
+msgstr ""
+
+#: includes/functions-acadp-general.php:120
+msgid "User Dashboard"
+msgstr ""
+
+#: includes/functions-acadp-general.php:124
+msgid "Listing Form"
+msgstr ""
+
+#: includes/functions-acadp-general.php:128
+msgid "Manage Listings"
+msgstr ""
+
+#: includes/functions-acadp-general.php:132
+msgid "Favourite Listings"
+msgstr ""
+
+#: includes/functions-acadp-general.php:136
+msgid "Checkout"
+msgstr ""
+
+#: includes/functions-acadp-general.php:140
+msgid "Payment Receipt"
+msgstr ""
+
+#: includes/functions-acadp-general.php:144
+msgid "Transaction Failed"
+msgstr ""
+
+#: includes/functions-acadp-general.php:145
+msgid "Your transaction failed, please try again or contact site support."
+msgstr ""
+
+#: includes/functions-acadp-general.php:152
+#: public/partials/registration/acadp-public-login-display.php:86
+msgid "Login"
+msgstr ""
+
+#: includes/functions-acadp-general.php:156
+#: public/partials/registration/acadp-public-register-display.php:76
+msgid "Register"
+msgstr ""
+
+#: includes/functions-acadp-general.php:160
+msgid "Account"
+msgstr ""
+
+#: includes/functions-acadp-general.php:241
+#: public/partials/registration/acadp-public-login-display.php:93
+msgid "Forgot your password?"
+msgstr ""
+
+#: includes/functions-acadp-general.php:246
+#: public/partials/registration/acadp-public-login-display.php:98
+msgid "Create an account"
+msgstr ""
+
+#: includes/functions-acadp-general.php:419
+msgid "Created"
+msgstr ""
+
+#: includes/functions-acadp-general.php:421
+msgid "Completed"
+msgstr ""
+
+#: includes/functions-acadp-general.php:422
+msgid "Failed"
+msgstr ""
+
+#: includes/functions-acadp-general.php:423
+msgid "Cancelled"
+msgstr ""
+
+#: includes/functions-acadp-general.php:424
+msgid "Refunded"
+msgstr ""
+
+#: includes/functions-acadp-general.php:450
+msgid "Set to Created"
+msgstr ""
+
+#: includes/functions-acadp-general.php:451
+msgid "Set to Pending"
+msgstr ""
+
+#: includes/functions-acadp-general.php:452
+msgid "Set to Completed"
+msgstr ""
+
+#: includes/functions-acadp-general.php:453
+msgid "Set to Failed"
+msgstr ""
+
+#: includes/functions-acadp-general.php:454
+msgid "Set to Cancelled"
+msgstr ""
+
+#: includes/functions-acadp-general.php:455
+msgid "Set to Refunded"
+msgstr ""
+
+#: includes/functions-acadp-general.php:804
+#: includes/functions-acadp-general.php:1692
+#: widgets/categories/views/acadp-widget-admin-categories-display.php:21
+#: widgets/locations/views/acadp-widget-admin-locations-display.php:21
+msgid "List"
+msgstr ""
+
+#: includes/functions-acadp-general.php:807
+#: includes/functions-acadp-general.php:1693
+msgid "Grid"
+msgstr ""
+
+#: includes/functions-acadp-general.php:919
+#: includes/functions-acadp-general.php:1004
+#: public/partials/categories/acadp-public-categories-image-grid-display.php:28
+#: public/partials/categories/acadp-public-categories-text-list-display.php:31
+#: public/partials/locations/acadp-public-locations-display.php:24
+#, php-format
+msgid "View all posts in %s"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1097
+msgid "A to Z ( title )"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1098
+msgid "Z to A ( title )"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1099
+msgid "Recently added ( latest )"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1100
+msgid "Date added ( oldest )"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1101
+msgid "Most viewed"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1102
+msgid "Less viewed"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1106
+msgid "Price ( low to high )"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1107
+msgid "Price ( high to low )"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1296
+msgid "Offline Payment"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1453
+msgid "Text"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1454
+msgid "Text Area"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1455
+msgid "Select"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1456
+msgid "Checkbox"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1457
+msgid "Radio Button"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1458
+msgid "URL"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1688
+#: includes/functions-acadp-general.php:1887
+#: includes/functions-acadp-general.php:1966
+msgid "Select layout"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1716 premium/admin/slider.php:73
+#: premium/admin/slider.php:311
+msgid "Filter by"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1720 premium/admin/slider.php:77
+#: premium/admin/slider.php:315
+msgid "None"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1727
+#: includes/functions-acadp-general.php:1831
+#: includes/functions-acadp-general.php:1918 premium/admin/slider.php:94
+#: premium/admin/slider.php:332
+msgid "Order by"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1772
+msgid "Show featured"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1773
+msgid ""
+"Show or hide featured listings at the top of normal listings. This setting "
+"has no value when \"Filter by\" option is set to \"Featured\"."
+msgstr ""
+
+#: includes/functions-acadp-general.php:1779
+msgid "Show header"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1780
+msgid "Header = Videos count, Views switcher, Sort by dropdown"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1786
+msgid "Show pagination"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1803
+#: includes/functions-acadp-general.php:1879
+msgid "Select parent"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1942
+msgid "Show categories count?"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1959
+msgid "Search Form"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1970
+#: widgets/search/views/acadp-widget-admin-search-display.php:23
+msgid "Vertical"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1971
+#: widgets/search/views/acadp-widget-admin-search-display.php:24
+msgid "Inline"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1977
+#: widgets/search/views/acadp-widget-admin-search-display.php:42
+msgid "Search by Location"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1984
+#: widgets/search/views/acadp-widget-admin-search-display.php:36
+msgid "Search by Category"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1991
+#: widgets/search/views/acadp-widget-admin-search-display.php:48
+msgid "Search by Custom Fields"
+msgstr ""
+
+#: includes/functions-acadp-general.php:1998
+#: widgets/search/views/acadp-widget-admin-search-display.php:54
+msgid "Search by Price"
+msgstr ""
+
+#: includes/functions-acadp-general.php:2137
+msgid "Listing saved successfully."
+msgstr ""
+
+#: includes/functions-acadp-general.php:2143
+msgid "Sorry, you don't have permission to do this action."
+msgstr ""
+
+#: includes/functions-acadp-general.php:2149
+msgid "Listing published successfully."
+msgstr ""
+
+#: includes/functions-acadp-general.php:2155
+msgid "Listing updated successfully."
+msgstr ""
+
+#: includes/functions-acadp-general.php:2161
+msgid ""
+"Listing submitted successfully and it's pending review. This review process "
+"could take up to 48 hours. Please be patient."
+msgstr ""
+
+#: includes/functions-acadp-general.php:2167
+msgid "Listing renewed successfully."
+msgstr ""
+
+#: includes/functions-acadp-general.php:2173
+msgid "Listing deleted successfully."
+msgstr ""
+
+#: includes/functions-acadp-html.php:46
+msgid "User Account"
+msgstr ""
+
+#: includes/functions-acadp-html.php:169
+msgid "Pin It"
+msgstr ""
+
+#: includes/functions-acadp-html.php:321
+msgid "Show Phone Number"
+msgstr ""
+
+#: includes/functions-acadp-html.php:448
+msgid "&laquo;"
+msgstr ""
+
+#: includes/functions-acadp-html.php:449
+msgid "&raquo;"
+msgstr ""
+
+#: includes/functions-acadp-html.php:461
+#, php-format
+msgid "Page %d of %d"
+msgstr ""
+
+#: includes/functions-acadp-html.php:588
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/functions-acadp-permalinks.php:299
+#: public/partials/listings/acadp-public-listings-grid-display.php:188
+#: public/partials/listings/acadp-public-listings-list-display.php:181
+#: public/partials/listings/acadp-public-listings-map-display.php:184
+msgid "Remove from favourites"
+msgstr ""
+
+#: premium/admin/admin.php:81 premium/admin/paypal.php:30
+#: premium/admin/paypal.php:44
+msgid "PayPal"
+msgstr ""
+
+#: premium/admin/admin.php:92 premium/admin/stripe.php:30
+#: premium/admin/stripe.php:44
+msgid "Stripe"
+msgstr ""
+
+#: premium/admin/admin.php:152
+msgid "Import Listings"
+msgstr ""
+
+#: premium/admin/admin.php:153
+msgid "Import New File"
+msgstr ""
+
+#: premium/admin/fee-plans.php:54
+msgid "Check this to enable fee plans"
+msgstr ""
+
+#: premium/admin/fee-plans.php:74 premium/admin/woocommerce-plans.php:75
+msgid "Disable \"Categories\" selection in edit listing form"
+msgstr ""
+
+#: premium/admin/fee-plans.php:75 premium/admin/woocommerce-plans.php:76
+msgid ""
+"Check this option if you have \"Plans\" created based on categories. This "
+"prevent users from changing categories( Free to Paid category ) by editing "
+"the listing form."
+msgstr ""
+
+#: premium/admin/fee-plans.php:94
+msgid "Fee Plan"
+msgstr ""
+
+#: premium/admin/fee-plans.php:96
+msgid "Add New Fee"
+msgstr ""
+
+#: premium/admin/fee-plans.php:98
+msgid "New Fee"
+msgstr ""
+
+#: premium/admin/fee-plans.php:99
+msgid "Edit Fee"
+msgstr ""
+
+#: premium/admin/fee-plans.php:100
+msgid "Update Fee"
+msgstr ""
+
+#: premium/admin/fee-plans.php:101
+msgid "View Fee"
+msgstr ""
+
+#: premium/admin/fee-plans.php:102
+msgid "Search Fee"
+msgstr ""
+
+#: premium/admin/fee-plans.php:108
+msgid "acadp_fee_plans"
+msgstr ""
+
+#: premium/admin/fee-plans.php:192
+msgid "Enter your plan name"
+msgstr ""
+
+#: premium/admin/fee-plans.php:209
+msgid "Fee Details"
+msgstr ""
+
+#: premium/admin/fee-plans.php:239
+#: premium/admin/partials/woocommerce-fields.php:93
+#, php-format
+msgid "Sorry, you cannot create category based plans when %s enabled."
+msgstr ""
+
+#: premium/admin/fee-plans.php:240
+msgid "Multi categroies"
+msgstr ""
+
+#: premium/admin/fee-plans.php:362
+msgid "Days"
+msgstr ""
+
+#: premium/admin/fee-plans.php:482 premium/admin/woocommerce-plans.php:355
+msgid "Select your plan"
+msgstr ""
+
+#: premium/admin/import-export.php:63 premium/admin/partials/form-export.php:49
+msgid "Export Listings"
+msgstr ""
+
+#: premium/admin/import-export.php:68 premium/admin/partials/form-export.php:50
+msgid "Download Images"
+msgstr ""
+
+#: premium/admin/import-export.php:82
+msgid "Advanced Classifieds and Directory Pro - Import/Export"
+msgstr ""
+
+#: premium/admin/import-export.php:83
+msgid "Import/Export"
+msgstr ""
+
+#: premium/admin/import-export.php:97
+msgid "Import"
+msgstr ""
+
+#: premium/admin/import-export.php:98
+msgid "Export"
+msgstr ""
+
+#: premium/admin/import-export.php:122
+msgid "Invalid CSV File!"
+msgstr ""
+
+#: premium/admin/import-export.php:156
+msgid "Categories field wasn't collated"
+msgstr ""
+
+#: premium/admin/import-export.php:158
+msgid "Listing Title field wasn't collated"
+msgstr ""
+
+#: premium/admin/import-export.php:160
+msgid "Listing Title, Categories fields wasn't collated"
+msgstr ""
+
+#: premium/admin/import-export.php:170
+#, php-format
+msgid "Import started, number of available rows in file: %d"
+msgstr ""
+
+#: premium/admin/import-export.php:179
+#, php-format
+msgid "Import finished, number of errors: %d, total rejected lines: %d"
+msgstr ""
+
+#: premium/admin/import-export.php:208
+msgid "Listing ID (existing listing)"
+msgstr ""
+
+#: premium/admin/import-export.php:209
+msgid "Listing Title"
+msgstr ""
+
+#: premium/admin/import-export.php:210
+msgid "Listing Description"
+msgstr ""
+
+#: premium/admin/import-export.php:214
+msgid "Zipcode"
+msgstr ""
+
+#: premium/admin/import-export.php:218
+msgid "Latitude"
+msgstr ""
+
+#: premium/admin/import-export.php:219
+msgid "Longitude"
+msgstr ""
+
+#: premium/admin/import-export.php:220
+msgid "Hide Map?"
+msgstr ""
+
+#: premium/admin/import-export.php:227
+msgid "Published Date"
+msgstr ""
+
+#: premium/admin/import-export.php:228 premium/public/stripe.php:73
+msgid "Expiry Date"
+msgstr ""
+
+#: premium/admin/import-export.php:230
+msgid "Listing Status"
+msgstr ""
+
+#: premium/admin/import-export.php:231
+msgid "Author"
+msgstr ""
+
+#: premium/admin/import-export.php:325
+#, php-format
+msgid "Importing line %d..."
+msgstr ""
+
+#: premium/admin/import-export.php:369 premium/admin/import-export.php:513
+#: premium/admin/import-export.php:570 premium/admin/import-export.php:578
+#: premium/admin/import-export.php:644 premium/admin/import-export.php:652
+#: premium/admin/import-export.php:734 premium/admin/import-export.php:751
+#: premium/admin/import-export.php:814 premium/admin/import-export.php:830
+#: premium/admin/import-export.php:899 premium/admin/import-export.php:936
+#, php-format
+msgid "Error on line %d: "
+msgstr ""
+
+#: premium/admin/import-export.php:369
+#, php-format
+msgid "Listing with ID \"%d\" doesn't exist"
+msgstr ""
+
+#: premium/admin/import-export.php:386
+#, php-format
+msgid "Listing title: %s"
+msgstr ""
+
+#: premium/admin/import-export.php:513
+#, php-format
+msgid "User \"%s\" doesn't exist, listing assigned to site admin"
+msgstr ""
+
+#: premium/admin/import-export.php:570
+#, php-format
+msgid "Something went wrong with listing category \"%s\""
+msgstr ""
+
+#: premium/admin/import-export.php:578
+#, php-format
+msgid "Listing category \"%s\" wasn't found, was skipped"
+msgstr ""
+
+#: premium/admin/import-export.php:644
+#, php-format
+msgid "Something went wrong with listing location \"%s\""
+msgstr ""
+
+#: premium/admin/import-export.php:652
+#, php-format
+msgid "Listing location \"%s\" wasn't found, was skipped"
+msgstr ""
+
+#: premium/admin/import-export.php:734 premium/admin/import-export.php:751
+#: premium/admin/import-export.php:814 premium/admin/import-export.php:830
+msgid "Unable to find location coordinates (lat, lng)"
+msgstr ""
+
+#: premium/admin/import-export.php:899
+#, php-format
+msgid "Image file \"%s\" not found inside the ZIP."
+msgstr ""
+
+#: premium/admin/import-export.php:936
+#, php-format
+msgid "Image file \"%s\" could not be inserted."
+msgstr ""
+
+#: premium/admin/multi-categories.php:34
+#: premium/admin/partials/woocommerce-fields.php:94
+msgid "Multi Categories"
+msgstr ""
+
+#: premium/admin/multi-categories.php:54
+msgid "Check this to enable multi categories."
+msgstr ""
+
+#: premium/admin/multi-categories.php:60
+msgid "Custom Fields Display Rules"
+msgstr ""
+
+#: premium/admin/multi-categories.php:61
+msgid "Determine how the custom fields are displayed."
+msgstr ""
+
+#: premium/admin/multi-categories.php:64
+msgid "Display custom fields of all the selected categories"
+msgstr ""
+
+#: premium/admin/multi-categories.php:65
+msgid "Display fields only common to the selected categories"
+msgstr ""
+
+#: premium/admin/partials/fee-details.php:17
+msgid "Fee Amount"
+msgstr ""
+
+#: premium/admin/partials/fee-details.php:21
+msgid "The cost of the plan. Use a value of 0.00 for a free plan."
+msgstr ""
+
+#: premium/admin/partials/fee-details.php:28
+#: premium/admin/partials/woocommerce-fields.php:53
+msgid "Listing Duration (in days)"
+msgstr ""
+
+#: premium/admin/partials/fee-details.php:32
+msgid "Use a value of 0 to keep a listing alive indefinitely."
+msgstr ""
+
+#: premium/admin/partials/form-export.php:19
+msgid "Items offset"
+msgstr ""
+
+#: premium/admin/partials/form-export.php:25
+msgid ""
+"Enter the offset of items to start with. Enter 0 to start from the beginning."
+msgstr ""
+
+#: premium/admin/partials/form-export.php:33
+msgid "Items number"
+msgstr ""
+
+#: premium/admin/partials/form-export.php:39
+msgid ""
+"Enter the number of items to export. Reduce the number if you get a timeout "
+"message."
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:18
+msgid "CSV File"
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:23
+#: premium/admin/partials/form-import-step1.php:43
+msgid "Download"
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:28
+#: premium/admin/partials/form-import-step1.php:48
+msgid "Upload File"
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:39
+msgid "Images ZIP archive"
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:55
+msgid ""
+"Upload ZIP archive with images for listings. Specify the image file names in "
+"one CSV column and separate them with a special delimiter (Categories, Multi "
+"Values separator). Note, that image files must be in the root inside a ZIP "
+"archive, not inside the folder."
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:63
+msgid "Columns separator"
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:75
+msgid "Categories, Multi Values separator"
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:83
+msgid ""
+"<strong>Multi Values</strong> - are such fields, those may have more than "
+"one value, for example, categories, images, checkboxes custom field items. "
+"Separate them in one CSV column with the special delimiter in this field."
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:91
+msgid "Create a new category/location"
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:97
+msgid "Create new when a category/location in the CSV file is not found"
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:101
+msgid ""
+"Use \">\" symbol for categories-subcategories hierarchy. <strong>Example of "
+"subcategories import:</strong> \"Business services > Advertising ; Real "
+"estate > Properties > Commercial\". 2 root categories will be created, if "
+"they were not existed before import: \"Business services\" and \"Real estate"
+"\". And all their subcategories will be created in this hierarchy: "
+"\"Advertising\", \"Properties\" and \"Commercial\". Locations import works "
+"in the same way."
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:109
+msgid "Create a new user"
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:115
+msgid ""
+"Create a new user when an \"Author\" in the CSV file is not found. Note the "
+"\"Author\" column should be an email address to get this work"
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:123
+msgid "Use Google Maps API to find the location coordinates"
+msgstr ""
+
+#: premium/admin/partials/form-import-step1.php:129
+msgid ""
+"Required when you don't have coordinates (latitude, longitude) to import, "
+"but need listings map markers"
+msgstr ""
+
+#: premium/admin/partials/form-import-step2.php:15
+msgid "Map CSV Columns"
+msgstr ""
+
+#: premium/admin/partials/form-import-step2.php:22
+msgid "Column name"
+msgstr ""
+
+#: premium/admin/partials/form-import-step2.php:29
+msgid "Map to field"
+msgstr ""
+
+#: premium/admin/partials/form-import-step2.php:45
+msgid "Select listings field"
+msgstr ""
+
+#: premium/admin/partials/form-import.php:16
+msgid "Proceed Next"
+msgstr ""
+
+#: premium/admin/partials/form-import.php:20
+msgid "Import Log"
+msgstr ""
+
+#: premium/admin/partials/import-export.php:14
+msgid "CSV Import/Export"
+msgstr ""
+
+#: premium/admin/partials/woocommerce-fields.php:19
+msgid "Is Listings Subscription?"
+msgstr ""
+
+#: premium/admin/partials/woocommerce-fields.php:20
+msgid "Check this option if this is a listings subscription product"
+msgstr ""
+
+#: premium/admin/partials/woocommerce-fields.php:33
+msgid "Listings Limit"
+msgstr ""
+
+#: premium/admin/partials/woocommerce-fields.php:36
+msgid ""
+"Enter the number of listings this plan allows. Leave this field empty to "
+"allow unlimited listings."
+msgstr ""
+
+#: premium/admin/partials/woocommerce-fields.php:50
+msgid "Listing Duration"
+msgstr ""
+
+#: premium/admin/partials/woocommerce-fields.php:67
+msgid "Images Limit"
+msgstr ""
+
+#: premium/admin/partials/woocommerce-fields.php:70
+msgid "Enter the number of images the users can upload per listing."
+msgstr ""
+
+#: premium/admin/partials/woocommerce-fields.php:85
+msgid ""
+"Check this option if you want to make all listings submitted using this plan "
+"as featured. Featured listings will always appear on top of regular listings."
+msgstr ""
+
+#: premium/admin/partials/woocommerce-fields.php:99
+#: premium/admin/partials/woocommerce-fields.php:107
+msgid "Select Categories"
+msgstr ""
+
+#: premium/admin/partials/woocommerce-fields.php:109
+msgid ""
+"Select categories that the plan belongs to. Leave this field empty to assign "
+"this plan to all the listing categories."
+msgstr ""
+
+#: premium/admin/partials/woocommerce-fields.php:119
+msgid "Disable Repeat Purchase"
+msgstr ""
+
+#: premium/admin/partials/woocommerce-fields.php:120
+msgid "Check this option if this plan can be purchased only once per user."
+msgstr ""
+
+#: premium/admin/paypal.php:77
+msgid "Business email"
+msgstr ""
+
+#: premium/admin/paypal.php:78
+msgid "Enter your PayPal account's email."
+msgstr ""
+
+#: premium/admin/slider.php:36
+msgid "Listings Slider"
+msgstr ""
+
+#: premium/admin/slider.php:51 premium/admin/slider.php:289
+msgid "Use current page location when in the single location page"
+msgstr ""
+
+#: premium/admin/slider.php:66 premium/admin/slider.php:304
+msgid "Use current page category when in the single category page"
+msgstr ""
+
+#: premium/admin/slider.php:84 premium/admin/slider.php:322
+#: premium/widgets/forms/banner-rotator.php:73
+#: premium/widgets/forms/carousel-slider.php:73
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:102
+msgid "Limit"
+msgstr ""
+
+#: premium/admin/slider.php:124
+msgid "Slides to show"
+msgstr ""
+
+#: premium/admin/slider.php:125
+msgid "# of slides to show"
+msgstr ""
+
+#: premium/admin/slider.php:134
+msgid "Image size"
+msgstr ""
+
+#: premium/admin/slider.php:138 premium/widgets/forms/carousel-slider.php:142
+msgid "Thumbnail"
+msgstr ""
+
+#: premium/admin/slider.php:139 premium/widgets/forms/carousel-slider.php:143
+msgid "Medium"
+msgstr ""
+
+#: premium/admin/slider.php:140 premium/widgets/forms/carousel-slider.php:144
+msgid "Large"
+msgstr ""
+
+#: premium/admin/slider.php:141 premium/widgets/forms/carousel-slider.php:145
+msgid "Full"
+msgstr ""
+
+#: premium/admin/slider.php:147 premium/admin/slider.php:362
+msgid "Image scaling ratio [%]"
+msgstr ""
+
+#: premium/admin/slider.php:148 premium/admin/slider.php:363
+msgid "A decimal value. Accepted values are 0 to 1."
+msgstr ""
+
+#: premium/admin/slider.php:154 premium/admin/slider.php:369
+msgid "Image stretch type"
+msgstr ""
+
+#: premium/admin/slider.php:158 premium/admin/slider.php:373
+#: premium/widgets/forms/banner-rotator.php:125
+#: premium/widgets/forms/carousel-slider.php:165
+msgid "Uniform"
+msgstr ""
+
+#: premium/admin/slider.php:159 premium/admin/slider.php:374
+#: premium/widgets/forms/banner-rotator.php:126
+#: premium/widgets/forms/carousel-slider.php:166
+msgid "Fill"
+msgstr ""
+
+#: premium/admin/slider.php:165 premium/admin/slider.php:387
+msgid "Show arrows"
+msgstr ""
+
+#: premium/admin/slider.php:172 premium/admin/slider.php:394
+msgid "Arrows background color"
+msgstr ""
+
+#: premium/admin/slider.php:179 premium/admin/slider.php:401
+msgid "Arrows icon color"
+msgstr ""
+
+#: premium/admin/slider.php:186 premium/admin/slider.php:408
+msgid "Arrows top offset [%]"
+msgstr ""
+
+#: premium/admin/slider.php:193 premium/admin/slider.php:415
+msgid "Arrows left offset [px]"
+msgstr ""
+
+#: premium/admin/slider.php:200 premium/admin/slider.php:422
+msgid "Arrows right offset [px]"
+msgstr ""
+
+#: premium/admin/slider.php:207 premium/admin/slider.php:429
+msgid "Arrows padding [px]"
+msgstr ""
+
+#: premium/admin/slider.php:214 premium/admin/slider.php:436
+msgid "Arrows icon size [px]"
+msgstr ""
+
+#: premium/admin/slider.php:221 premium/admin/slider.php:443
+msgid "Arrows border radius [px]"
+msgstr ""
+
+#: premium/admin/slider.php:228 premium/admin/slider.php:450
+msgid "Show dots"
+msgstr ""
+
+#: premium/admin/slider.php:235 premium/admin/slider.php:457
+msgid "Dots background color"
+msgstr ""
+
+#: premium/admin/slider.php:242 premium/admin/slider.php:464
+msgid "Dots active background color"
+msgstr ""
+
+#: premium/admin/slider.php:249 premium/admin/slider.php:471
+#: premium/widgets/forms/banner-rotator.php:203
+#: premium/widgets/forms/carousel-slider.php:238
+msgid "Autoplay"
+msgstr ""
+
+#: premium/admin/slider.php:256 premium/admin/slider.php:478
+msgid "Autoplay interval [milliseconds]"
+msgstr ""
+
+#: premium/admin/slider.php:263 premium/admin/slider.php:485
+msgid "Animation Speed"
+msgstr ""
+
+#: premium/admin/slider.php:274
+msgid "Listings Banner"
+msgstr ""
+
+#: premium/admin/slider.php:380
+msgid "Show excerpt"
+msgstr ""
+
+#: premium/admin/slider.php:492
+msgid "Enable Fade"
+msgstr ""
+
+#: premium/admin/stripe.php:77
+msgid "Live Secret Key"
+msgstr ""
+
+#: premium/admin/stripe.php:84
+msgid "Live Publishable Key"
+msgstr ""
+
+#: premium/admin/stripe.php:91
+msgid "Test Secret Key"
+msgstr ""
+
+#: premium/admin/stripe.php:98
+msgid "Test Publishable Key"
+msgstr ""
+
+#: premium/admin/woocommerce-plans.php:34
+#: premium/admin/woocommerce-plans.php:93
+msgid "WooCommerce Plans"
+msgstr ""
+
+#: premium/admin/woocommerce-plans.php:54
+msgid "Check this to enable WooCommerce plans"
+msgstr ""
+
+#: premium/admin/woocommerce-plans.php:60
+msgid "Product Type"
+msgstr ""
+
+#: premium/admin/woocommerce-plans.php:64
+#: premium/admin/woocommerce-plans.php:190
+msgid "Listings Package"
+msgstr ""
+
+#: premium/admin/woocommerce-plans.php:67
+msgid "Subscription"
+msgstr ""
+
+#: premium/admin/woocommerce-plans.php:68
+msgid "WooCommerce Subscription plugin required"
+msgstr ""
+
+#: premium/admin/woocommerce-plans.php:191
+msgid "Listings Featured"
+msgstr ""
+
+#: premium/public/fee-plans.php:37 premium/public/woocommerce-plans.php:477
+msgid ""
+"Since our submission charges vary based on categories, you cannot change the "
+"category after the listing has been submitted. So, make sure that you've "
+"selected the right category before submitting this listing."
+msgstr ""
+
+#: premium/public/fee-plans.php:60 premium/public/woocommerce-plans.php:501
+msgid ""
+"Since our submission charges vary based on categories, you cannot change it "
+"here. Contact the \"Site Admin\" in case you've accidentally posted in the "
+"wrong category."
+msgstr ""
+
+#: premium/public/paypal.php:73
+msgid "Redirecting to paypal.com, please wait..."
+msgstr ""
+
+#: premium/public/public.php:88
+msgid "The credit card number appears to be invalid."
+msgstr ""
+
+#: premium/public/public.php:89
+msgid "The CVC number appears to be invalid."
+msgstr ""
+
+#: premium/public/public.php:90
+msgid "The expiration date appears to be invalid."
+msgstr ""
+
+#: premium/public/stripe.php:53
+msgid "Enter your card details"
+msgstr ""
+
+#: premium/public/stripe.php:59
+msgid "Card Number"
+msgstr ""
+
+#: premium/public/stripe.php:60
+msgid "Card number"
+msgstr ""
+
+#: premium/public/stripe.php:66 premium/public/stripe.php:67
+msgid "CVC"
+msgstr ""
+
+#: premium/public/stripe.php:76
+msgid "MM"
+msgstr ""
+
+#: premium/public/stripe.php:79
+msgid "YYYY"
+msgstr ""
+
+#: premium/public/stripe.php:131
+msgid "Invalid parameters supplied to Stripe's API"
+msgstr ""
+
+#: premium/public/stripe.php:133
+msgid ""
+"Authentication with Stripe's API failed. Maybe you changed API keys recently"
+msgstr ""
+
+#: premium/public/stripe.php:135
+msgid "Stripe's servers are down!"
+msgstr ""
+
+#: premium/public/stripe.php:137
+msgid "Network problem, perhaps try again."
+msgstr ""
+
+#: premium/public/stripe.php:139 premium/public/woocommerce-plans.php:169
+#: public/class-acadp-public-payments.php:89
+#: public/class-acadp-public-payments.php:234
+msgid "Sorry, something went wrong."
+msgstr ""
+
+#: premium/public/stripe.php:141
+msgid "Sorry, something went wrong. Completely unrelated to Stripe"
+msgstr ""
+
+#: premium/public/stripe.php:144
+msgid ""
+"The order cannot be processed. You have not been charged. Please confirm "
+"that you have JavaScript enabled and try again."
+msgstr ""
+
+#: premium/public/templates/carousel-slider.php:36
+#: public/partials/listing/acadp-public-listing-display.php:25
+#: public/partials/listings/acadp-public-listings-grid-display.php:128
+#: public/partials/listings/acadp-public-listings-list-display.php:121
+#: public/partials/listings/acadp-public-listings-map-display.php:124
+#: public/partials/user/acadp-public-manage-listings-display.php:60
+#: widgets/listings/views/acadp-widget-public-listings-map-display.php:47
+#: widgets/listings/views/acadp-widget-public-listings-media-display.php:52
+#: widgets/listings/views/acadp-widget-public-listings-thumbnail-display.php:50
+#, php-format
+msgid "Posted %s ago"
+msgstr ""
+
+#: premium/public/templates/checkout-woocommerce-featured.php:48
+#: premium/public/templates/checkout-woocommerce.php:70
+#: public/partials/payments/acadp-public-checkout-display.php:75
+msgid "Not now"
+msgstr ""
+
+#: premium/public/templates/checkout-woocommerce.php:14
+msgid "Please select a plan and proceed."
+msgstr ""
+
+#: premium/public/woocommerce-plans.php:337
+msgid "My subscriptions"
+msgstr ""
+
+#: premium/public/woocommerce-plans.php:397
+#: premium/public/woocommerce-plans.php:406
+#: premium/public/woocommerce-plans.php:443
+#: premium/public/woocommerce-plans.php:452
+msgid "Listings limit"
+msgstr ""
+
+#: premium/public/woocommerce-plans.php:398
+#: premium/public/woocommerce-plans.php:444
+msgid "unlimited"
+msgstr ""
+
+#: premium/public/woocommerce-plans.php:408
+#: premium/public/woocommerce-plans.php:454
+msgid "Listings submitted"
+msgstr ""
+
+#: premium/public/woocommerce-plans.php:754
+#, php-format
+msgid ""
+"Congrats! <a href=\"%s\"><strong>CLICK HERE</strong></a> to view your "
+"listings."
+msgstr ""
+
+#: premium/public/woocommerce-plans.php:759
+#, php-format
+msgid ""
+"Congrats! <a href=\"%s\"><strong>CLICK HERE</strong></a> to submit your "
+"listing."
+msgstr ""
+
+#: premium/widgets/banner-rotator.php:32
+msgid "ACADP - Banner Rotator"
+msgstr ""
+
+#: premium/widgets/banner-rotator.php:35
+msgid "Banner Rotator for Advanced Classifieds and Directory Pro"
+msgstr ""
+
+#: premium/widgets/carousel-slider.php:32
+msgid "ACADP - Carousel Slider"
+msgstr ""
+
+#: premium/widgets/carousel-slider.php:35
+msgid "Carousel Slider for Advanced Classifieds and Directory Pro"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:19
+#: premium/widgets/forms/carousel-slider.php:19
+msgid "Filter by Location"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:39
+#: premium/widgets/forms/carousel-slider.php:39
+msgid "Filter by Category"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:59
+#: premium/widgets/forms/carousel-slider.php:59
+msgid "Follow Locations"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:64
+#: premium/widgets/forms/carousel-slider.php:64
+msgid "Follow Categories"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:69
+#: premium/widgets/forms/carousel-slider.php:69
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:62
+msgid "Featured Only"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:78
+#: premium/widgets/forms/carousel-slider.php:78
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:67
+msgid "Order By"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:100
+#: premium/widgets/forms/carousel-slider.php:100
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:90
+msgid "ASC"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:101
+#: premium/widgets/forms/carousel-slider.php:101
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:91
+msgid "DESC"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:112
+#: premium/widgets/forms/carousel-slider.php:112
+msgid "Slider Options"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:116
+#: premium/widgets/forms/carousel-slider.php:156
+msgid "Images Scaling Ratio"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:121
+#: premium/widgets/forms/carousel-slider.php:161
+msgid "Images Scaling Method"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:138
+msgid "Show Content"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:143
+#: premium/widgets/forms/carousel-slider.php:178
+msgid "Dots"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:147
+#: premium/widgets/forms/carousel-slider.php:182
+msgid "Dots BG Color"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:152
+#: premium/widgets/forms/carousel-slider.php:187
+msgid "Dots Active BG Color"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:158
+#: premium/widgets/forms/carousel-slider.php:193
+msgid "Arrows"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:162
+#: premium/widgets/forms/carousel-slider.php:197
+msgid "Arrows BG Color"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:167
+#: premium/widgets/forms/carousel-slider.php:202
+msgid "Arrows Icon Color"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:172
+#: premium/widgets/forms/carousel-slider.php:207
+msgid "Arrows Top Offset"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:177
+#: premium/widgets/forms/carousel-slider.php:212
+msgid "Arrows Left Offset"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:182
+#: premium/widgets/forms/carousel-slider.php:217
+msgid "Arrows Right Offset"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:187
+#: premium/widgets/forms/carousel-slider.php:222
+msgid "Arrows Padding"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:192
+#: premium/widgets/forms/carousel-slider.php:227
+msgid "Arrows Icon Size"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:197
+#: premium/widgets/forms/carousel-slider.php:232
+msgid "Arrows Border Radius"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:207
+#: premium/widgets/forms/carousel-slider.php:242
+msgid "Autoplay Interval"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:212
+#: premium/widgets/forms/carousel-slider.php:247
+msgid "Speed"
+msgstr ""
+
+#: premium/widgets/forms/banner-rotator.php:218
+msgid "Fade"
+msgstr ""
+
+#: premium/widgets/forms/carousel-slider.php:116
+msgid "Slides to Show"
+msgstr ""
+
+#: premium/widgets/forms/carousel-slider.php:127
+msgid "Slides to Scroll"
+msgstr ""
+
+#: premium/widgets/forms/carousel-slider.php:138
+msgid "Images Size"
+msgstr ""
+
+#: premium/widgets/forms/carousel-slider.php:253
+msgid "Center Mode"
+msgstr ""
+
+#: public/class-acadp-public-categories.php:90
+#: public/class-acadp-public-categories.php:395
+#: public/class-acadp-public-listings.php:397
+#: public/class-acadp-public-locations.php:89
+#: public/class-acadp-public-locations.php:386
+#: public/class-acadp-public-payments.php:281
+#: public/class-acadp-public-search.php:447
+#: public/class-acadp-public-user.php:387
+#: public/class-acadp-public-user.php:1343
+msgid "No Results Found."
+msgstr ""
+
+#: public/class-acadp-public-listing.php:227
+#: public/class-acadp-public-listing.php:256
+msgid "Your message sent successfully."
+msgstr ""
+
+#: public/class-acadp-public-listing.php:230
+#: public/class-acadp-public-listing.php:259
+msgid "Sorry! Please try again."
+msgstr ""
+
+#: public/class-acadp-public-listing.php:234
+#: public/class-acadp-public-listing.php:263
+#: public/class-acadp-public-registration.php:971
+#: public/class-acadp-public-user.php:55
+msgid "Invalid Captcha: Please try again."
+msgstr ""
+
+#: public/class-acadp-public-payments.php:120
+#, php-format
+msgid "[Order] Listing #%d"
+msgstr ""
+
+#: public/class-acadp-public-payments.php:249
+#: public/class-acadp-public-user.php:440
+#: public/class-acadp-public-user.php:1009
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:312
+#: public/class-acadp-public-registration.php:415
+#: public/class-acadp-public-registration.php:458
+msgid "You are already signed in."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:314
+#: public/class-acadp-public-registration.php:967
+msgid "Registering new users is currently not allowed."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:495
+msgid "Invalid password reset link."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:716
+msgid "Invalid request."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:742
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+
+#: public/class-acadp-public-registration.php:745
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:746
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: public/class-acadp-public-registration.php:926
+msgid "The username field is empty."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:930
+msgid "Invalid username."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:934
+msgid "Sorry, that username already exists!"
+msgstr ""
+
+#: public/class-acadp-public-registration.php:938
+msgid "The email field is empty."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:942
+msgid "Invalid email address."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:946
+msgid "Sorry, that email address already exists!"
+msgstr ""
+
+#: public/class-acadp-public-registration.php:950
+msgid "The password field is empty."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:954
+msgid "The two passwords you entered don't match."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:958
+msgid "The password you entered is incorrect."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:959
+msgid "Lost your password?"
+msgstr ""
+
+#: public/class-acadp-public-registration.php:963
+msgid "Invalid username or email."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:976
+msgid "The password reset link you used is not valid anymore."
+msgstr ""
+
+#: public/class-acadp-public-registration.php:980
+msgid "An unknown error occurred. Please try again later."
+msgstr ""
+
+#: public/class-acadp-public-user.php:619
+msgid "File is not an image."
+msgstr ""
+
+#: public/class-acadp-public-user.php:624
+msgid "Invalid file format"
+msgstr ""
+
+#: public/class-acadp-public-user.php:689
+#: public/class-acadp-public-user.php:853
+#: public/partials/user/acadp-public-edit-listing-display.php:300
+msgid "Save Draft"
+msgstr ""
+
+#: public/class-acadp-public.php:1020
+#, php-format
+msgid "You have searched for \"%s\"..."
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:43
+#: public/partials/listings/acadp-public-listings-grid-display.php:135
+#: public/partials/listings/acadp-public-listings-list-display.php:128
+#: public/partials/listings/acadp-public-listings-map-display.php:131
+#: widgets/listings/views/acadp-widget-public-listings-map-display.php:54
+#: widgets/listings/views/acadp-widget-public-listings-media-display.php:59
+#: widgets/listings/views/acadp-widget-public-listings-thumbnail-display.php:57
+msgid "by"
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:47
+#: public/partials/listings/acadp-public-listings-grid-display.php:192
+#: public/partials/listings/acadp-public-listings-list-display.php:185
+#: public/partials/listings/acadp-public-listings-map-display.php:188
+#: public/partials/user/acadp-public-manage-listings-display.php:84
+#: widgets/listings/views/acadp-widget-public-listings-map-display.php:109
+#: widgets/listings/views/acadp-widget-public-listings-media-display.php:114
+#: widgets/listings/views/acadp-widget-public-listings-thumbnail-display.php:112
+#, php-format
+msgid "%d views"
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:108
+msgid "Listing ID"
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:143
+msgid "Check all listings by this user"
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:163
+msgid "Report Abuse"
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:167
+msgid "Your Complaint"
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:168
+#: public/partials/listing/acadp-public-listing-display.php:257
+#: widgets/listing-contact/views/acadp-widget-public-listing-contact-display.php:45
+msgid "Message"
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:174
+msgid "Close"
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:175
+#: public/partials/listing/acadp-public-listing-display.php:263
+#: widgets/listing-contact/views/acadp-widget-public-listing-contact-display.php:51
+msgid "Submit"
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:205
+#: public/partials/user/acadp-public-edit-listing-display.php:108
+msgid "Contact details"
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:225
+#: widgets/listing-contact/class-acadp-widget-listing-contact.php:106
+msgid "Contact this listing owner"
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:230
+#: widgets/listing-contact/views/acadp-widget-public-listing-contact-display.php:18
+#, php-format
+msgid "Please, <a href=\"%s\">login</a> to contact this listing owner."
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:232
+#: widgets/listing-contact/views/acadp-widget-public-listing-contact-display.php:20
+msgid "Please, login to contact this listing owner."
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:241
+#: widgets/listing-contact/views/acadp-widget-public-listing-contact-display.php:29
+msgid "Your Name"
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:246
+#: widgets/listing-contact/views/acadp-widget-public-listing-contact-display.php:34
+msgid "Your E-mail Address"
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:251
+#: widgets/listing-contact/views/acadp-widget-public-listing-contact-display.php:39
+msgid "Your Phone Number"
+msgstr ""
+
+#: public/partials/listing/acadp-public-listing-display.php:256
+#: widgets/listing-contact/views/acadp-widget-public-listing-contact-display.php:44
+msgid "Your Message"
+msgstr ""
+
+#: public/partials/listings/acadp-public-listings-grid-display.php:31
+#: public/partials/listings/acadp-public-listings-list-display.php:31
+#: public/partials/listings/acadp-public-listings-map-display.php:31
+#, php-format
+msgid "%d item(s) found"
+msgstr ""
+
+#: public/partials/listings/acadp-public-listings-grid-display.php:45
+#: public/partials/listings/acadp-public-listings-list-display.php:45
+#: public/partials/listings/acadp-public-listings-map-display.php:45
+msgid "Sort by"
+msgstr ""
+
+#: public/partials/listings/acadp-public-listings-grid-display.php:72
+#: public/partials/listings/acadp-public-listings-list-display.php:72
+#: public/partials/listings/acadp-public-listings-map-display.php:72
+msgid "View as"
+msgstr ""
+
+#: public/partials/payments/acadp-public-checkout-display.php:16
+msgid ""
+"Please review your order, and click Purchase once you are ready to proceed."
+msgstr ""
+
+#: public/partials/payments/acadp-public-checkout-display.php:56
+#, php-format
+msgid "Payable amount [%s]"
+msgstr ""
+
+#: public/partials/payments/acadp-public-checkout-display.php:63
+msgid "Choose payment method"
+msgstr ""
+
+#: public/partials/payments/acadp-public-payment-receipt-display.php:14
+msgid "Thank you for your order!"
+msgstr ""
+
+#: public/partials/payments/acadp-public-payment-receipt-display.php:26
+msgid "ORDER"
+msgstr ""
+
+#: public/partials/payments/acadp-public-payment-receipt-display.php:31
+msgid "Total Amount"
+msgstr ""
+
+#: public/partials/payments/acadp-public-payment-receipt-display.php:59
+msgid "Payment Method"
+msgstr ""
+
+#: public/partials/payments/acadp-public-payment-receipt-display.php:74
+msgid "Payment Status"
+msgstr ""
+
+#: public/partials/payments/acadp-public-payment-receipt-display.php:84
+msgid "Transaction Key"
+msgstr ""
+
+#: public/partials/payments/acadp-public-payment-receipt-display.php:91
+msgid "ITEMS"
+msgstr ""
+
+#: public/partials/payments/acadp-public-payment-receipt-display.php:94
+msgid "NAME"
+msgstr ""
+
+#: public/partials/payments/acadp-public-payment-receipt-display.php:95
+msgid "PRICE"
+msgstr ""
+
+#: public/partials/payments/acadp-public-payment-receipt-display.php:114
+msgid "View all my listings"
+msgstr ""
+
+#: public/partials/registration/acadp-public-forgot-password-display.php:24
+msgid ""
+"Enter your Username or E-mail Address. We'll send you a link you can use to "
+"pick a new password."
+msgstr ""
+
+#: public/partials/registration/acadp-public-forgot-password-display.php:29
+#: public/partials/registration/acadp-public-login-display.php:57
+msgid "Username or E-mail"
+msgstr ""
+
+#: public/partials/registration/acadp-public-forgot-password-display.php:41
+#: public/partials/registration/acadp-public-password-reset-display.php:59
+msgid "Reset Password"
+msgstr ""
+
+#: public/partials/registration/acadp-public-login-display.php:26
+msgid "You have signed out. Would you like to login again?"
+msgstr ""
+
+#: public/partials/registration/acadp-public-login-display.php:34
+#, php-format
+msgid ""
+"You have successfully registered to <strong>%s</strong>. We have emailed "
+"your account details to the email address you entered."
+msgstr ""
+
+#: public/partials/registration/acadp-public-login-display.php:45
+msgid "Check your email for a link to reset your password."
+msgstr ""
+
+#: public/partials/registration/acadp-public-login-display.php:51
+msgid "Your password has been changed. You can login now."
+msgstr ""
+
+#: public/partials/registration/acadp-public-login-display.php:64
+#: public/partials/registration/acadp-public-register-display.php:54
+msgid "Password"
+msgstr ""
+
+#: public/partials/registration/acadp-public-login-display.php:74
+msgid "Remember Me"
+msgstr ""
+
+#: public/partials/registration/acadp-public-logout-display.php:14
+msgid "Logout"
+msgstr ""
+
+#: public/partials/registration/acadp-public-password-reset-display.php:40
+msgid "New password"
+msgstr ""
+
+#: public/partials/registration/acadp-public-password-reset-display.php:47
+msgid "Repeat new password"
+msgstr ""
+
+#: public/partials/registration/acadp-public-register-display.php:25
+#: public/partials/registration/acadp-public-user-account-display.php:31
+msgid "Username"
+msgstr ""
+
+#: public/partials/registration/acadp-public-register-display.php:28
+msgid "Usernames cannot be changed."
+msgstr ""
+
+#: public/partials/registration/acadp-public-register-display.php:33
+#: public/partials/registration/acadp-public-user-account-display.php:38
+msgid "First Name"
+msgstr ""
+
+#: public/partials/registration/acadp-public-register-display.php:40
+#: public/partials/registration/acadp-public-user-account-display.php:45
+msgid "Last Name"
+msgstr ""
+
+#: public/partials/registration/acadp-public-register-display.php:47
+#: public/partials/registration/acadp-public-user-account-display.php:52
+msgid "E-mail Address"
+msgstr ""
+
+#: public/partials/registration/acadp-public-register-display.php:61
+#: public/partials/registration/acadp-public-user-account-display.php:76
+msgid "Confirm Password"
+msgstr ""
+
+#: public/partials/registration/acadp-public-user-account-display.php:25
+msgid "Your account has been updated!"
+msgstr ""
+
+#: public/partials/registration/acadp-public-user-account-display.php:62
+msgid "Change Password"
+msgstr ""
+
+#: public/partials/registration/acadp-public-user-account-display.php:69
+msgid "New Password"
+msgstr ""
+
+#: public/partials/registration/acadp-public-user-account-display.php:86
+msgid "Update Account"
+msgstr ""
+
+#: public/partials/search/acadp-public-search-form-inline-display.php:25
+#: public/partials/search/acadp-public-search-form-vertical-display.php:24
+msgid "Enter your keyword here ..."
+msgstr ""
+
+#: public/partials/search/acadp-public-search-form-inline-display.php:86
+#: public/partials/search/acadp-public-search-form-vertical-display.php:77
+msgid "Price Range"
+msgstr ""
+
+#: public/partials/search/acadp-public-search-form-inline-display.php:89
+#: public/partials/search/acadp-public-search-form-vertical-display.php:80
+msgid "min"
+msgstr ""
+
+#: public/partials/search/acadp-public-search-form-inline-display.php:92
+#: public/partials/search/acadp-public-search-form-vertical-display.php:83
+msgid "max"
+msgstr ""
+
+#: public/partials/search/acadp-public-search-form-inline-display.php:105
+#: public/partials/search/acadp-public-search-form-vertical-display.php:91
+#: public/partials/user/acadp-public-manage-listings-display.php:29
+msgid "Reset"
+msgstr ""
+
+#: public/partials/user/acadp-public-edit-listing-display.php:29
+msgid "Please fill in all required fields."
+msgstr ""
+
+#: public/partials/user/acadp-public-edit-listing-display.php:34
+msgid "Choose category"
+msgstr ""
+
+#: public/partials/user/acadp-public-edit-listing-display.php:66
+msgid "Listing details"
+msgstr ""
+
+#: public/partials/user/acadp-public-edit-listing-display.php:195
+msgid "Note"
+msgstr ""
+
+#: public/partials/user/acadp-public-edit-listing-display.php:196
+#, php-format
+msgid "You can upload up to %d images"
+msgstr ""
+
+#: public/partials/user/acadp-public-edit-listing-display.php:241
+msgid "Video URL"
+msgstr ""
+
+#: public/partials/user/acadp-public-edit-listing-display.php:244
+msgid "Only YouTube & Vimeo URLs"
+msgstr ""
+
+#: public/partials/user/acadp-public-edit-listing-display.php:252
+msgid "Your price"
+msgstr ""
+
+#: public/partials/user/acadp-public-edit-listing-display.php:264
+msgid ""
+"You can adjust your price anytime you like, even after your listing is "
+"published."
+msgstr ""
+
+#: public/partials/user/acadp-public-edit-listing-display.php:276
+msgid "Complete listing"
+msgstr ""
+
+#: public/partials/user/acadp-public-edit-listing-display.php:305
+msgid "Preview"
+msgstr ""
+
+#: public/partials/user/acadp-public-edit-listing-display.php:309
+msgid "Place Listing"
+msgstr ""
+
+#: public/partials/user/acadp-public-edit-listing-display.php:311
+msgid "Save Changes"
+msgstr ""
+
+#: public/partials/user/acadp-public-manage-listings-display.php:26
+msgid "Search by title"
+msgstr ""
+
+#: public/partials/user/acadp-public-manage-listings-display.php:28
+msgid "Search"
+msgstr ""
+
+#: public/partials/user/acadp-public-manage-listings-display.php:124
+msgid "Renew"
+msgstr ""
+
+#: public/partials/user/acadp-public-manage-listings-display.php:132
+msgid "Promote"
+msgstr ""
+
+#: public/partials/user/acadp-public-manage-listings-display.php:144
+msgid "Are you sure you want to delete this listing?"
+msgstr ""
+
+#: public/partials/user/acadp-public-manage-listings-display.php:145
+msgid "Delete"
+msgstr ""
+
+#: public/partials/user/acadp-public-user-dashboard-display.php:30
+msgid "Total Listings"
+msgstr ""
+
+#: public/partials/user/acadp-public-user-dashboard-display.php:38
+msgid "Active Listings"
+msgstr ""
+
+#: widgets/categories/class-acadp-widget-categories.php:43
+msgid "ACADP Categories"
+msgstr ""
+
+#: widgets/categories/class-acadp-widget-categories.php:46
+msgid "A list of \"Advanced Classifieds and Directory Pro\" Categories."
+msgstr ""
+
+#: widgets/categories/views/acadp-widget-admin-categories-display.php:19
+#: widgets/locations/views/acadp-widget-admin-locations-display.php:19
+msgid "Select Template"
+msgstr ""
+
+#: widgets/categories/views/acadp-widget-admin-categories-display.php:22
+#: widgets/locations/views/acadp-widget-admin-locations-display.php:22
+msgid "Dropdown"
+msgstr ""
+
+#: widgets/categories/views/acadp-widget-admin-categories-display.php:27
+#: widgets/categories/views/acadp-widget-admin-categories-display.php:30
+#: widgets/locations/views/acadp-widget-admin-locations-display.php:27
+#: widgets/locations/views/acadp-widget-admin-locations-display.php:30
+msgid "Select Parent"
+msgstr ""
+
+#: widgets/categories/views/acadp-widget-admin-categories-display.php:47
+msgid ""
+"Show only the immediate children of the selected category. Displays all the "
+"top level categories if no parent is selected."
+msgstr ""
+
+#: widgets/categories/views/acadp-widget-admin-categories-display.php:52
+msgid "Hide Empty Categories"
+msgstr ""
+
+#: widgets/categories/views/acadp-widget-admin-categories-display.php:57
+#: widgets/locations/views/acadp-widget-admin-locations-display.php:58
+msgid "Show Listing Counts"
+msgstr ""
+
+#: widgets/listing-address/class-acadp-widget-listing-address.php:43
+msgid "ACADP Listing Address"
+msgstr ""
+
+#: widgets/listing-address/class-acadp-widget-listing-address.php:46
+msgid "\"Advanced Classifieds & Directory Pro\" Listing Address and Map."
+msgstr ""
+
+#: widgets/listing-address/class-acadp-widget-listing-address.php:118
+msgid "Listing Address"
+msgstr ""
+
+#: widgets/listing-contact/class-acadp-widget-listing-contact.php:43
+msgid "ACADP Listing Contact"
+msgstr ""
+
+#: widgets/listing-contact/class-acadp-widget-listing-contact.php:46
+msgid ""
+"Contact us form to contact \"Advanced Classifieds & Directory Pro\" listing "
+"owners."
+msgstr ""
+
+#: widgets/listing-video/class-acadp-widget-listing-video.php:43
+msgid "ACADP Listing Video"
+msgstr ""
+
+#: widgets/listing-video/class-acadp-widget-listing-video.php:46
+msgid "\"Advanced Classifieds & Directory Pro\" Listing Video."
+msgstr ""
+
+#: widgets/listing-video/class-acadp-widget-listing-video.php:112
+msgid "Listing Video"
+msgstr ""
+
+#: widgets/listings/class-acadp-widget-listings.php:109
+msgid "ACADP Listings"
+msgstr ""
+
+#: widgets/listings/class-acadp-widget-listings.php:112
+msgid "Displays \"Advanced Classifieds and Directory Pro\" Listings."
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:20
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:23
+msgid "Select Location"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:75
+msgid "Random"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:108
+msgid "Related Listings"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:116
+msgid "View"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:120
+msgid "Standard"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:139
+msgid "Show Image"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:143
+msgid "Image Position"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:147
+msgid "Top"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:148
+msgid "Left"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:161
+msgid "Show Description"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:166
+msgid "Show Category"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:172
+msgid "Show Location"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:179
+msgid "Show Price"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:185
+msgid "Show Date"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:190
+msgid "Show User"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:195
+msgid "Show Views"
+msgstr ""
+
+#: widgets/listings/views/acadp-widget-admin-listings-display.php:200
+msgid "Show Custom Fields"
+msgstr ""
+
+#: widgets/locations/class-acadp-widget-locations.php:43
+msgid "ACADP Locations"
+msgstr ""
+
+#: widgets/locations/class-acadp-widget-locations.php:46
+msgid "A list of \"Advanced Classifieds and Directory Pro\" Locations."
+msgstr ""
+
+#: widgets/locations/views/acadp-widget-admin-locations-display.php:48
+msgid ""
+"Show only the immediate children of the selected location. Displays all the "
+"top level locations if no parent is selected."
+msgstr ""
+
+#: widgets/locations/views/acadp-widget-admin-locations-display.php:53
+msgid "Hide Empty Locations"
+msgstr ""
+
+#: widgets/search/class-acadp-widget-search.php:43
+msgid "ACADP Search"
+msgstr ""
+
+#: widgets/search/class-acadp-widget-search.php:46
+msgid "\"Advanced Classifieds & Directory Pro\" Search Form."
+msgstr ""
+
+#: widgets/search/views/acadp-widget-admin-search-display.php:19
+msgid "Style"
+msgstr ""

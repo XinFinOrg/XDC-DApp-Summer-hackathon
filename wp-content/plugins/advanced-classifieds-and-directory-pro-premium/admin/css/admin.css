@@ -1,0 +1,572 @@
+/*--------------------------------------------------------------------------------------------
+*
+*	Global
+*
+*--------------------------------------------------------------------------------------------*/
+
+/*Mel: 17/11/21*/
+.acadp-spinner {
+	display: inline-block;	
+	min-width: 20px;
+	min-height: 20px;
+	margin: 0 auto;
+	background-image: url( '../images/spinner.gif' );
+	/*background-position: center center;*/
+	background-repeat: no-repeat;
+}
+
+.loader {
+	line-height: 40px;
+}
+/*Mel: End*/
+
+.acadp-muted {
+	color: #899194;
+}
+
+.acadp-text-success {
+	color:green;
+}
+
+.acadp-text-error,
+.acadp-text-required {
+	color:#f00;
+}
+
+.acadp-no-scroll {
+	overflow: hidden;
+}
+
+table.acadp-no-border {
+	border: 0 none;
+	background: #fff;
+}
+
+table.acadp-input {
+	border: 0 none;
+	background: #fff;
+}
+
+table.acadp-input tbody tr td {
+	padding: 13px 15px;
+	border-top: 1px solid #f5f5f5;
+	border-bottom: 0 none;
+}
+
+table.acadp-input tbody tr td.label {
+	width: 24%;
+	vertical-align: top;
+	background: #F9F9F9;
+	border-top: 1px solid #f0f0f0;
+    border-right: 1px solid #E1E1E1;
+}
+
+table.acadp-input > tbody > tr:first-child > td,
+table.acadp-input > tbody > tr:first-child > td.label {
+	border-top: 0 none;
+}
+
+table.acadp-input tbody tr td.label label {
+	display: block;
+	font-size: 13px;
+	line-height: 1.4em;
+	font-weight: 600;
+	padding: 0;
+	margin: 0 0 3px;
+	color: #333;
+}
+
+table.acadp-input tbody tr td.label label span.required {
+	color: #f00;
+	display: inline;
+	margin-left: 3px;
+}
+
+table.acadp-input tbody tr td.label p {
+	display: block;
+	font-size: 12px;
+	line-height: 1.4em;
+	padding: 0 !important;
+	margin: 3px 0 0 !important;
+	font-style: normal;
+	line-height: 16px;
+	color: #899194;
+}
+
+table.acadp-input input[type="text"],
+table.acadp-input textarea,
+table.acadp-input select{
+	width: 99.95%;
+	padding: 3px 5px;
+	outline: none;
+}
+
+table.acadp-input input[type="text"]:focus,
+table.acadp-input textarea:focus,
+table.acadp-input select:focus {
+	border-color:#98B6CB;
+}
+
+table.acadp-input .acadp-input-wrap {
+	position: relative;
+	overflow: hidden;
+}
+
+table.acadp-input .acadp-input-wrap input {
+	height: 27px;
+	margin: 0;
+}
+
+table.acadp-input select {
+	padding: 2px;
+}
+
+table.acadp-input select option {
+	padding: 3px;
+}
+
+ul.acadp-radio-list,
+ul.acadp-checkbox-list {
+	background: transparent !important;
+	position: relative;
+	display: block;
+	padding: 1px;
+	margin: 0;
+}
+
+ul.acadp-radio-list.horizontal,
+ul.acadp-checkbox-list.horizontal {
+	overflow: hidden;
+}
+
+ul.acadp-radio-list.horizontal li,
+ul.acadp-checkbox-list.horizontal li {
+	float: left;
+	margin-right: 20px;
+}
+
+ul.acadp-radio-list li input,
+ul.acadp-checkbox-list li input {
+	margin-top: -1px;
+	margin-right: 5px !important;
+}
+
+.acadp-tick-cross {
+	display: inline-block;
+	width: 40px;
+	text-align: center;
+}
+
+.acadp-map {
+	width: 100%;
+	height: 400px;
+	margin: 10px 0;
+}
+
+.acadp-notice {
+	padding: 10px; 
+	border-radius: 2px; 
+}
+
+.acadp-notice-error {
+	background-color: #f2dede; 
+	border: 1px solid #ebccd1; 	
+	color: #a94442;
+}
+
+.acadp-notice-success {
+	background-color: #dff0d8; 
+	border: 1px solid #d6e9c6; 
+	color: #3c763d;
+}
+
+@media only screen and (max-width: 767px) {
+	ul.acadp-radio-list.horizontal li,
+	ul.acadp-checkbox-list.horizontal li {
+		float: none;
+	}
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Responsive Grid
+ *
+ *--------------------------------------------------------------------------------------------*/
+.acadp-row {
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.acadp-col {
+    width: 100%;
+}
+
+.acadp-col-content {
+	padding: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+	.acadp-col-2 {
+		width: 50%;
+	}
+
+	.acadp-col-p-60 { 
+        width: 60%; 
+	}
+
+   .acadp-col-p-40 { 
+        width: 40%; 
+	}
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Modal
+ *
+ *--------------------------------------------------------------------------------------------*/
+.acadp-modal {
+    position: fixed;   
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+    top: 0;   
+    left: 0;
+    z-index: 9999;    
+}
+
+.acadp-modal-bg {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.9;
+}
+
+.acadp-modal-content {
+    position: absolute;   
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+    top: 0;   
+    left: 0;    
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.acadp-modal-body {
+    position: relative;    
+    width: 90%;
+    max-width: 540px;
+    margin: 50px auto;
+    padding: 15px;
+    background-color: #fff;
+}
+
+.acadp-modal-body .acadp-modal-close {    
+	position: absolute; 
+	width: 25px;
+	height: 25px;   
+    top: 15px;
+    right: 15px;
+    color: #999;
+	font-size: 25px;
+	text-align: center;
+    cursor: pointer;
+}
+
+.acadp-modal-body .acadp-modal-title {
+    margin: 0 25px 15px 0;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Dashboard
+ *
+ *--------------------------------------------------------------------------------------------*/
+#acadp-dashboard h1 {
+	font-size: 2em;
+	font-weight: 500;
+}
+
+#acadp-dashboard .wp-badge {
+	margin-bottom: 0;
+	background: #278bb7 url( '../images/logo.png' ) no-repeat top;	
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Shortcode Builder
+ *
+ *--------------------------------------------------------------------------------------------*/
+#acadp-shortcode-selector {
+	margin: 0;
+	padding: 15px;
+	box-shadow: 1px 1px 5px #ccc;
+}
+
+#acadp-shortcode-selector p {
+	margin: 0 0 10px 0;
+}
+
+.acadp-shortcode-section {
+	box-shadow: 1px 1px 5px #ddd;
+}
+
+.acadp-shortcode-section-header {	
+	margin: 5px 0 0 0;
+	padding: 10px;
+	background: #e5e5e5;   
+	border: 1px solid #ccc; 
+	font-size: 1.1em;
+	font-weight: normal;
+	line-height: normal;
+	cursor: pointer;
+}
+
+.acadp-shortcode-section-header:hover {	
+	background: #f9f9f9;
+}
+
+.acadp-shortcode-section-header .dashicons-before {
+	color: #006799;
+	line-height: 1.1em;
+}
+
+.acadp-shortcode-section-header .dashicons-plus {
+	display: inline-block;
+}
+
+.acadp-shortcode-section-header .dashicons-minus {
+	display: none;
+}
+
+.acadp-active .acadp-shortcode-section-header .dashicons-plus {
+	display: none;
+}
+
+.acadp-active .acadp-shortcode-section-header .dashicons-minus {
+	display: inline-block;
+}
+
+.acadp-shortcode-controls {
+	margin: -1px 0 0 0;
+	padding: 10px;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+
+.acadp-shortcode-control {
+	margin-bottom: 15px;
+}
+
+.acadp-shortcode-control label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.acadp-shortcode-control .wp-picker-input-wrap label {
+	display: inline-block;
+}
+
+.acadp-shortcode-control input[type="text"],
+.acadp-shortcode-control textarea,
+.acadp-shortcode-control select {
+	width: 99.95%;
+	max-width: inherit;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Support
+ *
+ *--------------------------------------------------------------------------------------------*/
+#acadp-support .acadp-col h3 {
+	margin: 0 0 15px 0;
+}
+
+/*----------------------------------------------------------------------------------------------
+ *
+ *	Issues Manager
+ *
+ *--------------------------------------------------------------------------------------------*/
+#acadp-issues {
+	margin-top: 1.4em;
+}
+
+#acadp-issues .subsubsub {
+	margin: 7px 0;
+}
+
+#acadp-issues input[type=checkbox] {
+	margin: 0;
+}
+
+#acadp-issues tfoot td {
+	text-align: right;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Categories
+---------------------------------------------------------------------------------------------*/
+#acadp-categories-image-wrapper img {
+	max-width: 200px;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Listings
+---------------------------------------------------------------------------------------------*/
+#acadp-listing-featured p.description {
+	display: block;
+	font-size: 12px;
+	line-height: 1.4em;
+	padding: 0 !important;
+	margin: 3px 0 0 !important;
+	font-style: normal;
+	line-height: 16px;
+	color: #899194;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Payment History
+---------------------------------------------------------------------------------------------*/
+.post-type-acadp_payments .page-title-action {
+	display: none;
+}
+
+.post-type-acadp_payments .bulkactions select {
+	min-width: 144px;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Settings
+---------------------------------------------------------------------------------------------*/
+.acadp-settings form {
+	padding-top: 20px;
+}
+
+.acadp-settings pre {
+	white-space: normal;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Custom Fields
+---------------------------------------------------------------------------------------------*/
+.post-type-acadp_fields #minor-publishing-actions,
+.post-type-acadp_fields #misc-publishing-actions #visibility,
+.post-type-acadp_fields #misc-publishing-actions .curtime {
+	display: none;
+}
+
+#acadp-custom-fields-list table.acadp-input > tbody > tr:first-child > td,
+#acadp-custom-fields-list table.acadp-input > tbody > tr:first-child > td.label {
+	border-top: 1px solid #f0f0f0;
+}
+
+#acadp-custom-fields-list .spinner {
+	float: none;
+	display: block;	
+	min-height: 50px;
+	margin: 0 auto !important;	
+	background-position: center center;
+	visibility: visible !important;
+}
+
+.misc-pub-acadp-expiration-time {
+	border-top: 1px solid #EEE;
+}
+
+#acadp-timestamp:before {
+	display: inline-block;
+	position: relative;
+	font: normal 20px/1 'dashicons';
+	content: '\f145';
+	speak: none;	
+	padding: 0 2px 0 0;
+	top: -1px;
+	left: -1px;	
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none !important;
+	color: #82878c;	
+}
+
+#acadp-timestamp-wrap select {
+	height: 21px;
+	line-height: 14px;
+	vertical-align: top;
+	font-size: 12px;
+}
+
+#acadp-aa,
+#acadp-jj,
+#acadp-hh,
+#acadp-mn {
+	padding: 1px;
+	font-size: 12px;
+}
+
+.branch-5-3 #acadp-mm {
+	width: 5.4em;
+}
+
+#acadp-aa {
+	width: 3.4em;
+}
+
+#acadp-jj,
+#acadp-hh,
+#acadp-mn {
+	width: 2em;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Image Uploader
+---------------------------------------------------------------------------------------------*/
+table.acadp-images tbody tr td {
+	padding: 5px 7px;
+	background: #fff;
+	border-top: 0 none;
+	border-bottom: 1px solid #f5f5f5;
+	border-top: 0 none;
+}
+
+table.acadp-images .acadp-handle {
+	color: #999;
+	vertical-align: middle;
+	cursor: move;
+}
+
+table.acadp-images .acadp-handle span {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+table.acadp-images .acadp-image {
+	width: 60px;
+	vertical-align: middle;
+	text-align:center;
+}
+
+table.acadp-images img {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+/*---------------------------------------------------------------------------------------------
+	Widgets
+---------------------------------------------------------------------------------------------*/
+.acadp-widget-section-header {
+	margin-top: 15px;
+	padding: 10px;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	font-weight: 600;
+}

@@ -1,0 +1,125 @@
+.jpum-user-codes {
+
+  display: none;
+
+  position: absolute;
+  right: 3px;
+  bottom: 2px;
+
+  > button {
+    border: 1px solid;
+    border-radius: 2px;
+    background-color: #23282d;
+    color: #eee;
+    text-align: center;
+    cursor: pointer;
+    font-size: 22px;
+    height: 22px;
+    width: 22px;
+    padding: 0;
+    outline: 0;
+    display: block;
+
+    &:focus {
+      border-color: #5b9dd9;
+      box-shadow: 0 0 2px rgba( 30, 140, 190, 0.8 );
+    }
+
+    .dashicons {
+      width: 20px;
+      height: 20px;
+      font-size: 20px;
+    }
+  }
+
+  &:hover > button {
+    background-color: #0073aa;
+    color: #fff;
+  }
+
+  ul {
+    display: none;
+
+    position: absolute;
+    top: 1px;
+    left: 20px;
+    background-color: #fff;
+    width: auto;
+    z-index: 999;
+    /*box-shadow: 1px 1px 5px -1px; */
+
+    li {
+      display: block;
+      border-bottom: 1px dashed rgba(0, 0, 0, .25);
+      background-color: #23282d;
+
+      > a {
+        color: #eee;
+        cursor: pointer;
+        line-height: 1;
+        white-space: nowrap;
+        text-decoration: none;
+        display: block;
+        padding: .5em;
+
+        &:focus {
+          color: #0073aa;
+          border: 0;
+          box-shadow: none;
+
+        }
+      }
+
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      &:hover {
+        background-color: #0073aa;
+
+        > a {
+          color: #fff;
+
+        }
+      }
+
+    }
+
+  }
+
+  &.open ul {
+    display: block;
+  }
+
+}
+
+#menu-to-edit {
+
+  .menu-item {
+
+    p.description-wide {
+
+      position: relative;
+
+    }
+
+    .nav_item_options-roles {
+      label {
+        width: 33%;
+        display: inline-block;
+        float: left;
+        margin-top: 5px;
+      }
+    }
+
+    &.show-insert-button {
+
+      .jpum-user-codes {
+        display: block;
+      }
+
+    }
+
+  }
+
+}
