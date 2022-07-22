@@ -1,0 +1,15 @@
+app/Enclave_u.c
+app/Enclave_u.h
+app/Enclave_u.o
+enclave/Enclave_t.c
+enclave/Enclave_t.h
+lib/libEnclave_u.a
+bin/
+app/Cargo.lock
+app/target/
+enclave/Cargo.lock
+enclave/Enclave_t.o
+enclave/enclave.so
+enclave/target/
+lib/libenclave.a
+public/
