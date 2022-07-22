@@ -1,5 +1,5 @@
 ### Getting Started
-This application is built using WordPress. Before you begin to cringe, please listen. WordPress was chosen because it enables quick turnaround time to built a **working MVP with minimum bugs**. The thousands of plugins it has help us to code a **production-ready decentralized application** in no time. Also, we hate to have to reinvent the wheel each time we build something, thus WordPress is the best choice. That's why it powers 50% of today's websites.
+This application is built using WordPress. Before you begin to crack or cringe, please listen. WordPress was chosen because it enables quick turnaround time to built a **working MVP with minimum bugs**. The thousands of plugins it has help us to code a **production-ready decentralized application** in no time. Also, we hate to have to reinvent the wheel each time we build something, thus WordPress is the best choice. That's why it powers 50% of today's websites.
 
 WordPress is also secure despite what you heard on the news. Thanks to our vast experience in using this robust platform, we are able to stop any hacks. Plus, we implement reliable plugins to ensure no hackers can past our security.
 
