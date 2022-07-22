@@ -1,0 +1,51 @@
+/*--------------------------------------------------------------------------------------------
+*
+*	Multi Categories
+*
+*--------------------------------------------------------------------------------------------*/
+#acadp-multi-categories div.tabs-panel {
+    min-height: 40px;
+    max-height: 100px;
+    padding: 7px;    
+    background-color: #fdfdfd;
+    border: 1px solid #ccc;
+	border-radius: 3px;
+    overflow: auto;
+}
+
+#acadp-multi-categories-checklist {
+	margin: 5px;
+}
+
+#acadp-multi-categories-checklist ul {
+	margin-left: 18px;
+}
+
+#acadp-multi-categories-checklist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+/*--------------------------------------------------------------------------------------------
+*
+*	CSV Import/Export
+*
+*--------------------------------------------------------------------------------------------*/
+#acadp-import-csv_file-name,
+#acadp-import-images_file-name {
+    margin: 0 4px;
+    line-height: 28px;
+}
+
+#acadp-import-export .submit .spinner {
+    float: none;
+    margin: 4px;
+    visibility: visible;
+}
+
+#acadp-import-status span {
+    font-weight: 600;
+}

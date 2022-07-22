@@ -1,0 +1,325 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MyWiki\n"
+"POT-Creation-Date: 2021-06-21 17:04+0530\n"
+"PO-Revision-Date: 2014-12-05 12:04+0530\n"
+"Last-Translator: FasterThemes <support@fasterthemes.com>\n"
+"Language-Team: FasterThemes <support@fasterthemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#Mel: 12/01/22
+msgid "Learn more."
+msgstr ""
+
+#Mel: 02/01/21
+msgid "Powered by blockchain"
+msgstr ""
+
+msgid "Advanced Search"
+msgstr ""
+
+msgid "Global database of the departed"
+msgstr ""
+#Mel: End
+
+#: 404.php:7
+msgid "Epic 404 - Article Not Found"
+msgstr ""
+
+#: 404.php:8
+msgid "This is embarassing. We can't find what you were looking for."
+msgstr ""
+
+#: 404.php:12
+msgid ""
+"Whatever you were looking for was not found, but maybe try looking again or "
+"search using the form below."
+msgstr ""
+
+#: archive.php:9
+msgid "Archives"
+msgstr ""
+
+#: attachment.php:27 index.php:28
+msgid "Not Found"
+msgstr ""
+
+#: attachment.php:30 index.php:33
+msgid "Sorry, but the requested resource was not found on this site."
+msgstr ""
+
+#: author.php:9
+msgid "Author"
+msgstr ""
+
+#: category.php:9
+msgid "Category"
+msgstr ""
+
+#: comments.php:20
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:25
+#, php-format
+msgctxt "comments title"
+msgid "%1$s One thought on - %2$s"
+msgid_plural "%1$s thoughts on - %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:42
+msgid "LEAVE A COMMENT"
+msgstr ""
+
+#: comments.php:43
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:47
+msgid "Your Name"
+msgstr ""
+
+#: comments.php:51
+msgid "E-Mail"
+msgstr ""
+
+#: comments.php:55
+msgid "Comment"
+msgstr ""
+
+#: footer.php:43
+#, php-format
+msgid " Powered by %1$s"
+msgstr ""
+
+#: function/customizer.php:68
+msgid "General"
+msgstr ""
+
+#: function/customizer.php:69
+msgid "styling options"
+msgstr ""
+
+#: function/customizer.php:77
+msgid "Header & Logo"
+msgstr ""
+
+#: function/customizer.php:84
+msgid "Front Page : Options"
+msgstr ""
+
+#: function/customizer.php:123 function/customizer.php:141
+msgid "Number of posts to show: "
+msgstr ""
+
+#: function/customizer.php:125 function/customizer.php:143
+msgid "Enter Number of post"
+msgstr ""
+
+#: function/customizer.php:152 template-wiki.php:13
+msgid "Knowledgebase Categories"
+msgstr ""
+
+#: function/customizer.php:158
+msgid "Category Header Title : "
+msgstr ""
+
+#: function/customizer.php:160
+msgid "Enter Title like Knowledgebase Categories"
+msgstr ""
+
+#: function/customizer.php:175
+msgid "Category Icon : "
+msgstr ""
+
+#: function/customizer.php:176 function/customizer.php:194
+msgid ""
+"In input box, you need to add FONT AWESOME shortcode which you can find "
+msgstr ""
+
+#: function/customizer.php:176 function/customizer.php:194
+#: function/customizer.php:241
+msgid "here"
+msgstr ""
+
+#: function/customizer.php:178 function/customizer.php:196
+msgid "Enter Font Awesome Icon"
+msgstr ""
+
+#: function/customizer.php:193
+msgid "Category Post List Icon : "
+msgstr ""
+
+#: function/customizer.php:205 function/customizer.php:212
+msgid "Footer"
+msgstr ""
+
+#: function/customizer.php:206
+msgid "Footer  options"
+msgstr ""
+
+#: function/customizer.php:231
+msgid "Enter Copyright Text"
+msgstr ""
+
+#: function/customizer.php:239
+msgid "Footer Social Accounts"
+msgstr ""
+
+#: function/customizer.php:241
+msgid ""
+"In first input box, you need to add FONT AWESOME shortcode which you can "
+"find "
+msgstr ""
+
+#: function/customizer.php:241
+msgid ""
+" and in second input box, you need to add your social media profile URL."
+msgstr ""
+
+#: function/customizer.php:241
+msgid ""
+" Enter the URL of your social accounts. Leave it empty to hide the icon."
+msgstr ""
+
+#: function/customizer.php:257
+msgid "Social Account "
+msgstr ""
+
+#: function/customizer.php:275
+msgid "Enter Icon"
+msgstr ""
+
+#: function/customizer.php:285
+msgid "Social Link "
+msgstr ""
+
+#: function/customizer.php:304
+msgid "Enter URL"
+msgstr ""
+
+#: function/theme-default-setup.php:8
+msgid "Main Sidebar"
+msgstr ""
+
+#: function/theme-default-setup.php:9
+msgid "Used on every page."
+msgstr ""
+
+#: function/theme-default-setup.php:17
+msgid "Footer Content Area 1"
+msgstr ""
+
+#: function/theme-default-setup.php:18 function/theme-default-setup.php:27
+#: function/theme-default-setup.php:36
+msgid "Used on Footer."
+msgstr ""
+
+#: function/theme-default-setup.php:26
+msgid "Footer Content Area 2"
+msgstr ""
+
+#: function/theme-default-setup.php:35
+msgid "Footer Content Area 3"
+msgstr ""
+
+#: function/theme-default-setup.php:53
+msgid "Displays most popular posts by comment count"
+msgstr ""
+
+#: function/theme-default-setup.php:59
+msgid "Popular Posts"
+msgstr ""
+
+#: function/theme-default-setup.php:105 function/theme-default-setup.php:161
+msgid "Title"
+msgstr ""
+
+#: function/theme-default-setup.php:109 function/theme-default-setup.php:165
+msgid "Number of Posts"
+msgstr ""
+
+#: function/theme-default-setup.php:113
+msgid "Posted in the past X days"
+msgstr ""
+
+#: function/theme-default-setup.php:116
+msgid "Use 0 for no time limit."
+msgstr ""
+
+#: function/theme-default-setup.php:124
+msgid "Displays most recent posts by post count"
+msgstr ""
+
+#: function/theme-default-setup.php:130
+msgid "Recent Posts"
+msgstr ""
+
+#: function/theme-default-setup.php:177
+msgid "read more..."
+msgstr ""
+
+#: function/theme-default-setup.php:177
+msgid "Read more"
+msgstr ""
+
+#: functions.php:34
+msgid "The Main Menu"
+msgstr ""
+
+#: functions.php:35
+msgid "Footer Links"
+msgstr ""
+
+#: functions.php:144
+msgid "No"
+msgstr ""
+
+#: functions.php:171
+#, php-format
+msgid "%s says:"
+msgstr ""
+
+#: functions.php:176
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:179
+msgid "Edit"
+msgstr ""
+
+#: functions.php:204
+msgid "Have a Question? Write here and press enter"
+msgstr ""
+
+#: functions.php:217
+msgid "Pro Feature"
+msgstr ""
+
+#: functions.php:217
+msgid "MyWiki Pro"
+msgstr ""
+
+#: search.php:8 searchform.php:8 searchform.php:9
+msgid "Search"
+msgstr ""
+
+#: tag.php:9
+msgid "Tag"
+msgstr ""
