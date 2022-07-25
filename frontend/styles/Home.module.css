@@ -1,0 +1,239 @@
+
+.main {
+  margin: 50px;
+  /* min-height: 92vh; */
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+}
+
+.navbar {
+  max-height: 10vh;
+  color: black;
+  z-index: 1000;
+  padding: 8px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+  background-color: #111;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 1rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  margin: 10px;
+  text-decoration: underline;
+}
+
+.logo {
+  padding: 0 20px;
+}
+
+.navmenu {
+  /* margin-left: auto; */
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.navitem {
+  margin-left: 25px;
+  transition: transform 0.2s;
+}
+
+.navitem:hover {
+  transform: scaleX(1.1);
+}
+
+.navlink {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hamburger {
+  background-color: #231942;
+  display: none;
+  color: #dddbf1;
+  border-radius: 8px;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px,
+    5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.hamburger:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+.bar {
+  display: block;
+  width: 32px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #ffffff;
+}
+
+.hr {
+  margin: 10px;
+  width: 70%;
+}
+
+.button {
+  /* font-family: "Open Sans", sans-serif; */
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  background: #7effe0;
+  padding: 0.25em 0.5em;
+  /* margin-top: 12px; */
+  border-radius: 10px;
+  border: 4px solid rgb(0, 0, 0);
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+.xdc {
+  max-width: 400px;
+}
+
+.about {
+  font-size: 24px;
+  font-weight: bold;
+  color: #7effe0;
+}
+
+.code {
+  overflow: scroll;
+  text-align: justify;
+  padding: 30px;
+  max-width: 100%;
+  /* max-width: 1000px; */
+  max-height: 500px;
+  border-radius: 10px;
+  border: 2px solid gray;
+  font-size: 14px;
+}
+
+.code pre {
+  width: 1000px;
+}
+
+.contract {
+  font-size: 35px;
+  margin-bottom: 5px;
+  margin-top: 40px;
+  color: #7effe0;
+}
+
+.features {
+  text-align: start;
+  /* color: #7effe0; */
+
+}
+
+
+@media (min-width: 768px) {
+  .button {
+    padding: 0.25em 0.75em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* .connect {
+    visibility: hidden;
+  } */
+
+  .code {
+    max-width: 100%;
+  }
+
+  .footer a {
+    margin: 2px;
+    font-size: 14px;
+  }
+
+  .navbar {
+    justify-content: space-around;
+  }
+
+  .navmenu {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top: 2px solid rgb(211, 211, 211);
+    border-bottom: 2px solid rgb(211, 211, 211);
+    z-index: 100;
+    position: fixed;
+    left: -100%;
+    top: 3.3rem;
+    flex-direction: column;
+    background: rgb(18, 18, 18);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .navmenu.active {
+    left: 0;
+  }
+
+  .navitem {
+    margin: 2.5rem 0;
+  }
+
+  .hamburger {
+    /* margin-left: auto; */
+    display: block;
+    cursor: pointer;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
