@@ -1,0 +1,60 @@
+# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: s3 deployment
+
+on:
+  push:
+    branches: [ master, staging ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'yarn'
+    
+    - name: Install dependencies
+      run: yarn install --frozen-lockfile
+
+    - name: Production build
+      run: |
+        unset CI
+        yarn build
+    
+    - name: bucket name
+      id: bucket_name
+      run: |
+        if [ $REF == 'refs/heads/master' ]
+        then
+            echo "::set-output name=bucket::$AWS_PRODUCTION_BUCKET_NAME"
+        else
+            echo "::set-output name=bucket::$AWS_STAGING_BUCKET_NAME"
+        fi
+      env:
+        REF: ${{ github.ref }}
+        AWS_PRODUCTION_BUCKET_NAME: ${{ secrets.AWS_PRODUCTION_BUCKET_NAME }}
+        AWS_STAGING_BUCKET_NAME: ${{ secrets.AWS_STAGING_BUCKET_NAME }}
+
+    - name: Deploy to S3
+      uses: jakejarvis/s3-sync-action@master
+      if: github.event_name != 'pull_request'
+      with:
+        args: --acl public-read --delete
+      env:
+        AWS_S3_BUCKET: ${{ steps.bucket_name.outputs.bucket }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        AWS_REGION: ${{ secrets.AWS_REGION }}
+        SOURCE_DIR: "build"
