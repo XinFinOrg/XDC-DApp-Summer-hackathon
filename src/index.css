@@ -1,0 +1,14 @@
+@font-face {
+  font-family: ClashGroteskReg;
+  src: url(./fonts/ClashGrotesk-Regular.otf);
+}
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: ClashGroteskReg;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:#bac8d9;
+  font-size: 28px;
+}
+
