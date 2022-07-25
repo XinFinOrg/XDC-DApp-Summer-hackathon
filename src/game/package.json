@@ -1,0 +1,48 @@
+{
+  "name": "war-alpha-game",
+  "version": "1.0.0",
+  "description": "Space shooter with upgradeable NFTs",
+  "keywords": [],
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.4",
+    "expose-loader": "^3.1.0",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "ethers": "^5.6.2",
+    "phaser": "^3.55.2"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint"
+    ],
+    "*.{js,jsx,ts,tsx,json,md}": [
+      "prettier --check"
+    ],
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "start": "webpack --mode development && webpack serve --mode development",
+    "build": "export NODE_ENV=production && webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waylad/war-alpha.git"
+  },
+  "author": {
+    "name": "waylad",
+    "email": "waylad42@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waylad/war-alpha/issues"
+  },
+  "homepage": "https://github.com/waylad/war-alpha"
+}
