@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+progress::-moz-progress-bar {
+  background: #394943;
+}
+
+progress::-webkit-progress-value {
+  background: #081c15;
+}
+
+progress {
+  color: #b4bab8;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+progress[value] {
+  height: 0.5rem;
+  width: 100%;
+}
+
+/*.audio-file-uploading  {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+      
+}
+
+.audio-file-label{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 100%;
+}*/
