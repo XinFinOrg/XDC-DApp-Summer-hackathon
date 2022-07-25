@@ -1,0 +1,221 @@
+{
+  "address": "0x2578E446F77603bE9b796EAE38B69EAA715fc10f",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "proxyOwner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "version",
+      "outputs": [
+        {
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "version",
+          "type": "string"
+        },
+        {
+          "name": "implementation",
+          "type": "address"
+        }
+      ],
+      "name": "upgradeTo",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "implementation",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "upgradeabilityOwner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "version",
+          "type": "string"
+        },
+        {
+          "name": "implementation",
+          "type": "address"
+        },
+        {
+          "name": "data",
+          "type": "bytes"
+        }
+      ],
+      "name": "upgradeToAndCall",
+      "outputs": [],
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferProxyOwnership",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "payable": true,
+      "stateMutability": "payable",
+      "type": "fallback"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "ProxyOwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "version",
+          "type": "string"
+        },
+        {
+          "indexed": true,
+          "name": "implementation",
+          "type": "address"
+        }
+      ],
+      "name": "Upgraded",
+      "type": "event"
+    }
+  ],
+  "transactionHash": "0xb10f5daeb895689885ce58a4b436b6df79622e0024fa83a63855c070452d8103",
+  "receipt": {
+    "to": null,
+    "from": "0x96Ec53A193f06770b379C8a8F868FB81a6A561B5",
+    "contractAddress": "0x2578E446F77603bE9b796EAE38B69EAA715fc10f",
+    "transactionIndex": 23,
+    "gasUsed": "467754",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x78fc6b239b584fb0ac73c4fefe42a13d888751c9016c7f18cd666d7ebe2c2b05",
+    "transactionHash": "0xb10f5daeb895689885ce58a4b436b6df79622e0024fa83a63855c070452d8103",
+    "logs": [],
+    "blockNumber": 16461560,
+    "cumulativeGasUsed": "2434025",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [],
+  "numDeployments": 1,
+  "solcInputHash": "7db7938050490adada2b592218326b00",
+  "metadata": "{\"compiler\":{\"version\":\"0.4.18+commit.9cf6e910\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"proxyOwner\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"version\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"version\",\"type\":\"string\"},{\"name\":\"implementation\",\"type\":\"address\"}],\"name\":\"upgradeTo\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"implementation\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"upgradeabilityOwner\",\"outputs\":[{\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"version\",\"type\":\"string\"},{\"name\":\"implementation\",\"type\":\"address\"},{\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"upgradeToAndCall\",\"outputs\":[],\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"transferProxyOwnership\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"payable\":true,\"stateMutability\":\"payable\",\"type\":\"fallback\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"previousOwner\",\"type\":\"address\"},{\"indexed\":false,\"name\":\"newOwner\",\"type\":\"address\"}],\"name\":\"ProxyOwnershipTransferred\",\"type\":\"event\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"name\":\"version\",\"type\":\"string\"},{\"indexed\":true,\"name\":\"implementation\",\"type\":\"address\"}],\"name\":\"Upgraded\",\"type\":\"event\"}],\"devdoc\":{\"methods\":{\"implementation()\":{\"details\":\"Tells the address of the current implementation\",\"return\":\"address of the current implementation\"},\"proxyOwner()\":{\"details\":\"Tells the address of the proxy owner\",\"return\":\"the address of the proxy owner\"},\"transferProxyOwnership(address)\":{\"details\":\"Allows the current owner to transfer control of the contract to a newOwner.\",\"params\":{\"newOwner\":\"The address to transfer ownership to.\"}},\"upgradeTo(string,address)\":{\"details\":\"Allows the upgradeability owner to upgrade the current version of the proxy.\",\"params\":{\"implementation\":\"representing the address of the new implementation to be set.\",\"version\":\"representing the version name of the new implementation to be set.\"}},\"upgradeToAndCall(string,address,bytes)\":{\"details\":\"Allows the upgradeability owner to upgrade the current version of the proxy and call the new implementation to initialize whatever is needed through a low level call.\",\"params\":{\"data\":\"represents the msg.data to bet sent in the low level call. This parameter may include the function signature of the implementation to be called with the needed payload\",\"implementation\":\"representing the address of the new implementation to be set.\",\"version\":\"representing the version name of the new implementation to be set.\"}},\"upgradeabilityOwner()\":{\"details\":\"Tells the address of the owner\",\"return\":\"the address of the owner\"},\"version()\":{\"details\":\"Tells the version name of the current implementation\",\"return\":\"string representing the name of the current version\"}},\"title\":\"EternalStorageProxy\"},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"contracts/upgradeability/EternalStorageProxy.sol\":\"EternalStorageProxy\"},\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/upgradeability/EternalStorage.sol\":{\"content\":\"pragma solidity ^0.4.18;\\n\\n/**\\n * @title EternalStorage\\n * @dev This contract holds all the necessary state variables to carry out the storage of any contract.\\n */\\ncontract EternalStorage {\\n\\n  mapping(bytes32 => uint256) internal uintStorage;\\n  mapping(bytes32 => string) internal stringStorage;\\n  mapping(bytes32 => address) internal addressStorage;\\n  mapping(bytes32 => bytes) internal bytesStorage;\\n  mapping(bytes32 => bool) internal boolStorage;\\n  mapping(bytes32 => int256) internal intStorage;\\n\\n}\\n\",\"keccak256\":\"0x669dc18359ef155b2cabb8b14c92454f28d08ce28f8dc06d525c27e737c3cbad\"},\"contracts/upgradeability/EternalStorageProxy.sol\":{\"content\":\"pragma solidity ^0.4.18;\\n\\nimport \\\"./EternalStorage.sol\\\";\\nimport \\\"./OwnedUpgradeabilityProxy.sol\\\";\\n\\n\\n/**\\n * @title EternalStorageProxy\\n * @dev This proxy holds the storage of the token contract and delegates every call to the current implementation set.\\n * Besides, it allows to upgrade the token's behaviour towards further implementations, and provides basic\\n * authorization control functionalities\\n */\\ncontract EternalStorageProxy is EternalStorage, OwnedUpgradeabilityProxy {}\\n\",\"keccak256\":\"0x31829038d78f2d762c942bada1015e4d86efcb544097017ddc28905429475f59\"},\"contracts/upgradeability/OwnedUpgradeabilityProxy.sol\":{\"content\":\"pragma solidity ^0.4.18;\\n\\nimport './UpgradeabilityProxy.sol';\\nimport './UpgradeabilityOwnerStorage.sol';\\n\\n/**\\n * @title OwnedUpgradeabilityProxy\\n * @dev This contract combines an upgradeability proxy with basic authorization control functionalities\\n */\\ncontract OwnedUpgradeabilityProxy is UpgradeabilityOwnerStorage, UpgradeabilityProxy {\\n  /**\\n  * @dev Event to show ownership has been transferred\\n  * @param previousOwner representing the address of the previous owner\\n  * @param newOwner representing the address of the new owner\\n  */\\n  event ProxyOwnershipTransferred(address previousOwner, address newOwner);\\n\\n  /**\\n  * @dev the constructor sets the original owner of the contract to the sender account.\\n  */\\n  function OwnedUpgradeabilityProxy() public {\\n    setUpgradeabilityOwner(msg.sender);\\n  }\\n\\n  /**\\n  * @dev Throws if called by any account other than the owner.\\n  */\\n  modifier onlyProxyOwner() {\\n    require(msg.sender == proxyOwner());\\n    _;\\n  }\\n\\n  /**\\n   * @dev Tells the address of the proxy owner\\n   * @return the address of the proxy owner\\n   */\\n  function proxyOwner() public view returns (address) {\\n    return upgradeabilityOwner();\\n  }\\n\\n  /**\\n   * @dev Allows the current owner to transfer control of the contract to a newOwner.\\n   * @param newOwner The address to transfer ownership to.\\n   */\\n  function transferProxyOwnership(address newOwner) public onlyProxyOwner {\\n    require(newOwner != address(0));\\n    ProxyOwnershipTransferred(proxyOwner(), newOwner);\\n    setUpgradeabilityOwner(newOwner);\\n  }\\n\\n  /**\\n   * @dev Allows the upgradeability owner to upgrade the current version of the proxy.\\n   * @param version representing the version name of the new implementation to be set.\\n   * @param implementation representing the address of the new implementation to be set.\\n   */\\n  function upgradeTo(string version, address implementation) public onlyProxyOwner {\\n    _upgradeTo(version, implementation);\\n  }\\n\\n  /**\\n   * @dev Allows the upgradeability owner to upgrade the current version of the proxy and call the new implementation\\n   * to initialize whatever is needed through a low level call.\\n   * @param version representing the version name of the new implementation to be set.\\n   * @param implementation representing the address of the new implementation to be set.\\n   * @param data represents the msg.data to bet sent in the low level call. This parameter may include the function\\n   * signature of the implementation to be called with the needed payload\\n   */\\n  function upgradeToAndCall(string version, address implementation, bytes data) payable public onlyProxyOwner {\\n    upgradeTo(version, implementation);\\n    require(this.call.value(msg.value)(data));\\n  }\\n}\\n\",\"keccak256\":\"0x7bfbb55b1e214b68f4ab0c4c2e1e304981ca1708139335c312bf1e94b53adce3\"},\"contracts/upgradeability/Proxy.sol\":{\"content\":\"pragma solidity ^0.4.18;\\n\\n/**\\n * @title Proxy\\n * @dev Gives the possibility to delegate any call to a foreign implementation.\\n */\\ncontract Proxy {\\n\\n  /**\\n  * @dev Tells the address of the implementation where every call will be delegated.\\n  * @return address of the implementation to which it will be delegated\\n  */\\n  function implementation() public view returns (address);\\n\\n  /**\\n  * @dev Fallback function allowing to perform a delegatecall to the given implementation.\\n  * This function will return whatever the implementation call returns\\n  */\\n  function () payable public {\\n    address _impl = implementation();\\n    require(_impl != address(0));\\n\\n    assembly {\\n      let ptr := mload(0x40)\\n      calldatacopy(ptr, 0, calldatasize)\\n      let result := delegatecall(gas, _impl, ptr, calldatasize, 0, 0)\\n      let size := returndatasize\\n      returndatacopy(ptr, 0, size)\\n\\n      switch result\\n      case 0 { revert(ptr, size) }\\n      default { return(ptr, size) }\\n    }\\n  }\\n}\\n\",\"keccak256\":\"0xa9105708f49c064d25cfd9f94563ca7157f945feaaae60ab7cd6ee0b5604c316\"},\"contracts/upgradeability/UpgradeabilityOwnerStorage.sol\":{\"content\":\"pragma solidity ^0.4.18;\\n\\n\\n/**\\n * @title UpgradeabilityOwnerStorage\\n * @dev This contract keeps track of the upgradeability owner\\n */\\ncontract UpgradeabilityOwnerStorage {\\n  // Owner of the contract\\n  address private _upgradeabilityOwner;\\n\\n  /**\\n   * @dev Tells the address of the owner\\n   * @return the address of the owner\\n   */\\n  function upgradeabilityOwner() public view returns (address) {\\n    return _upgradeabilityOwner;\\n  }\\n\\n  /**\\n   * @dev Sets the address of the owner\\n   */\\n  function setUpgradeabilityOwner(address newUpgradeabilityOwner) internal {\\n    _upgradeabilityOwner = newUpgradeabilityOwner;\\n  }\\n}\\n\",\"keccak256\":\"0xbe62561d77374fc82e15acd10a18249ac30efdd037a2e165af202f5d879cddda\"},\"contracts/upgradeability/UpgradeabilityProxy.sol\":{\"content\":\"pragma solidity ^0.4.18;\\n\\nimport './Proxy.sol';\\nimport './UpgradeabilityStorage.sol';\\n\\n/**\\n * @title UpgradeabilityProxy\\n * @dev This contract represents a proxy where the implementation address to which it will delegate can be upgraded\\n */\\ncontract UpgradeabilityProxy is Proxy, UpgradeabilityStorage {\\n  /**\\n  * @dev This event will be emitted every time the implementation gets upgraded\\n  * @param version representing the version name of the upgraded implementation\\n  * @param implementation representing the address of the upgraded implementation\\n  */\\n  event Upgraded(string version, address indexed implementation);\\n\\n  /**\\n  * @dev Upgrades the implementation address\\n  * @param version representing the version name of the new implementation to be set\\n  * @param implementation representing the address of the new implementation to be set\\n  */\\n  function _upgradeTo(string version, address implementation) internal {\\n    require(_implementation != implementation);\\n    _version = version;\\n    _implementation = implementation;\\n    Upgraded(version, implementation);\\n  }\\n}\\n\",\"keccak256\":\"0x54a99f11e199d39fb19e45d68595753f5e11b51f1cd0ba4ca9756129dea2bd42\"},\"contracts/upgradeability/UpgradeabilityStorage.sol\":{\"content\":\"pragma solidity ^0.4.18;\\n\\n/**\\n * @title UpgradeabilityStorage\\n * @dev This contract holds all the necessary state variables to support the upgrade functionality\\n */\\ncontract UpgradeabilityStorage {\\n  // Version name of the current implementation\\n  string internal _version;\\n\\n  // Address of the current implementation\\n  address internal _implementation;\\n\\n  /**\\n  * @dev Tells the version name of the current implementation\\n  * @return string representing the name of the current version\\n  */\\n  function version() public view returns (string) {\\n    return _version;\\n  }\\n\\n  /**\\n  * @dev Tells the address of the current implementation\\n  * @return address of the current implementation\\n  */\\n  function implementation() public view returns (address) {\\n    return _implementation;\\n  }\\n}\\n\",\"keccak256\":\"0xce63829e0cc8b713a6c617c9765baaeda2a4656bad1136c3128b8f0c28fe0888\"}},\"version\":1}",
+  "bytecode": "0x606060405261001a3364010000000061061161001f82021704565b610041565b60068054600160a060020a031916600160a060020a0392909216919091179055565b610716806100506000396000f3006060604052600436106100825763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663025313a281146100c857806354fd4d50146100f75780635a8b1a9f146101815780635c60da1b146101df5780636fde8202146101f2578063958a41dd14610205578063f1739cae1461029f575b600061008c6102be565b9050600160a060020a03811615156100a357600080fd5b60405136600082376000803683855af43d806000843e8180156100c4578184f35b8184fd5b34156100d357600080fd5b6100db6102ce565b604051600160a060020a03909116815260200160405180910390f35b341561010257600080fd5b61010a6102dd565b60405160208082528190810183818151815260200191508051906020019080838360005b8381101561014657808201518382015260200161012e565b50505050905090810190601f1680156101735780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561018c57600080fd5b6101dd60046024813581810190830135806020601f8201819004810201604051908101604052818152929190602084018383808284375094965050509235600160a060020a03169250610385915050565b005b34156101ea57600080fd5b6100db6102be565b34156101fd57600080fd5b6100db6103ba565b6101dd60046024813581810190830135806020601f82018190048102016040519081016040528181529291906020840183838082843782019150505050505091908035600160a060020a031690602001909190803590602001908201803590602001908080601f0160208091040260200160405190810160405281815292919060208401838380828437509496506103c995505050505050565b34156102aa57600080fd5b6101dd600160a060020a0360043516610486565b600854600160a060020a03165b90565b60006102d86103ba565b905090565b6102e5610640565b60078054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561037b5780601f106103505761010080835404028352916020019161037b565b820191906000526020600020905b81548152906001019060200180831161035e57829003601f168201915b5050505050905090565b61038d6102ce565b600160a060020a031633600160a060020a03161415156103ac57600080fd5b6103b6828261051b565b5050565b600654600160a060020a031690565b6103d16102ce565b600160a060020a031633600160a060020a03161415156103f057600080fd5b6103fa8383610385565b30600160a060020a0316348260405180828051906020019080838360005b83811015610430578082015183820152602001610418565b50505050905090810190601f16801561045d5780820380516001836020036101000a031916815260200191505b5091505060006040518083038185876187965a03f192505050151561048157600080fd5b505050565b61048e6102ce565b600160a060020a031633600160a060020a03161415156104ad57600080fd5b600160a060020a03811615156104c257600080fd5b7f5a3e66efaa1e445ebd894728a69d6959842ea1e97bd79b892797106e270efcd96104eb6102ce565b82604051600160a060020a039283168152911660208201526040908101905180910390a161051881610611565b50565b600854600160a060020a038281169116141561053657600080fd5b6007828051610549929160200190610652565b506008805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0383169081179091557f8e05e0e35ff592971ca8b477d4285a33a61ded208d644042667b78693a472f5e8360405160208082528190810183818151815260200191508051906020019080838360005b838110156105d35780820151838201526020016105bb565b50505050905090810190601f1680156106005780820380516001836020036101000a031916815260200191505b509250505060405180910390a25050565b6006805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0392909216919091179055565b60206040519081016040526000815290565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061069357805160ff19168380011785556106c0565b828001600101855582156106c0579182015b828111156106c05782518255916020019190600101906106a5565b506106cc9291506106d0565b5090565b6102cb91905b808211156106cc57600081556001016106d65600a165627a7a72305820ca8431dd2d2d86d3cd9b8caaabb6da030626b9bc3458a59e42a314b2a26e6f5e0029",
+  "deployedBytecode": "0x6060604052600436106100825763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663025313a281146100c857806354fd4d50146100f75780635a8b1a9f146101815780635c60da1b146101df5780636fde8202146101f2578063958a41dd14610205578063f1739cae1461029f575b600061008c6102be565b9050600160a060020a03811615156100a357600080fd5b60405136600082376000803683855af43d806000843e8180156100c4578184f35b8184fd5b34156100d357600080fd5b6100db6102ce565b604051600160a060020a03909116815260200160405180910390f35b341561010257600080fd5b61010a6102dd565b60405160208082528190810183818151815260200191508051906020019080838360005b8381101561014657808201518382015260200161012e565b50505050905090810190601f1680156101735780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b341561018c57600080fd5b6101dd60046024813581810190830135806020601f8201819004810201604051908101604052818152929190602084018383808284375094965050509235600160a060020a03169250610385915050565b005b34156101ea57600080fd5b6100db6102be565b34156101fd57600080fd5b6100db6103ba565b6101dd60046024813581810190830135806020601f82018190048102016040519081016040528181529291906020840183838082843782019150505050505091908035600160a060020a031690602001909190803590602001908201803590602001908080601f0160208091040260200160405190810160405281815292919060208401838380828437509496506103c995505050505050565b34156102aa57600080fd5b6101dd600160a060020a0360043516610486565b600854600160a060020a03165b90565b60006102d86103ba565b905090565b6102e5610640565b60078054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561037b5780601f106103505761010080835404028352916020019161037b565b820191906000526020600020905b81548152906001019060200180831161035e57829003601f168201915b5050505050905090565b61038d6102ce565b600160a060020a031633600160a060020a03161415156103ac57600080fd5b6103b6828261051b565b5050565b600654600160a060020a031690565b6103d16102ce565b600160a060020a031633600160a060020a03161415156103f057600080fd5b6103fa8383610385565b30600160a060020a0316348260405180828051906020019080838360005b83811015610430578082015183820152602001610418565b50505050905090810190601f16801561045d5780820380516001836020036101000a031916815260200191505b5091505060006040518083038185876187965a03f192505050151561048157600080fd5b505050565b61048e6102ce565b600160a060020a031633600160a060020a03161415156104ad57600080fd5b600160a060020a03811615156104c257600080fd5b7f5a3e66efaa1e445ebd894728a69d6959842ea1e97bd79b892797106e270efcd96104eb6102ce565b82604051600160a060020a039283168152911660208201526040908101905180910390a161051881610611565b50565b600854600160a060020a038281169116141561053657600080fd5b6007828051610549929160200190610652565b506008805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0383169081179091557f8e05e0e35ff592971ca8b477d4285a33a61ded208d644042667b78693a472f5e8360405160208082528190810183818151815260200191508051906020019080838360005b838110156105d35780820151838201526020016105bb565b50505050905090810190601f1680156106005780820380516001836020036101000a031916815260200191505b509250505060405180910390a25050565b6006805473ffffffffffffffffffffffffffffffffffffffff1916600160a060020a0392909216919091179055565b60206040519081016040526000815290565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061069357805160ff19168380011785556106c0565b828001600101855582156106c0579182015b828111156106c05782518255916020019190600101906106a5565b506106cc9291506106d0565b5090565b6102cb91905b808211156106cc57600081556001016106d65600a165627a7a72305820ca8431dd2d2d86d3cd9b8caaabb6da030626b9bc3458a59e42a314b2a26e6f5e0029",
+  "devdoc": {
+    "methods": {
+      "implementation()": {
+        "details": "Tells the address of the current implementation",
+        "return": "address of the current implementation"
+      },
+      "proxyOwner()": {
+        "details": "Tells the address of the proxy owner",
+        "return": "the address of the proxy owner"
+      },
+      "transferProxyOwnership(address)": {
+        "details": "Allows the current owner to transfer control of the contract to a newOwner.",
+        "params": {
+          "newOwner": "The address to transfer ownership to."
+        }
+      },
+      "upgradeTo(string,address)": {
+        "details": "Allows the upgradeability owner to upgrade the current version of the proxy.",
+        "params": {
+          "implementation": "representing the address of the new implementation to be set.",
+          "version": "representing the version name of the new implementation to be set."
+        }
+      },
+      "upgradeToAndCall(string,address,bytes)": {
+        "details": "Allows the upgradeability owner to upgrade the current version of the proxy and call the new implementation to initialize whatever is needed through a low level call.",
+        "params": {
+          "data": "represents the msg.data to bet sent in the low level call. This parameter may include the function signature of the implementation to be called with the needed payload",
+          "implementation": "representing the address of the new implementation to be set.",
+          "version": "representing the version name of the new implementation to be set."
+        }
+      },
+      "upgradeabilityOwner()": {
+        "details": "Tells the address of the owner",
+        "return": "the address of the owner"
+      },
+      "version()": {
+        "details": "Tells the version name of the current implementation",
+        "return": "string representing the name of the current version"
+      }
+    },
+    "title": "EternalStorageProxy"
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
