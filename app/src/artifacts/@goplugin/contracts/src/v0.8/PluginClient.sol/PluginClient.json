@@ -1,0 +1,50 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "PluginClient",
+  "sourceName": "@goplugin/contracts/src/v0.8/PluginClient.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "id",
+          "type": "bytes32"
+        }
+      ],
+      "name": "PluginCancelled",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "id",
+          "type": "bytes32"
+        }
+      ],
+      "name": "PluginFulfilled",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "bytes32",
+          "name": "id",
+          "type": "bytes32"
+        }
+      ],
+      "name": "PluginRequested",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x60806040526001600455348015601457600080fd5b50603f8060226000396000f3fe6080604052600080fdfea26469706673582212201aec3a9f880180e64d5d6e55d84681086d5b4f009e413951a22448fcd64749ec64736f6c63430008020033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212201aec3a9f880180e64d5d6e55d84681086d5b4f009e413951a22448fcd64749ec64736f6c63430008020033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
