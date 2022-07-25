@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------------------------------------
+*
+*	Multi Categories
+*
+*--------------------------------------------------------------------------------------------*/
+#acadp-multi-categories div.tabs-panel {
+    min-height: 40px;
+    max-height: 100px;
+    padding: 7px;    
+    background-color: #fdfdfd;
+    border: 1px solid #ccc;
+	border-radius: 3px;
+    overflow: auto;
+}
+
+#acadp-multi-categories-checklist {
+	margin: 5px;
+}
+
+#acadp-multi-categories-checklist ul {
+	margin-left: 18px;
+}
+
+#acadp-multi-categories-checklist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    word-wrap: break-word;
+}
