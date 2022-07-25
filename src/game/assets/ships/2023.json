@@ -1,0 +1,12 @@
+{
+  "name": "War Alpha Ship 2023",
+  "description": "A War Alpha Upgradable Spaceship",
+  "external_url": "https://xdc.waralpha.io/assets/ships/2023.svg",
+  "image": "https://xdc.waralpha.io/assets/ships/2023.svg",
+  "attributes": [
+    { "cabin": 2, "rarity": 0.25 },
+    { "engine": 0, "rarity": 0.25 },
+    { "wing": 2, "rarity": 0.25 },
+    { "weapon": 3, "rarity": 0.25 }
+  ]
+}

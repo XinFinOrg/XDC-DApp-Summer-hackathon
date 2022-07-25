@@ -1,0 +1,19 @@
+{
+  "recommendations": [
+    "akamud.vscode-theme-onedark",
+    "anseki.vscode-color",
+    "pranaygp.vscode-css-peek",
+    "raymondcamden.csslint",
+    "mikestead.dotenv",
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.path-intellisense",
+    "esbenp.prettier-vscode",
+    "mrmlnc.vscode-scss",
+    "stylelint.vscode-stylelint",
+    "alfnielsen.vsc-organize-imports",
+    "emmanuelbeziat.vscode-great-icons",
+    "jaspernorth.vscode-pigments",
+    "jpoissonnier.vscode-styled-components",
+    "ligolang-publish.ligo-vscode"
+  ]
+}

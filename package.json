@@ -1,0 +1,55 @@
+{
+  "name": "war-alpha",
+  "version": "1.0.0",
+  "description": "Space shooter with upgradeable NFTs",
+  "keywords": [],
+  "scripts": {
+    "start": "lerna exec -- yarn run --parallel start",
+    "build": "lerna exec -- yarn run --parallel build",
+    "lint": "eslint '**/*.{js,jsx}'",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "prettier -l '**/*.{js,jsx,ts,tsx,json,md}'",
+    "test": "lerna run --parallel test",
+    "postinstall": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-sinon": "^4.0.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-import-resolver-webpack": "^0.13.2",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "lint-staged": "^12.3.7",
+    "prettier": "^2.6.2",
+    "stylelint": "^14.6.1",
+    "stylelint-config-recommended": "^7.0.0",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
+    "eslint": "^7.17.0",
+    "husky": "^4.3.7",
+    "lerna": "^3.22.1"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint"
+    ],
+    "*.{js,jsx,ts,tsx,json,md}": [
+      "prettier --check"
+    ],
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  }
+}
