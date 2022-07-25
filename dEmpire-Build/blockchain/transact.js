@@ -7,13 +7,13 @@ async function load(){
   //console.log(jsonFile)
 
   var abi = jsonFile.abi;
-  deploy_contract =  await new window.web3.eth.Contract(abi, "0xcA87B72497FB27843822A32bFea690B21fd1c1eB");
+  deploy_contract =  await new window.web3.eth.Contract(abi, "xdc4AbF415637CD439b667315ee0972AA870aA385f8");
 
 }
 
 window.connect = async function(){
   if (typeof window.ethereum == 'undefined') {
-  alert("Please install metamask")
+  alert("Please install XDCPay")
 }
 //const accounts =await window.ethereum.request({ method: 'eth_requestAccounts' });
 window.web3 = new Web3(ethereum);
@@ -100,7 +100,7 @@ let variables = {
   id: window.accounts
 }
 
-  let data = await fetch('https://theta.overclockedbrains.co:8080/subgraphs/name/harshu4/rtsgame', {
+  let data = await fetch('https://xdcgraph.overclockedbrains.co:8080/subgraphs/name/harshu4/rtsgame', {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
