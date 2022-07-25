@@ -5,7 +5,7 @@ import { BankInfo } from './haunted-finance';
 
 const configurations: { [env: string]: Configuration } = {
   development: {
-    chainId: 51,
+    chainId: 50,
     networkName: 'XinFin Apothem Mainnet',
     xdcscanUrl: 'https://xinfin.org',
     defaultProvider: 'https://explorer.xinfin.network/',
@@ -21,7 +21,7 @@ const configurations: { [env: string]: Configuration } = {
     refreshInterval: 10000,
   },
   production: {
-    chainId: 51,
+    chainId: 50,
     networkName: 'XinFin Apothem Mainnet',
     xdcscanUrl: 'https://explorer.xinfin.network/',
     defaultProvider: 'https://rpc.xinfin.network',
