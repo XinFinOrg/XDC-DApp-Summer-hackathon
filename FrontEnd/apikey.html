@@ -1,0 +1,304 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<link href="images/favicon.png" rel="icon" />
+<title>Paypli - Crypto to Crypto</title>
+<meta name="description" content="This professional design html template is for build a Money Transfer and online payments website.">
+<meta name="author" content="harnishdesign.net">
+
+<!-- Web Fonts
+============================================= -->
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i' type='text/css'>
+
+<!-- Stylesheet
+============================================= -->
+<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css" />
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+</head>
+<body>
+
+<!-- Preloader -->
+<div id="preloader">
+  <div data-loader="dual-ring"></div>
+</div>
+<!-- Preloader End --> 
+
+<!-- Document Wrapper   
+============================================= -->
+<div id="main-wrapper"> 
+  <!-- Header
+  ============================================= -->
+  <header id="header">
+    <div class="container">
+      <div class="header-row">
+        <div class="header-column justify-content-start"> 
+          <!-- Logo
+          ============================= -->
+          <div class="logo"> <a class="d-flex" href="index.html" title="Paypli"><img src="images/logo.png" alt="paypli" /></a> </div>
+          <!-- Logo end --> 
+          <!-- Collapse Button
+          ============================== -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header-nav"> <span></span> <span></span> <span></span> </button>
+          <!-- Collapse Button end --> 
+          
+          <!-- Primary Navigation
+          ============================== -->
+          <nav class="primary-menu navbar navbar-expand-lg">
+            <div id="header-nav" class="collapse navbar-collapse">
+              <ul class="navbar-nav mr-auto">
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="transactions.html">Transactions</a></li>
+                <li class="active"><a href="apikey.html">API Keys</a></li>
+
+            
+              </ul>
+            </div>
+          </nav>
+          <!-- Primary Navigation end --> 
+        </div>
+        <div class="header-column justify-content-end"> 
+          <!-- Login & Signup Link
+          ============================== -->
+          <nav class="login-signup navbar navbar-expand">
+            <ul class="navbar-nav">
+              <li><a href="profile.html">Settings</a> </li>
+              <li class="align-items-center h-auto ml-sm-3"><a class="btn btn-outline-primary shadow-none d-none d-sm-block" href="index.html">Sign out</a></li>
+            </ul>
+          </nav>
+          <!-- Login & Signup Link end --> 
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header End -->
+  
+  <!-- Content
+  ============================================= -->
+  <div id="content" class="py-4">
+    <div class="container">
+      <div class="row">
+        <!-- Left Panel
+        ============================================= -->
+        <aside class="col-lg-3">
+          
+          <!-- Profile Details
+          =============================== -->
+          <div class="bg-light shadow-sm rounded text-center p-3 mb-4">
+            <div class="profile-thumb mt-3 mb-4"> <img class="rounded-circle" src="images/profile-thumb.jpg" alt="">
+              <div class="profile-thumb-edit custom-file bg-primary text-white" data-toggle="tooltip" title="Change Profile Picture"> <i class="fas fa-camera position-absolute"></i>
+                <input type="file" class="custom-file-input" id="customFile">
+              </div>
+            </div>
+            <p class="text-3 font-weight-500 mb-2">Hello, Smith Rhodes</p>
+            <p class="mb-2"><a href="profile.html" class="text-5 text-light" data-toggle="tooltip" title="Edit Profile"><i class="fas fa-edit"></i></a></p>
+          </div>
+          <!-- Profile Details End -->
+          
+          <!-- Available Balance
+          =============================== -->
+          <div class="bg-light shadow-sm rounded text-center p-3 mb-4">
+            <div class="text-17 text-light my-3"><i class="fas fa-wallet"></i></div>
+            <h3 class="text-9 font-weight-400">29.00</h3>
+            <p class="mb-2 text-muted opacity-8">Available USDT</p>
+            <hr class="mx-n3">
+          </div>
+          <!-- Available Balance End -->
+          
+          <!-- Need Help?
+          =============================== -->
+          <div class="bg-light shadow-sm rounded text-center p-3 mb-4">
+            <div class="text-17 text-light my-3"><i class="fas fa-comments"></i></div>
+            <h3 class="text-3 font-weight-400 my-4">Need Help?</h3>
+            <p class="text-muted opacity-8 mb-4">Have questions or concerns regrading your account?<br>
+              Our experts are here to help!.</p>
+            <a href="#" class="btn btn-primary btn-block">Chate with Us</a> 
+          </div>
+          <!-- Need Help? End -->
+          
+        </aside>
+        <!-- Left Panel End -->
+        
+        <!-- Middle Panel
+        ============================================= -->
+        <div class="col-lg-9">
+          
+         
+          <div class="container">
+      <h2 class="font-weight-400 text-center mt-3">Get Your API Key</h2>
+      <p class="text-4 text-center mb-4">Easily Integrate with your Website</p>
+      <div class="row">
+        <div class="col-md-12 col-lg-12 col-xl-12 mx-auto">
+          <div class="bg-light shadow-sm rounded p-3 p-sm-4 mb-4">
+            <h3 class="text-5 font-weight-400 mb-3">Token Details</h3>
+            <!-- Send Money Form
+            ============================================= -->
+            <form id="form-send-money" method="post">
+              <div class="row">
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="emailID">Token Symbol</label>
+                      <input value="PLI" type="text" value="" class="form-control" data-bv-field="emailid" id="emailID" required="" placeholder="Enter Email Address">
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="emailID">Contract Address</label>
+                      <input value="xdcff7412ea7c8445c46a8254dfb557ac1e48094391" type="text" value="" class="form-control" data-bv-field="emailid" id="emailID" required="" placeholder="Enter Email Address">
+                    </div>
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-6">
+                    <div class="form-group">
+                      <label for="emailID">Wallet Address</label>
+                      <input value="xdcc184771826c017d4e02912a2ed9aa635d2dede5e" type="text" value="" class="form-control" data-bv-field="emailid" id="emailID" required="" placeholder="Enter Email Address">
+                    </div>
+                  </div>
+              </div>
+              
+            
+              <button class="btn btn-primary btn-block">Generate API Key</button>
+            </form>
+            <!-- Send Money Form end --> 
+          </div>
+        </div>
+      </div>
+    </div>
+          <!-- Recent Activity
+          =============================== -->
+          <div class="bg-light shadow-sm rounded py-4 mb-4">
+            <h3 class="text-5 font-weight-400 d-flex align-items-center px-4 mb-3">API Key</h3>
+            
+            <!-- Title
+            =============================== -->
+            <div class="transaction-title py-2 px-4">
+              <div class="row">
+                <div class="col-2 col-sm-1 text-center"><span class="">Date</span></div>
+                <div class="col col-sm-7">API KEY</div>
+                <div class="col-auto col-sm-2 d-none d-sm-block text-center">Status</div>
+              </div>
+            </div>
+            <!-- Title End -->
+            
+            <!-- Transaction List
+            =============================== -->
+            <div class="transaction-list">
+              <div class="transaction-item px-4 py-3" data-toggle="modal" data-target="#transaction-detail">
+                <div class="row align-items-center flex-row">
+                  <div class="col-2 col-sm-1 text-center"> <span class="d-block text-4 font-weight-300">16</span> <span class="d-block text-1 font-weight-300 text-uppercase">APR</span> </div>
+                  <div class="col col-sm-7"> <span class="d-block text-4">0x5e974b3ba815*********cd4953e6775474</span></div>
+                  <div class="col-auto col-sm-2 d-none d-sm-block text-center text-3"> <span class="text-success" data-toggle="tooltip" data-original-title="Completed"><i class="fas fa-check-circle"></i></span> </div>
+                
+                </div>
+                 <div class="row mt-3">
+                            <a target="_blank" href="widget.html?x-api-key=0x5e974b3ba815642c0750c82011754e2c5a3817dd8702adab5fcd4953e6775474"><button class="btn btn-sm btn-primary mx-3">View Widget</button></a>
+                            <a href="" data-target="#deposit-token" data-toggle="modal"><button class="btn btn-sm btn-warning mx-3">Deposit Token</button></a>
+                            <a href="" data-target="#deposit-token" data-toggle="modal"><button class="btn btn-sm btn-danger mx-3">Deposit PLI</button></a>
+                        </div>
+              </div>
+            
+            </div>
+            <!-- Transaction List End -->
+   
+             <div id="deposit-token" class="modal fade" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title font-weight-400">Deposit Token</h5>
+                  <button type="button" class="close font-weight-400" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+                </div>
+                <div class="modal-body p-4">
+                  <form id="addCard" method="post">
+                    <div class="btn-group d-flex btn-group-toggle mb-3" data-toggle="buttons">
+                      <label class="btn btn-outline-secondary btn-sm shadow-none w-100 active">
+                        <input type="radio" name="options" id="option1" checked>
+                        Deposit PLI </label>
+                      <label class="btn btn-outline-secondary btn-sm shadow-none w-100">
+                        <input type="radio" name="options" id="option2">
+                        Deposit Your Token </label>
+                    </div>
+                    
+                    <div class="form-group">
+                      <label for="cardNumber">Number of Tokens</label>
+                      <input type="text" class="form-control"  placeholder="500">
+                    </div>
+                   
+
+                    <button class="btn btn-primary btn-block" type="submit">Deposit Now</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+            
+          </div>
+          <!-- Recent Activity End -->
+        </div>
+        <!-- Middle Panel End -->
+      </div>
+    </div>
+  </div>
+  <!-- Content end --> 
+ 
+  <!-- Footer
+  ============================================= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg d-lg-flex align-items-center">
+          <ul class="nav justify-content-center justify-content-lg-start text-3">
+            <li class="nav-item"> <a class="nav-link active" href="#">About Us</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Support</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Help</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Careers</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Affiliate</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#">Fees</a></li>
+          </ul>
+        </div>
+        <div class="col-lg d-lg-flex justify-content-lg-end mt-3 mt-lg-0">
+          <ul class="social-icons justify-content-center">
+            <li class="social-icons-facebook"><a data-toggle="tooltip" href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="social-icons-twitter"><a data-toggle="tooltip" href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+            <li class="social-icons-google"><a data-toggle="tooltip" href="http://www.google.com/" target="_blank" title="Google"><i class="fab fa-google"></i></a></li>
+            <li class="social-icons-youtube"><a data-toggle="tooltip" href="http://www.youtube.com/" target="_blank" title="Youtube"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright pt-3 pt-lg-2 mt-2">
+        <div class="row">
+          <div class="col-lg">
+            <p class="text-center text-lg-left mb-2 mb-lg-0">Copyright &copy; 2019 <a href="#">Paypli</a>. All Rights Reserved.</p>
+          </div>
+          <div class="col-lg d-lg-flex align-items-center justify-content-lg-end">
+            <ul class="nav justify-content-center">
+              <li class="nav-item"> <a class="nav-link active" href="#">Security</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#">Terms</a></li>
+              <li class="nav-item"> <a class="nav-link" href="#">Privacy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer end -->
+  
+</div>
+<!-- Document Wrapper end -->
+
+<!-- Back to Top
+============================================= -->
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a>
+
+<!-- Script -->
+<script src="vendor/jquery/jquery.min.js"></script> 
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> 
+<script src="js/theme.js"></script>
+</body>
+</html>

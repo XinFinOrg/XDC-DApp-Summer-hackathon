@@ -1,0 +1,7 @@
+REACT_APP_WEBHOOK_URL_INTEGRATION=https://api.defender.openzeppelin.com/autotasks/ec8fb322-8335-4b4d-96ee-c6d3d392a410/runs/webhook/f65eb7f6-ebd9-41ec-89a2-28891fc97908/K5A5eRtvEhqVheLtUhXuNH
+REACT_APP_WEBHOOK_URL_TEST=https://api.defender.openzeppelin.com/autotasks/ec8fb322-8335-4b4d-96ee-c6d3d392a410/runs/webhook/f65eb7f6-ebd9-41ec-89a2-28891fc97908/K5A5eRtvEhqVheLtUhXuNH
+REACT_APP_QUICKNODE_URL=
+RELAYER_API_KEY=MRh84QEdVZbT3JMTobaxRJxqxqpGBEZy
+RELAYER_API_SECRET=1qQPuGxyK6nStzqxasbGXq4H4RUgx5VoiHu2WmuZwjZcKEwBdtJ1G9A6AtczG6MV
+REACT_APP_EXPLORER=https://rinkeby.etherscan.io/tx/
+REACT_APP_DEBUGMODE=TEST
