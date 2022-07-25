@@ -1,0 +1,2 @@
+export const sawtiAddress = "0xc4d366a5571d7b83dD0649F79630e8AE2D8bb32b"
+const xdcAdd= "xdcc4d366a5571d7b83dD0649F79630e8AE2D8bb32b"
