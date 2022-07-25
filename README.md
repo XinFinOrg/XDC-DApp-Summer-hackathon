@@ -1,3 +1,12 @@
+This project is built by [Dhruv Agarwal](https://github.com/Dhruv-2003/) & [Kushagra Sarathe](https://github.com/kushagrasarathe/)
+
+We have built a Collection of 3 DEFI contracts namely Staking , Lending Pool and Vault , which are very necessary first step to build a DEFI protocol . The contracts are well tested on other blockchains and are completely working from end to end seamlessly .
+
+## How we built it
+We used Solidity lang to build the Smart Contracts , the contracts are tested for all the cases .
+The frontend website is built with Next.js , CSS /HTML and Javascript to showcase our contracts to the users and devs building on XDC . 
+New contracts can be added
+
 ## Staking Contract
 
 --> Rewards user for staking their tokens in the contract
