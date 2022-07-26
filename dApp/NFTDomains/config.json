@@ -1,0 +1,13 @@
+{
+			"background":"/NFTDomains/bg.png",
+			"color1": "#0083b4",
+			"color2": "#003663",
+			"name": "Xinfin Web3 Domains (.xdc)",
+			"symbol": "XW3D",
+			"host": "https://app.xdcdomains.xyz",
+			"external_url": "https://xdcdomains.xyz",
+			"position": "center",
+			"text_x":0,
+			"text_y":60,
+			"description":"XDC Web3 Domains - Journey into the world of Web3, Buy once use forever"
+		}
