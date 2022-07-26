@@ -551,14 +551,14 @@ div[data-notify="container"] {
 <div class="warp-footer">
 	<div class="container text-center">
 		<div class="warp-social">
-			<a class="social-twiter" href="https://twitter.com/fusiondomains" target="_blank" class="wow fadeInUp"><i class="fab fa-twitter"></i></a>
-			<a class="social-github" href="https://github.com/FusionWeb3Domains" style="" target="_blank" class="wow fadeInUp"><i class="fab fa-github-alt"></i></a>
+			<a class="social-twiter" href="https://twitter.com/xdcdomains" target="_blank" class="wow fadeInUp"><i class="fab fa-twitter"></i></a>
+			<a class="social-github" href="https://github.com/XDCWeb3Domains" style="" target="_blank" class="wow fadeInUp"><i class="fab fa-github-alt"></i></a>
 			<a class="social-discord" href="#" style="display:none;" class="wow fadeInUp"><i class="fab fa-discord"></i></a>
 		</div>
 	</div>
 	<div class="warp-copyright">
 		<div class="container text-center">
-			Copyright © 2022 Fusion Web3 Domains. All Rights Reserved.
+			Copyright © 2022 XDC Web3 Domains. All Rights Reserved.
 		</div>
 	</div>
 </div>
@@ -640,11 +640,8 @@ div[data-notify="container"] {
     });
 	
 	const disconnect =  async () => {
-		if (!window.ethereum) {
-			notify('alert-danger', '<span class="text-danger">No Metamask (or other Web3 Provider) installed</span>');
-			return;
-		}
-		//ethereum.on('disconnect', handler: (error: ProviderRpcError) => void);
+		
+		location.reload();
 		
 		const walletAddress = await window.ethereum.request({
 		  method: "eth_requestAccounts",
@@ -685,15 +682,15 @@ div[data-notify="container"] {
 		window.web3 = new Web3(window.xdc);
 		
 		try {
-			  window.ethereum.on('chainChanged', () => {
-			  	  document.location.reload();
-			  });
+			  //window.ethereum.on('chainChanged', () => {
+			  //	  document.location.reload();
+			  //});
 			  
-			  window.ethereum.on('accountsChanged', () => {
-			  	  document.location.reload();
-			  });
+			  //window.ethereum.on('accountsChanged', () => {
+			  //	  document.location.reload();
+			  //});
 			  
-			  await ethereum.enable();
+			  //await ethereum.enable();
 			  
 			  const chainId = await web3.eth.net.getId();
 			  
