@@ -1,0 +1,15 @@
+
+.ev-table table.table-bordered.dataTable tr th:last-child,.ev-table  table.table-bordered.dataTable tr td:last-child {
+    width: 25%;
+  }
+
+
+td.action-link a {
+    font-size: 14px;
+}  
+
+td.action-link a + a {
+    border-left: 2px solid #ccc;
+    padding-left: 12px !important;
+    margin-left: 10px;
+}

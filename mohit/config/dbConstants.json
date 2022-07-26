@@ -1,0 +1,24 @@
+{
+  "USER": {
+    "ROLE": {
+      "NONE": 0,
+      "USER": 1,
+      "MERCHANT": 2,
+      "ADMIN": 3,
+      "SUPER_ADMIN":4
+    },
+    "STATUS": {
+      "PAUSED": 0,
+      "ACTIVE": 1,
+      "BLOCKED": 2
+    },
+    "WALLET_TYPE": {
+      "SELF_MANAGED":0,
+      "PLATFORM_MANAGED":1
+    }
+  },
+
+  "NETWORK_TYPES":{
+    "ETHEREUM": 1
+  }
+}
