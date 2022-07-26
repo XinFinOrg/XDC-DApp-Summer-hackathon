@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <%- include('../includes/dashboard/headFiles')%>
+
+    <link rel="stylesheet" href="/dashboard/css/custom.css">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <%- include('../includes/dashboard/sidebar')%>
+
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <%- include('../includes/dashboard/topbar')%>
+
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">My Transactions</h1>
+                      
+                    </div>
+
+
+                    <!-- DataTales Example -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                    <div class="card shadow mb-4 ev-table">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Transactions </h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            
+                                            <th>Sno</th>
+                                            <th>TransactionId</th>
+                                            <th>TransactionHash</th>
+                                            <th>TicketId</th>
+                                            <th>TimeStamp</th>
+                                            <th>Account Address</th>
+                                            <th>Event Name</th>
+                                            <th>Payment Type</th>
+                                            <th>Transaction Type</th>
+                                            <th>status</th>
+                                            <th>Reason</th> 
+
+
+                                         
+                                      
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Sno</th>
+                                            <th>TransactionId</th>
+                                            <th>TransactionHash</th>
+                                            <th>TicketId</th>
+                                            <th>TimeStamp</th>
+                                            <th>Account Address</th>
+                                            <th>Event Name</th>
+                                            <th>Payment Type</th>
+                                            <th>Transaction Type</th>
+                                            <th>status</th>
+                                            <th>Reason</th>                                  
+                                      
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <% transactions.map((transaction, i)=>{%>
+                                        <tr>
+                                            <td><%-i+1%></td>
+                                            <td><%-transaction._id%></td>
+                                            <td><a href="https://explorer.apothem.network/txs/<%-transaction.txHash%>"><%- transaction.txHash && transaction.txHash.toString().substring(0,10)%></a></td>
+                                            <td><%-transaction.ticketId%></td>
+                                            <td><%-transaction.created_at%></td>
+                                            <td><%- transaction.address.toString().substring(0,5)%>...<%- transaction.address.toString().substring(transaction.address.toString().length-6)%></td>
+                                            <td><%-transaction.eventId.eventName%></td>
+                                            <td><%-transaction.paymentType%></td>
+                                            <td><%-transaction.type%></td>
+                                            <td><%-transaction.status%></td>
+                                            <td><%-transaction.reason%></td>
+                                        </tr>
+
+                                        <%})%>
+                                       
+                                       
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  </div>
+
+                    
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <%- include('../includes/dashboard/footer')%>
+
+
+    <%- include('../includes/dashboard/jsFiles')%>
+
+     <!-- Page level plugins -->
+     <script src="/dashboard/vendor/datatables/jquery.dataTables.min.js"></script>
+     <script src="/dashboard/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level plugins -->
+    <!-- Page level custom scripts -->
+    <script src="/dashboard/js/demo/datatables-demo.js"></script>
+
+</body>
+
+</html>

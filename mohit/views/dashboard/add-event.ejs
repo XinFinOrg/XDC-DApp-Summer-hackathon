@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <%- include('../includes/dashboard/headFiles')%>
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <%- include('../includes/dashboard/sidebar')%>
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <%- include('../includes/dashboard/topbar')%>
+
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="py-md-2 mb-3 ">
+                        <h1 class="h3 mb-0 text-gray-800">Add Event</h1>
+                        <hr>
+                    </div>
+
+
+                    <div class="row">
+                    <div class="col-lg-7">
+                       
+
+                    <form id="add-event-form" class="user" method="POST" enctype="multipart/form-data">
+                        <div class="form-group row">
+                            <div class="col-sm-12 mb-3 ">
+                                <input type="text" class="form-control form-control-user" id="eventName" name="eventName" placeholder="Event Name" required>
+                            </div>
+                            <div class="col-sm-12">
+                                <input type="text" class="form-control form-control-user" id="eventDescription" name="eventDescription" placeholder="Event Description" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                  <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                                </div>
+                                <div class="custom-file">
+                                  <input type="file" class="custom-file-input" id="eventPassImage" name="eventPassImage"
+                                    aria-describedby="inputGroupFileAddon01" required>
+                                  <label class="custom-file-label" for="eventPassImage">Event Pass Image</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-user" id="eventOrganizer" name="eventOrganizer" placeholder="Event Organizer" required>
+                        </div>
+
+        
+                        <div class="form-group row">
+                            <div class="col-sm-12 mb-3">
+                                <input type="number" class="form-control form-control-user" id="eventTicketPrice" name="eventTicketPrice" placeholder="Event Ticket Price" required>
+                            </div>
+                            <div class="col-sm-12">
+                                <input type="number" class="form-control form-control-user" id="eventTicketBurnValue" name="eventTicketBurnValue" placeholder="Event Ticket Burn Value" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <div class="col-sm-12 mb-3">
+                                <input type="date" class="form-control form-control-user" id="eventStartDate" name="eventStartDate" placeholder="Event Start Date" required>
+                            </div>
+                            <div class="col-sm-12">
+                                <input type="date" class="form-control form-control-user" id="eventEndDate" name="eventEndDate" placeholder="Event End Date" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" class="form-control form-control-user" id="stock" name="stock" placeholder="Total Tickets Available For Minting" required>
+                        </div>
+                        
+                        <button type="button" id="add-event-button" class="btn btn-primary btn-user">
+                           Submit
+                        </button>
+                   
+                    </form>
+
+                    </div>
+                    </div>
+                    
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <%- include('../includes/dashboard/footer')%>
+
+
+    <%- include('../includes/dashboard/jsFiles')%>
+
+    <!-- Page level plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Page level custom scripts -->
+    <script src="/dashboard/js/demo/chart-area-demo.js"></script>
+    <script src="/dashboard/js/demo/chart-pie-demo.js"></script>
+
+    <script src="/dashboard/app/add-event.js"></script>
+
+
+</body>
+
+</html>

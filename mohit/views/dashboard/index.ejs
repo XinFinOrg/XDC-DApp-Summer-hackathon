@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <%- include('../includes/dashboard/headFiles')%>
+
+</head>
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <%- include('../includes/dashboard/sidebar')%>
+
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <%- include('../includes/dashboard/topbar')%>
+
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+                      
+                    </div>
+
+                    <!-- Content Row -->
+                    <div class="row">
+
+                        <!-- Earnings (Monthly) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                Total Tickets Bought</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><%= totalTickets%></div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Earnings (Monthly) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Total Tickets Burned </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><%= totalBurnedTickets%></div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Earnings (Monthly) Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Total Events Created
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800"><%= totalEvents%></div>
+                                                </div>
+                                              
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pending Requests Card Example -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-warning shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                                                Total Accounts Connected</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800"><%= totalAccountsConnected%></div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-comments fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Content Row -->
+
+                    <div class="mt-4">
+                        <h1 class="h3 mb-0 text-gray-800 text-center">Events Comming Up..</h1>
+                    </div>
+
+                    <div class="row">
+                        <% events.map((event)=>{%>
+
+                            <div class="col-lg-4">
+                                <div class="container">
+                                    <div class="card px-4 pt-4 pb-4 mx-auto mt-5">
+                                        <div class="row">
+                                            <h5 class="align-self-center ml-2"><%-event.eventName%></h5>
+
+                                            <!-- <div class="ml-auto"><span class="text-success">Open</span></div> -->
+                                        </div>
+                                        <img class="border border-success" style="height: 10rem;" src="<%-event.eventPassImage%>">
+
+                                        <p class="mt-3 mb-2 text-center font-weight-bold">From: <%-event.eventStartDate%> To: <%-event.eventEndDate%></p>
+                                        <p class="text-center">Organised by <%-event.eventOrganizer%></p>
+
+                                        <p class="mb-0 btn btn-outline-info">Ticket Price: <%-event.eventTicketPrice%> USD</p>
+                                        <p class="mb-0 btn btn-outline-info">Burn Value: <%-event.eventTicketBurnValue%> USD</p>
+
+                                        <div class="d-flex p-2 justify-content-between" >
+                                        <span class="btn btn-outline-success">Minted:<%-event.minted%></span>
+                                        <span class="btn btn-outline-danger">Left:<%-event.stock-event.minted%></span>
+                                        <span class="btn btn-outline-primary">Total:<%-event.stock%></span>
+                                        </div>
+                                        <button class="btn btn-dark mb-2 mint-event-button" value="<%-event._id%>"><span value="<%-event._id%>">Mint Ticket</span></button>
+                                        <!-- <button class="btn info"><span>Delete</span></button>
+                                        <button class="btn info"><span>Edit</span></button> -->
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        <% }) %>
+    
+                    </div>
+
+                    
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+            
+            <%- include('../includes/dashboard/footer')%>
+
+            
+            
+            <%- include('../includes/dashboard/jsFiles')%>
+            
+            <!-- Page level plugins -->
+            <script src="/dashboard/vendor/chart.js/Chart.min.js"></script>
+            
+            <!-- Page level custom scripts -->
+            <script src="/dashboard/js/demo/chart-area-demo.js"></script>
+            <script src="/dashboard/js/demo/chart-pie-demo.js"></script>
+
+            <script src="/frontend/assets/app/walletLogin.js"></script>
+            <script src="/dashboard/app/mintTicket.js"></script>
+
+            <script>$( document ).ready(async function() {
+                 await connectWallet()
+                 await contractInit()
+            });</script>
+            
+    </body>
+    
+</html>    

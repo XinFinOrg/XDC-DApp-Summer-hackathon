@@ -1,0 +1,136 @@
+
+/*------------------------------------*\
+    RESPONSIVE MIN WIDTH
+\*------------------------------------*/
+
+@media (min-width:1025px) {
+	.fs-52{
+		font-size: 52px;
+		line-height: 62px;
+	}
+}
+
+
+@media(min-width:992px){
+	.toggle , span.arrow{    display: none;}
+
+	.nav_area ul li:hover ul.sub-menu {	display:block;}
+	
+	
+	.nav_area > ul > li ul.sub-menu {
+		transform-origin: 50% 0;
+		transform: scaleY(0) translateZ(0);
+		opacity: 0;
+		transition: transform 0.3s, opacity 0.3s;
+		display: block;
+	}
+	
+	.nav_area > ul > li:hover ul.sub-menu {
+		transform: scaleY(1) translateZ(0);
+		opacity: 1;
+	}
+		
+	ul.menu{display:block !important; }
+
+	.nav_area ul li.active a {
+		position: relative;
+		color: var(--primary);
+	}
+	.nav_area ul li.active a:after {
+		content: '';
+		display: block;
+		width: 100%;
+		height: 2px;
+		background: var(--primary2);
+		position: absolute;
+		bottom: -25px;
+	}
+
+	.team-item{
+		margin-bottom: 60px;
+	}
+
+	
+}
+
+
+
+/*------------------------------------*\
+    RESPONSIVE MAX WIDTH
+\*------------------------------------*/
+
+
+@media only screen and (max-width:1024px){
+	
+}
+
+
+
+@media only screen and (max-width:991px) {
+
+
+	
+	.menu-side { position: initial;}
+
+	.nav_area { position: initial; text-align:right;}
+
+	.nav_area  .menu {
+		left: -100%;
+		top: 0;
+		width: 80%;
+		transition: all .5s;
+		height: 100vh;
+		position: fixed;
+		right: 0;
+		background: #fddde3;
+		z-index: 999;
+		text-align:left;
+		visibility: hidden;
+	}
+
+	.nav_area  .menu.open{
+		left: 0;
+		visibility: visible;
+	}
+
+	span.arrow {
+		display: inline-block;
+		width: 10%;
+		text-align: center;
+		cursor:pointer;
+		color:#000;
+	}
+
+	.nav_area ul li { display: block; }
+	
+	.nav_area ul li a {
+		padding: 15px;
+		color: #000;
+		text-decoration: none;
+		line-height: normal;
+		float: none;
+		clear: both;
+	}
+
+	ul.sub-menu li a{	border-bottom:0px;}
+
+	ul.sub-menu {position: relative; background:#000;}
+
+	.nav_area > ul > li > a {display:inline-block; width:90%;}
+	
+
+	
+	
+}
+
+
+
+@media only screen and (max-width:767px){
+
+	
+
+}
+
+@media only screen and (max-width:575px) {
+
+}

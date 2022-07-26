@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <%- include('../includes/dashboard/headFiles')%>
+
+    <link rel="stylesheet" href="/dashboard/css/custom.css">
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <%- include('../includes/dashboard/sidebar')%>
+
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <%- include('../includes/dashboard/topbar')%>
+
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">All Participants of <%-eventName%></h1>
+                      
+                    </div>
+
+
+                    <!-- DataTales Example -->
+                    <div class="row">
+                        <div class="col-lg-12">
+                    <div class="card shadow mb-4 ev-table">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">All Tickets Minted for Event <%-eventName%> </h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>Sno</th>
+                                            <th>TicketId</th>
+                                            <th>NFT Pass Id</th>
+                                            <th>Participant Name</th>
+                                            <th>Email</th>
+                                            <th>Address</th>
+                                            <th>status</th>
+                                            <th>Action</th>
+                                         
+                                      
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Sno</th>
+                                            <th>TicketId</th>
+                                            <th>NFT Pass Id</th>
+                                            <th>Participant Name</th>
+                                            <th>Email</th>
+                                            <th>Address</th>
+                                            <th>status</th>
+                                            <th>Action</th>                                      
+                                      
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <% tickets.map((ticket, i)=>{%>
+                                            <tr>
+                                                <td><%-i+1%></td>
+                                                <td><%-ticket._id%></td>
+                                                <td><%-ticket.passId%></td>
+                                                <td><%-ticket.issuedTo.name%></td>
+                                                <td><%-ticket.issuedTo.email%></td>
+                                                <td><%-ticket.issuedToAddress%></td>
+                                                <td id="ticket-status-<%-ticket._id%>"><%-ticket.status%></td>
+                                                <td class="action-link">
+                                                    <% if (ticket.status !="CHECKEDIN"){ %> 
+                                                    <a href="#" id="checkin-ticket-button-<%-ticket._id%>" class="checkin-ticket-button" value="<%-ticket._id%>"><i class="fa fa-check"></i> CheckIn</a>
+                                                    <% }else if(ticket.status =="CHECKEDIN"){ %> 
+                                                    <a href="#" id="issue-poap-button-<%-ticket._id%>" class="issue-poap-button" value="<%-ticket._id%>" class="text-success pl-2"><i class="fa fa-award"></i>Issue Poap</a>
+                                                    <%}%>
+                                                </td>
+                                             </tr>
+    
+                                         <%})%>
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  </div>
+
+                    
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <%- include('../includes/dashboard/footer')%>
+
+
+    <%- include('../includes/dashboard/jsFiles')%>
+
+     <!-- Page level plugins -->
+     <script src="/dashboard/vendor/datatables/jquery.dataTables.min.js"></script>
+     <script src="/dashboard/vendor/datatables/dataTables.bootstrap4.min.js"></script>
+
+    <!-- Page level plugins -->
+    <!-- Page level custom scripts -->
+    <script src="/dashboard/js/demo/datatables-demo.js"></script>
+    <script src="/dashboard/app/checkIn.js"></script>
+
+</body>
+
+</html>

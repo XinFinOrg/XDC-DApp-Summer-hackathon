@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <%- include('../includes/dashboard/headFiles')%>
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <%- include('../includes/dashboard/sidebar')%>
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <%- include('../includes/dashboard/topbar')%>
+
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <div class="py-md-2 mb-3 ">
+                        <h1 class="h3 mb-0 text-gray-800">My Events</h1>
+                        <hr>
+                    </div>
+
+                    <div class="row">
+                        <% events.map((event)=>{%>
+
+                            <div class="col-lg-4">
+                                <div class="container">
+                                    <div class="card px-4 pt-4 pb-4 mx-auto mt-5">
+                                        <div class="row">
+                                            <h5 class="align-self-center ml-2"><%-event.eventName%></h5>
+
+                                            <!-- <div class="ml-auto"><span class="text-success">Open</span></div> -->
+                                        </div>
+                                        <img class="border border-success" style="height: 10rem;" src="<%-event.eventPassImage%>">
+
+                                        <p class="mt-3 mb-2 text-center font-weight-bold">From: <%-event.eventStartDate%> To: <%-event.eventEndDate%></p>
+                                        <p class="text-center">Organised by <%-event.eventOrganizer%></p>
+
+                                        <p class="mb-0 btn btn-outline-info">Ticket Price: <%-event.eventTicketPrice%> USD</p>
+                                        <p class="mb-0 btn btn-outline-info">Burn Value: <%-event.eventTicketBurnValue%> USD</p>
+
+                                        <div class="d-flex p-2 justify-content-between" >
+                                        <span class="btn btn-outline-success">Minted:<%-event.minted%></span>
+                                        <span class="btn btn-outline-danger">Left:<%-event.stock-event.minted%></span>
+                                        <span class="btn btn-outline-primary">Total:<%-event.stock%></span>
+                                        </div>
+                                        <a class="btn btn-dark mb-2" href="/user/dashboard/checkin/<%-event._id%>"><span>CheckIn</span></a>
+                                        <button class="btn info"><span>Delete</span></button>
+                                        <button class="btn info"><span>Edit</span></button>
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        <% }) %>
+    
+                    </div>
+                    
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <%- include('../includes/dashboard/footer')%>
+
+
+    <%- include('../includes/dashboard/jsFiles')%>
+
+    <!-- Page level plugins -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js" integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Page level custom scripts -->
+    <script src="/dashboard/js/demo/chart-area-demo.js"></script>
+    <script src="/dashboard/js/demo/chart-pie-demo.js"></script>
+
+    <script src="/dashboard/app/add-event.js"></script>
+
+
+</body>
+
+</html>
